@@ -1,0 +1,488 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="barBtn_PrintCB.Caption" xml:space="preserve">
+    <value>Cost sheet</value>
+  </data>
+  <data name="barBtn_PrintBJ.Caption" xml:space="preserve">
+    <value>Quotation</value>
+  </data>
+  <data name="bar_btnCopyInvoice.Caption" xml:space="preserve">
+    <value>Copy</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="Chk_IsBaoJiaOver.Location" type="System.Drawing.Point, System.Drawing">
+    <value>780, 37</value>
+  </data>
+  <data name="Chk_IsBaoJiaOver.Size" type="System.Drawing.Size, System.Drawing">
+    <value>269, 19</value>
+  </data>
+  <data name="spinGuanXiaoZong.Location" type="System.Drawing.Point, System.Drawing">
+    <value>969, 434</value>
+  </data>
+  <data name="spinGuanXiaoZong.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 21</value>
+  </data>
+  <data name="spinGuanXiaoProc.Location" type="System.Drawing.Point, System.Drawing">
+    <value>700, 434</value>
+  </data>
+  <data name="spinGuanXiaoProc.Size" type="System.Drawing.Size, System.Drawing">
+    <value>109, 21</value>
+  </data>
+  <data name="spinGuanXiaoPack.Location" type="System.Drawing.Point, System.Drawing">
+    <value>440, 434</value>
+  </data>
+  <data name="spinGuanXiaoPack.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 21</value>
+  </data>
+  <data name="spinGuanXiaoPro.Location" type="System.Drawing.Point, System.Drawing">
+    <value>168, 434</value>
+  </data>
+  <data name="spinGuanXiaoPro.Size" type="System.Drawing.Size, System.Drawing">
+    <value>112, 21</value>
+  </data>
+  <data name="spinZBJjinE.Location" type="System.Drawing.Point, System.Drawing">
+    <value>969, 409</value>
+  </data>
+  <data name="spinZBJjinE.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 21</value>
+  </data>
+  <data name="spinZCBjinE.Location" type="System.Drawing.Point, System.Drawing">
+    <value>969, 384</value>
+  </data>
+  <data name="spinZCBjinE.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 21</value>
+  </data>
+  <data name="spinJGCBjinE.Location" type="System.Drawing.Point, System.Drawing">
+    <value>700, 384</value>
+  </data>
+  <data name="spinJGCBjinE.Size" type="System.Drawing.Size, System.Drawing">
+    <value>109, 21</value>
+  </data>
+  <data name="spinBCBJjinE.Location" type="System.Drawing.Point, System.Drawing">
+    <value>440, 409</value>
+  </data>
+  <data name="spinBCBJjinE.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 21</value>
+  </data>
+  <data name="spinBCCBjinE.Location" type="System.Drawing.Point, System.Drawing">
+    <value>440, 384</value>
+  </data>
+  <data name="spinBCCBjinE.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 21</value>
+  </data>
+  <data name="txtProductPattern.Location" type="System.Drawing.Point, System.Drawing">
+    <value>168, 37</value>
+  </data>
+  <data name="txtProductPattern.Size" type="System.Drawing.Size, System.Drawing">
+    <value>103, 21</value>
+  </data>
+  <data name="spinJGBJjinE.Location" type="System.Drawing.Point, System.Drawing">
+    <value>700, 409</value>
+  </data>
+  <data name="spinJGBJjinE.Size" type="System.Drawing.Size, System.Drawing">
+    <value>109, 21</value>
+  </data>
+  <data name="spinSPBJjinE.Location" type="System.Drawing.Point, System.Drawing">
+    <value>168, 409</value>
+  </data>
+  <data name="spinSPBJjinE.Size" type="System.Drawing.Size, System.Drawing">
+    <value>112, 21</value>
+  </data>
+  <data name="spinSPCBjinE.Location" type="System.Drawing.Point, System.Drawing">
+    <value>168, 384</value>
+  </data>
+  <data name="spinSPCBjinE.Size" type="System.Drawing.Size, System.Drawing">
+    <value>112, 21</value>
+  </data>
+  <data name="textEditAuditState.Location" type="System.Drawing.Point, System.Drawing">
+    <value>808, 483</value>
+  </data>
+  <data name="textEditAuditState.Size" type="System.Drawing.Size, System.Drawing">
+    <value>241, 21</value>
+  </data>
+  <data name="EmpAudit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>808, 459</value>
+  </data>
+  <data name="EmpAudit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>241, 21</value>
+  </data>
+  <data name="lookUpEditCompany.Location" type="System.Drawing.Point, System.Drawing">
+    <value>647, 37</value>
+  </data>
+  <data name="lookUpEditCompany.Size" type="System.Drawing.Size, System.Drawing">
+    <value>129, 21</value>
+  </data>
+  <data name="buttonEditCompany.Location" type="System.Drawing.Point, System.Drawing">
+    <value>936, 12</value>
+  </data>
+  <data name="buttonEditCompany.Size" type="System.Drawing.Size, System.Drawing">
+    <value>113, 21</value>
+  </data>
+  <data name="buttonEditEmployee.Location" type="System.Drawing.Point, System.Drawing">
+    <value>647, 12</value>
+  </data>
+  <data name="buttonEditEmployee.Size" type="System.Drawing.Size, System.Drawing">
+    <value>129, 21</value>
+  </data>
+  <data name="dateEditInvoiceYxrq.Location" type="System.Drawing.Point, System.Drawing">
+    <value>431, 37</value>
+  </data>
+  <data name="dateEditInvoiceYxrq.Size" type="System.Drawing.Size, System.Drawing">
+    <value>56, 21</value>
+  </data>
+  <data name="dateEditInvoiceDate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>431, 12</value>
+  </data>
+  <data name="dateEditInvoiceDate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>56, 21</value>
+  </data>
+  <data name="textEditInvoiceId.Location" type="System.Drawing.Point, System.Drawing">
+    <value>168, 12</value>
+  </data>
+  <data name="textEditInvoiceId.Size" type="System.Drawing.Size, System.Drawing">
+    <value>103, 21</value>
+  </data>
+  <data name="textEditNote.Location" type="System.Drawing.Point, System.Drawing">
+    <value>168, 459</value>
+  </data>
+  <data name="textEditNote.Size" type="System.Drawing.Size, System.Drawing">
+    <value>480, 45</value>
+  </data>
+  <data name="gridColumn24.Caption" xml:space="preserve">
+    <value>Check</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="gridColumn24.Width" type="System.Int32, mscorlib">
+    <value>31</value>
+  </data>
+  <data name="gridColumn6.Caption" xml:space="preserve">
+    <value>Product</value>
+  </data>
+  <data name="gridColumn6.Width" type="System.Int32, mscorlib">
+    <value>137</value>
+  </data>
+  <data name="gridColumn7.Caption" xml:space="preserve">
+    <value>Unit</value>
+  </data>
+  <data name="gridColumn7.Width" type="System.Int32, mscorlib">
+    <value>137</value>
+  </data>
+  <data name="gridColumn9.Caption" xml:space="preserve">
+    <value>Price</value>
+  </data>
+  <data name="gridColumn9.Width" type="System.Int32, mscorlib">
+    <value>137</value>
+  </data>
+  <data name="gridColumn8.Caption" xml:space="preserve">
+    <value>Quantity</value>
+  </data>
+  <data name="gridColumn8.Width" type="System.Int32, mscorlib">
+    <value>137</value>
+  </data>
+  <data name="gridColumn10.Caption" xml:space="preserve">
+    <value>Cost 1</value>
+  </data>
+  <data name="gridColumn10.Width" type="System.Int32, mscorlib">
+    <value>137</value>
+  </data>
+  <data name="gridColumn4.Caption" xml:space="preserve">
+    <value>Cost 2</value>
+  </data>
+  <data name="gridColumn4.Width" type="System.Int32, mscorlib">
+    <value>72</value>
+  </data>
+  <data name="gridColumn2.Caption" xml:space="preserve">
+    <value>Quotation amount</value>
+  </data>
+  <data name="gridColumn2.Width" type="System.Int32, mscorlib">
+    <value>160</value>
+  </data>
+  <data name="gridColumn1.Caption" xml:space="preserve">
+    <value>No.</value>
+  </data>
+  <data name="gridColumn1.Width" type="System.Int32, mscorlib">
+    <value>41</value>
+  </data>
+  <data name="gridControl2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1007, 240</value>
+  </data>
+  <data name="simpleButtonAppend.Size" type="System.Drawing.Size, System.Drawing">
+    <value>122, 22</value>
+  </data>
+  <data name="simpleButtonAppend.Text" xml:space="preserve">
+    <value>+</value>
+  </data>
+  <data name="BtnEditProduct.Location" type="System.Drawing.Point, System.Drawing">
+    <value>235, 256</value>
+  </data>
+  <data name="BtnEditProduct.Size" type="System.Drawing.Size, System.Drawing">
+    <value>220, 21</value>
+  </data>
+  <data name="layoutControlItem20.Text" xml:space="preserve">
+    <value>Select product：</value>
+  </data>
+  <data name="layoutControl2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1031, 290</value>
+  </data>
+  <data name="xtraTabPage1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1031, 290</value>
+  </data>
+  <data name="xtraTabPage1.Text" xml:space="preserve">
+    <value>Product detail</value>
+  </data>
+  <data name="xtraTabControl1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1037, 318</value>
+  </data>
+  <data name="Btn_XJPackSPC.Size" type="System.Drawing.Size, System.Drawing">
+    <value>105, 22</value>
+  </data>
+  <data name="btnEditPackageProduct.Location" type="System.Drawing.Point, System.Drawing">
+    <value>400, 256</value>
+  </data>
+  <data name="btnEditPackageProduct.Size" type="System.Drawing.Size, System.Drawing">
+    <value>250, 21</value>
+  </data>
+  <data name="btn_PackageDel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>228, 256</value>
+  </data>
+  <data name="btn_PackageDel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>104, 22</value>
+  </data>
+  <data name="btn_PackageAdd.Location" type="System.Drawing.Point, System.Drawing">
+    <value>121, 256</value>
+  </data>
+  <data name="btn_PackageAdd.Size" type="System.Drawing.Size, System.Drawing">
+    <value>103, 22</value>
+  </data>
+  <data name="gridControl3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1007, 240</value>
+  </data>
+  <data name="layoutControl3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1031, 290</value>
+  </data>
+  <data name="xtraTabPage2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1031, 290</value>
+  </data>
+  <data name="xtraTabPage2.Text" xml:space="preserve">
+    <value>Packing</value>
+  </data>
+  <data name="Btn_XJProcSPC.Size" type="System.Drawing.Size, System.Drawing">
+    <value>104, 22</value>
+  </data>
+  <data name="btn_processDel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>231, 256</value>
+  </data>
+  <data name="btn_processDel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>108, 22</value>
+  </data>
+  <data name="btn_processAdd.Location" type="System.Drawing.Point, System.Drawing">
+    <value>120, 256</value>
+  </data>
+  <data name="btn_processAdd.Size" type="System.Drawing.Size, System.Drawing">
+    <value>107, 22</value>
+  </data>
+  <data name="gridControl1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1007, 240</value>
+  </data>
+  <data name="layoutControl4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1031, 290</value>
+  </data>
+  <data name="xtraTabPage3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1031, 290</value>
+  </data>
+  <data name="xtraTabPage3.Text" xml:space="preserve">
+    <value>Processing</value>
+  </data>
+  <data name="layoutControlItem5.Text" xml:space="preserve">
+    <value>Date:</value>
+  </data>
+  <data name="layoutControlItem2.Text" xml:space="preserve">
+    <value>Remark:</value>
+  </data>
+  <data name="layoutControlItem6.Text" xml:space="preserve">
+    <value>Effective date:</value>
+  </data>
+  <data name="layoutControlItem3.Text" xml:space="preserve">
+    <value>Attn:</value>
+  </data>
+  <data name="layoutControlItem16.Text" xml:space="preserve">
+    <value>Auditor：</value>
+  </data>
+  <data name="layoutControlItem19.Text" xml:space="preserve">
+    <value>Audit state：</value>
+  </data>
+  <data name="layoutControlItem1.Text" xml:space="preserve">
+    <value>No.:</value>
+  </data>
+  <data name="layoutControlItem22.Text" xml:space="preserve">
+    <value>Product cost amount：</value>
+  </data>
+  <data name="layoutControlItem10.Text" xml:space="preserve">
+    <value>Product quote amount：</value>
+  </data>
+  <data name="layoutControlItem28.Text" xml:space="preserve">
+    <value>Processing cost amount：</value>
+  </data>
+  <data name="layoutControlItem29.Text" xml:space="preserve">
+    <value>Processing quote amount：</value>
+  </data>
+  <data name="layoutControlItem30.Text" xml:space="preserve">
+    <value>Total cost amount：</value>
+  </data>
+  <data name="layoutControlItem31.Text" xml:space="preserve">
+    <value>Total quote amount：</value>
+  </data>
+  <data name="layoutControlItem26.Text" xml:space="preserve">
+    <value>Packaging cost amount：</value>
+  </data>
+  <data name="layoutControlItem27.Text" xml:space="preserve">
+    <value>Packaging quote amount：</value>
+  </data>
+  <data name="layoutControlItem33.Text" xml:space="preserve">
+    <value>Product tube pin fees：</value>
+  </data>
+  <data name="layoutControlItem34.Text" xml:space="preserve">
+    <value>Packaging tube pin fees：</value>
+  </data>
+  <data name="layoutControlItem35.Text" xml:space="preserve">
+    <value>Processing tube pin fees：</value>
+  </data>
+  <data name="layoutControlItem36.Text" xml:space="preserve">
+    <value>Total tube pin fees：</value>
+  </data>
+  <data name="layoutControlItem4.Text" xml:space="preserve">
+    <value>Customer:</value>
+  </data>
+  <data name="layoutControlItem17.Text" xml:space="preserve">
+    <value>Company:</value>
+  </data>
+  <data name="layoutControlItem23.Text" xml:space="preserve">
+    <value>Product model：</value>
+  </data>
+  <data name="layoutControl1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1061, 516</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1061, 563</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Sales quotation</value>
+  </data>
+</root>

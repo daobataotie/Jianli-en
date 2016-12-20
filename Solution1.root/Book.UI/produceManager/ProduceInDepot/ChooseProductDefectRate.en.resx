@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="simpleButtonOK.Location" type="System.Drawing.Point, System.Drawing">
+    <value>431, 227</value>
+  </data>
+  <data name="simpleButtonOK.Text" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="simpleButtonCancel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>525, 227</value>
+  </data>
+  <data name="simpleButtonCancel.Text" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="radioGroup_DateType.Location" type="System.Drawing.Point, System.Drawing">
+    <value>165, 12</value>
+  </data>
+  <data name="radioGroup_DateType.Properties.Items" xml:space="preserve">
+    <value>Warehousing date</value>
+  </data>
+  <data name="radioGroup_DateType.Properties.Items1" xml:space="preserve">
+    <value>Closing date</value>
+  </data>
+  <data name="radioGroup_DateType.Size" type="System.Drawing.Size, System.Drawing">
+    <value>450, 25</value>
+  </data>
+  <data name="radioGroupDingDanJieAn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>401, 140</value>
+  </data>
+  <data name="radioGroupDingDanJieAn.Properties.Items1" xml:space="preserve">
+    <value>Unlimited</value>
+  </data>
+  <data name="radioGroupDingDanJieAn.Properties.Items3" xml:space="preserve">
+    <value>Closed</value>
+  </data>
+  <data name="radioGroupDingDanJieAn.Properties.Items5" xml:space="preserve">
+    <value>Not closed</value>
+  </data>
+  <data name="radioGroupDingDanJieAn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>214, 25</value>
+  </data>
+  <data name="txtInvoiceXOIdEnd.Location" type="System.Drawing.Point, System.Drawing">
+    <value>469, 115</value>
+  </data>
+  <data name="txtInvoiceXOIdEnd.Size" type="System.Drawing.Size, System.Drawing">
+    <value>146, 21</value>
+  </data>
+  <data name="txtInvoiceXOIdStart.Location" type="System.Drawing.Point, System.Drawing">
+    <value>165, 115</value>
+  </data>
+  <data name="txtInvoiceXOIdStart.Size" type="System.Drawing.Size, System.Drawing">
+    <value>147, 21</value>
+  </data>
+  <data name="comboxShaiXuan.Location" type="System.Drawing.Point, System.Drawing">
+    <value>224, 198</value>
+  </data>
+  <data name="comboxShaiXuan.Properties.Items" xml:space="preserve">
+    <value>&gt;</value>
+  </data>
+  <data name="comboxShaiXuan.Properties.Items1" xml:space="preserve">
+    <value>&lt;</value>
+  </data>
+  <data name="comboxShaiXuan.Properties.Items2" xml:space="preserve">
+    <value>=</value>
+  </data>
+  <data name="comboxShaiXuan.Properties.Items3" xml:space="preserve">
+    <value>!=</value>
+  </data>
+  <data name="comboxShaiXuan.Size" type="System.Drawing.Size, System.Drawing">
+    <value>88, 21</value>
+  </data>
+  <data name="comboxBuLianglv.Location" type="System.Drawing.Point, System.Drawing">
+    <value>92, 198</value>
+  </data>
+  <data name="comboxBuLianglv.Size" type="System.Drawing.Size, System.Drawing">
+    <value>73, 21</value>
+  </data>
+  <data name="DateEnd.Location" type="System.Drawing.Point, System.Drawing">
+    <value>469, 41</value>
+  </data>
+  <data name="DateEnd.Size" type="System.Drawing.Size, System.Drawing">
+    <value>146, 21</value>
+  </data>
+  <data name="DateStart.Location" type="System.Drawing.Point, System.Drawing">
+    <value>165, 41</value>
+  </data>
+  <data name="DateStart.Size" type="System.Drawing.Size, System.Drawing">
+    <value>147, 21</value>
+  </data>
+  <data name="radioGroupProductStates.Location" type="System.Drawing.Point, System.Drawing">
+    <value>104, 140</value>
+  </data>
+  <data name="radioGroupProductStates.Properties.Items1" xml:space="preserve">
+    <value>All</value>
+  </data>
+  <data name="radioGroupProductStates.Properties.Items3" xml:space="preserve">
+    <value>Normal</value>
+  </data>
+  <data name="radioGroupProductStates.Properties.Items5" xml:space="preserve">
+    <value>Special</value>
+  </data>
+  <data name="radioGroupProductStates.Size" type="System.Drawing.Size, System.Drawing">
+    <value>208, 25</value>
+  </data>
+  <data name="btnEditProductEnd.Location" type="System.Drawing.Point, System.Drawing">
+    <value>469, 90</value>
+  </data>
+  <data name="btnEditProductEnd.Size" type="System.Drawing.Size, System.Drawing">
+    <value>146, 21</value>
+  </data>
+  <data name="btnEditProductStart.Location" type="System.Drawing.Point, System.Drawing">
+    <value>165, 90</value>
+  </data>
+  <data name="btnEditProductStart.Size" type="System.Drawing.Size, System.Drawing">
+    <value>147, 21</value>
+  </data>
+  <data name="chkEditWuQiangHuaWuDu.Location" type="System.Drawing.Point, System.Drawing">
+    <value>465, 169</value>
+  </data>
+  <data name="chkEditWuQiangHuaWuDu.Properties.Caption" xml:space="preserve">
+    <value>No strengthen no haze</value>
+  </data>
+  <data name="chkEditWuQiangHuaWuDu.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 25</value>
+  </data>
+  <data name="chkEditEnableBLV.Location" type="System.Drawing.Point, System.Drawing">
+    <value>316, 198</value>
+  </data>
+  <data name="chkEditEnableBLV.Properties.Caption" xml:space="preserve">
+    <value>Enable filtering</value>
+  </data>
+  <data name="chkEditEnableBLV.Size" type="System.Drawing.Size, System.Drawing">
+    <value>299, 19</value>
+  </data>
+  <data name="chkEditWuDu.Location" type="System.Drawing.Point, System.Drawing">
+    <value>412, 169</value>
+  </data>
+  <data name="chkEditWuDu.Properties.Caption" xml:space="preserve">
+    <value>Haze</value>
+  </data>
+  <data name="chkEditWuDu.Size" type="System.Drawing.Size, System.Drawing">
+    <value>49, 25</value>
+  </data>
+  <data name="chkEditQiangHua.Location" type="System.Drawing.Point, System.Drawing">
+    <value>316, 169</value>
+  </data>
+  <data name="chkEditQiangHua.Properties.Caption" xml:space="preserve">
+    <value>Strengthen</value>
+  </data>
+  <data name="chkEditQiangHua.Size" type="System.Drawing.Size, System.Drawing">
+    <value>92, 25</value>
+  </data>
+  <data name="radioGroupJiLuFangShi.Location" type="System.Drawing.Point, System.Drawing">
+    <value>165, 169</value>
+  </data>
+  <data name="radioGroupJiLuFangShi.Properties.Items1" xml:space="preserve">
+    <value>Unfold</value>
+  </data>
+  <data name="radioGroupJiLuFangShi.Properties.Items3" xml:space="preserve">
+    <value>Merger</value>
+  </data>
+  <data name="radioGroupJiLuFangShi.Size" type="System.Drawing.Size, System.Drawing">
+    <value>147, 25</value>
+  </data>
+  <data name="nccWorkHouseEnd.Location" type="System.Drawing.Point, System.Drawing">
+    <value>469, 66</value>
+  </data>
+  <data name="nccWorkHouseEnd.Size" type="System.Drawing.Size, System.Drawing">
+    <value>146, 21</value>
+  </data>
+  <data name="nccWorkHouseStart.Location" type="System.Drawing.Point, System.Drawing">
+    <value>165, 66</value>
+  </data>
+  <data name="nccWorkHouseStart.Size" type="System.Drawing.Size, System.Drawing">
+    <value>147, 21</value>
+  </data>
+  <data name="layoutControlItem3.Text" xml:space="preserve">
+    <value>Department from：</value>
+  </data>
+  <data name="layoutControlItem4.Text" xml:space="preserve">
+    <value>To：</value>
+  </data>
+  <data name="layoutControlItem13.Text" xml:space="preserve">
+    <value>Recording mode：</value>
+  </data>
+  <data name="layoutControlItem7.Text" xml:space="preserve">
+    <value>Product from：</value>
+  </data>
+  <data name="layoutControlItem8.Text" xml:space="preserve">
+    <value>To：</value>
+  </data>
+  <data name="layoutControlItem1.Text" xml:space="preserve">
+    <value>Date from：</value>
+  </data>
+  <data name="dateEditEnd.Text" xml:space="preserve">
+    <value>To：</value>
+  </data>
+  <data name="layoutControlItem9.Text" xml:space="preserve">
+    <value>Customer order No. from：</value>
+  </data>
+  <data name="layoutControlItem10.Text" xml:space="preserve">
+    <value>To：</value>
+  </data>
+  <data name="layoutControlItem11.Text" xml:space="preserve">
+    <value>Order status：</value>
+  </data>
+  <data name="layoutControlItem17.Text" xml:space="preserve">
+    <value>Product state：</value>
+  </data>
+  <data name="layoutControlItem2.Text" xml:space="preserve">
+    <value>Filter：</value>
+  </data>
+  <data name="layoutControlItem5.Text" xml:space="preserve">
+    <value>Reject ratio：</value>
+  </data>
+  <data name="layoutControlItem12.Text" xml:space="preserve">
+    <value>Date type：</value>
+  </data>
+  <data name="layoutControl1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>627, 266</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>627, 266</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Product reject ratio statistical condition</value>
+  </data>
+</root>

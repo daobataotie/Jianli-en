@@ -1,0 +1,1133 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AreYouSureThePass" xml:space="preserve">
+    <value>Please confirm the password entered！</value>
+  </data>
+  <data name="Book_UI_Query_BaseReport_InvoiceDate" xml:space="preserve">
+    <value>Print date:{0}</value>
+  </data>
+  <data name="CG" xml:space="preserve">
+    <value>Purchase godown entry</value>
+  </data>
+  <data name="CGCTDetail" xml:space="preserve">
+    <value>Purchase godown entry/Purchase return order details</value>
+  </data>
+  <data name="CHDetail" xml:space="preserve">
+    <value>Bill of sales details</value>
+  </data>
+  <data name="CHJYB" xml:space="preserve">
+    <value>Bill of sales </value>
+  </data>
+  <data name="ChooseAccountError" xml:space="preserve">
+    <value>沒有對應編號的帳戶。</value>
+  </data>
+  <data name="ChooseCustomerError" xml:space="preserve">
+    <value>沒有對應編號的客戶。</value>
+  </data>
+  <data name="ChooseDepartmentError" xml:space="preserve">
+    <value>沒有對應編號的部門。</value>
+  </data>
+  <data name="ChooseDepotError" xml:space="preserve">
+    <value>沒有對應編號的庫房。</value>
+  </data>
+  <data name="ChooseEmployeeError" xml:space="preserve">
+    <value>沒有對應編號的業務員。</value>
+  </data>
+  <data name="ChoosePayMethodError" xml:space="preserve">
+    <value>沒有對應編號的支付方式。</value>
+  </data>
+  <data name="ChooseSupplierError" xml:space="preserve">
+    <value>沒有對應編號的供應商。</value>
+  </data>
+  <data name="CHZL" xml:space="preserve">
+    <value>Bill of sales list</value>
+  </data>
+  <data name="CompanyChuAddressTitle" xml:space="preserve">
+    <value>Shipping address</value>
+  </data>
+  <data name="CompanyKind" xml:space="preserve">
+    <value>Company kind</value>
+  </data>
+  <data name="ConfirmNullInvoice" xml:space="preserve">
+    <value>Confirm void the document！</value>
+  </data>
+  <data name="ConfirmToDelete" xml:space="preserve">
+    <value>Confirm delete？</value>
+  </data>
+  <data name="CT" xml:space="preserve">
+    <value>Purchase return order</value>
+  </data>
+  <data name="Customer" xml:space="preserve">
+    <value>Customer:</value>
+  </data>
+  <data name="CustomerAndSupplier" xml:space="preserve">
+    <value>Both the customer is also a supplier</value>
+  </data>
+  <data name="CustomOrSupplierRange" xml:space="preserve">
+    <value>Customer/Supplier range:{0}-{1}</value>
+  </data>
+  <data name="CustomXSHistory" xml:space="preserve">
+    <value>Customer bill of sales list</value>
+  </data>
+  <data name="DataChangedDoYouSave" xml:space="preserve">
+    <value>Data has changed，do you want to save</value>
+  </data>
+  <data name="DateRange" xml:space="preserve">
+    <value>Date range:{0}-{1}</value>
+  </data>
+  <data name="DeleteError" xml:space="preserve">
+    <value>Current record can not delete。</value>
+  </data>
+  <data name="EndDate" xml:space="preserve">
+    <value>End date:{0}</value>
+  </data>
+  <data name="EntityExists" xml:space="preserve">
+    <value>No. has exists！</value>
+  </data>
+  <data name="ErrorNoMoreRows" xml:space="preserve">
+    <value>No more records!</value>
+  </data>
+  <data name="ErrorNothingSelected" xml:space="preserve">
+    <value>You have to choose one！</value>
+  </data>
+  <data name="FiledSaved" xml:space="preserve">
+    <value>Save failed！</value>
+  </data>
+  <data name="FKCXRBB" xml:space="preserve">
+    <value>付款沖銷日報表</value>
+  </data>
+  <data name="FkMoneyCantGtWeiFuMoney" xml:space="preserve">
+    <value>The payment amount cannot be greater than the unpaid amount！</value>
+  </data>
+  <data name="GuoQiTiXing" xml:space="preserve">
+    <value>程式已過期，請致電(086)029-88292490</value>
+  </data>
+  <data name="HPJYDetail" xml:space="preserve">
+    <value>商品交易明細表</value>
+  </data>
+  <data name="HPJYPH" xml:space="preserve">
+    <value>商品交易排行</value>
+  </data>
+  <data name="HPLRDetail" xml:space="preserve">
+    <value>商品利潤明細表</value>
+  </data>
+  <data name="InvoiceBS" xml:space="preserve">
+    <value>報損單</value>
+  </data>
+  <data name="InvoiceBY" xml:space="preserve">
+    <value>報溢單</value>
+  </data>
+  <data name="InvoiceCG" xml:space="preserve">
+    <value>Purchase godown entry</value>
+  </data>
+  <data name="InvoiceCJ" xml:space="preserve">
+    <value>Purchase quotation</value>
+  </data>
+  <data name="InvoiceCO" xml:space="preserve">
+    <value>Purchase order</value>
+  </data>
+  <data name="InvoiceCT" xml:space="preserve">
+    <value>Purchase return order</value>
+  </data>
+  <data name="InvoiceExist" xml:space="preserve">
+    <value>Document already exists</value>
+  </data>
+  <data name="InvoiceFK" xml:space="preserve">
+    <value>付款單</value>
+  </data>
+  <data name="InvoiceFT" xml:space="preserve">
+    <value>資金流轉單</value>
+  </data>
+  <data name="InvoiceHZ" xml:space="preserve">
+    <value>獲贈單</value>
+  </data>
+  <data name="InvoicePT" xml:space="preserve">
+    <value>Requisition</value>
+  </data>
+  <data name="InvoiceQI" xml:space="preserve">
+    <value>Other receivables</value>
+  </data>
+  <data name="InvoiceQO" xml:space="preserve">
+    <value>Other payables</value>
+  </data>
+  <data name="InvoiceSK" xml:space="preserve">
+    <value>收款單</value>
+  </data>
+  <data name="InvoiceXJ" xml:space="preserve">
+    <value>Sales quotation</value>
+  </data>
+  <data name="InvoiceXO" xml:space="preserve">
+    <value>Customer order</value>
+  </data>
+  <data name="InvoiceXS" xml:space="preserve">
+    <value>Bill of sales</value>
+  </data>
+  <data name="InvoiceXT" xml:space="preserve">
+    <value>Sales return order</value>
+  </data>
+  <data name="InvoiceZS" xml:space="preserve">
+    <value>贈送單</value>
+  </data>
+  <data name="InvoiceZZ" xml:space="preserve">
+    <value>Assembly processing</value>
+  </data>
+  <data name="JHDetail" xml:space="preserve">
+    <value>進貨明細表</value>
+  </data>
+  <data name="JHJYB" xml:space="preserve">
+    <value>進貨簡要表</value>
+  </data>
+  <data name="JHZL" xml:space="preserve">
+    <value>進貨總覽表</value>
+  </data>
+  <data name="KeyNewPass" xml:space="preserve">
+    <value>Please enter a new password</value>
+  </data>
+  <data name="KeyOldPass" xml:space="preserve">
+    <value>Please enter your old password</value>
+  </data>
+  <data name="NeiHanShui" xml:space="preserve">
+    <value>Are you sure you want to price including tax？</value>
+  </data>
+  <data name="NoConfigConnectionFirstConfigConection" xml:space="preserve">
+    <value>No database connection settings, please set this up!</value>
+  </data>
+  <data name="NoData" xml:space="preserve">
+    <value>No data</value>
+  </data>
+  <data name="NoRecords" xml:space="preserve">
+    <value>No data</value>
+  </data>
+  <data name="NoThisUser" xml:space="preserve">
+    <value>The user does not exist!</value>
+  </data>
+  <data name="OldPassError" xml:space="preserve">
+    <value>Old password error</value>
+  </data>
+  <data name="password" xml:space="preserve">
+    <value>Password is required</value>
+    <comment>密码必填</comment>
+  </data>
+  <data name="PassWordError" xml:space="preserve">
+    <value>Password error！</value>
+  </data>
+  <data name="ProductCategoty" xml:space="preserve">
+    <value>Product category</value>
+  </data>
+  <data name="ProductIdRange" xml:space="preserve">
+    <value>ProductId range:{0}-{1}</value>
+  </data>
+  <data name="QuantityHeJi" xml:space="preserve">
+    <value>Total quantity:{0:0}</value>
+  </data>
+  <data name="ReadConfigInfoError" xml:space="preserve">
+    <value>Failed to read the connection configuration information</value>
+  </data>
+  <data name="RequireChooseConnection" xml:space="preserve">
+    <value>Please select the database connection！</value>
+  </data>
+  <data name="RequireDataForAccount" xml:space="preserve">
+    <value>Please select account</value>
+  </data>
+  <data name="RequireDataForBaseUnit" xml:space="preserve">
+    <value>Please select product base unit</value>
+  </data>
+  <data name="RequireDataForCompany" xml:space="preserve">
+    <value>Please select customer or supplier</value>
+  </data>
+  <data name="RequireDataForCompanyContact" xml:space="preserve">
+    <value>Please input contact person</value>
+  </data>
+  <data name="RequireDataForCompanyNumber" xml:space="preserve">
+    <value>Please input unified number</value>
+  </data>
+  <data name="RequireDataForCompanyPhone" xml:space="preserve">
+    <value>Please input contact tel</value>
+  </data>
+  <data name="RequireDataForDepotName" xml:space="preserve">
+    <value>Please input depot name！</value>
+  </data>
+  <data name="RequireDataForDetails" xml:space="preserve">
+    <value>You must select a product</value>
+  </data>
+  <data name="RequireDataForId" xml:space="preserve">
+    <value>No. can not be empty</value>
+  </data>
+  <data name="RequireDataForMoney" xml:space="preserve">
+    <value>Please input money</value>
+  </data>
+  <data name="RequireDataForName" xml:space="preserve">
+    <value>Please input name</value>
+  </data>
+  <data name="RequireDataForPayMethod" xml:space="preserve">
+    <value>Please select payment method</value>
+  </data>
+  <data name="RequireDataOfInvoiceDate" xml:space="preserve">
+    <value>Please select date</value>
+  </data>
+  <data name="RequiredDataOfDepot" xml:space="preserve">
+    <value>Please select depot</value>
+  </data>
+  <data name="RequiredDataOfEmployee0" xml:space="preserve">
+    <value>Please select salesman</value>
+  </data>
+  <data name="RequiredDataOfRole" xml:space="preserve">
+    <value>Please select role</value>
+  </data>
+  <data name="SKCXRBB" xml:space="preserve">
+    <value>收款沖銷日報表</value>
+  </data>
+  <data name="StockSafeQuantity" xml:space="preserve">
+    <value>Product below safety stock list</value>
+  </data>
+  <data name="SuccessfullySaved" xml:space="preserve">
+    <value>Saved successfully</value>
+  </data>
+  <data name="Supplier" xml:space="preserve">
+    <value>Supplier can not be empty</value>
+  </data>
+  <data name="SupplierCGHistory" xml:space="preserve">
+    <value>Supplier previous purchase table</value>
+  </data>
+  <data name="SystemDateChanged" xml:space="preserve">
+    <value>The system time is modified.</value>
+  </data>
+  <data name="TiShi" xml:space="preserve">
+    <value>Prompt</value>
+  </data>
+  <data name="Title_NoRecRecord" xml:space="preserve">
+    <value>No data</value>
+  </data>
+  <data name="Total2" xml:space="preserve">
+    <value>沖抵金額不能大於付款金額</value>
+  </data>
+  <data name="TwicePassDifference" xml:space="preserve">
+    <value>Entered passwords do not match！</value>
+    <comment>新旧密码不一致</comment>
+  </data>
+  <data name="ValueMustGreaterThanZero" xml:space="preserve">
+    <value>The number entered must be greater than 0</value>
+  </data>
+  <data name="WaiJiaShui" xml:space="preserve">
+    <value>Are you sure plus tax？</value>
+  </data>
+  <data name="XS" xml:space="preserve">
+    <value>Shipment</value>
+  </data>
+  <data name="XSXTDetail" xml:space="preserve">
+    <value>Sales return order details</value>
+  </data>
+  <data name="XT" xml:space="preserve">
+    <value>Sales return order</value>
+  </data>
+  <data name="YeWuName" xml:space="preserve">
+    <value>Salesman:{0}</value>
+  </data>
+  <data name="YFZKDetail" xml:space="preserve">
+    <value>Schedule of accounts payable</value>
+  </data>
+  <data name="YFZKJYB" xml:space="preserve">
+    <value>應付帳款簡要表</value>
+  </data>
+  <data name="YFZKTJB" xml:space="preserve">
+    <value>應付帳款統計表</value>
+  </data>
+  <data name="YSZKDetail" xml:space="preserve">
+    <value>Schedule of accounts receivable</value>
+  </data>
+  <data name="YSZKJYB" xml:space="preserve">
+    <value>應收帳款簡要表</value>
+  </data>
+  <data name="YSZKTJB" xml:space="preserve">
+    <value>應收帳款統計表</value>
+  </data>
+  <data name="YSZKYJBQ" xml:space="preserve">
+    <value>應收帳款郵寄標籤</value>
+  </data>
+  <data name="YSZKZLFXB" xml:space="preserve">
+    <value>應收帳款帳齡分析表</value>
+  </data>
+  <data name="YWJYPH" xml:space="preserve">
+    <value>業務交易排行</value>
+  </data>
+  <data name="YWYSDetail" xml:space="preserve">
+    <value>業務應收明細表</value>
+  </data>
+  <data name="YWYSJYB" xml:space="preserve">
+    <value>業務應收簡要表</value>
+  </data>
+  <data name="RequireDataForBaseUnitGroup" xml:space="preserve">
+    <value>Please select unit group</value>
+  </data>
+  <data name="RequireDataForDepotUnit" xml:space="preserve">
+    <value>Please select stock unit</value>
+  </data>
+  <data name="EntityName" xml:space="preserve">
+    <value>Name has exists</value>
+  </data>
+  <data name="RequireDataForChangeMan" xml:space="preserve">
+    <value>Please input modifier</value>
+  </data>
+  <data name="RequireDataForEnterMan" xml:space="preserve">
+    <value>Please input employee</value>
+  </data>
+  <data name="RequireDataForNames" xml:space="preserve">
+    <value>Please input name</value>
+  </data>
+  <data name="RequireDataForCreateMan" xml:space="preserve">
+    <value>Please input creator</value>
+  </data>
+  <data name="BaseSetting" xml:space="preserve">
+    <value>Base setting</value>
+  </data>
+  <data name="DepotMana" xml:space="preserve">
+    <value>Warehouse Management</value>
+  </data>
+  <data name="OutProMana" xml:space="preserve">
+    <value>Shipping management</value>
+  </data>
+  <data name="ProduceMana" xml:space="preserve">
+    <value>Production management</value>
+  </data>
+  <data name="StockMana" xml:space="preserve">
+    <value>Inventory management</value>
+  </data>
+  <data name="ProductCategorys" xml:space="preserve">
+    <value>Please select product category</value>
+  </data>
+  <data name="ChooseSupplier" xml:space="preserve">
+    <value>Please select supplier</value>
+  </data>
+  <data name="RequireDataForCJ" xml:space="preserve">
+    <value>Please select order</value>
+  </data>
+  <data name="RequireChooseUnitGroupType" xml:space="preserve">
+    <value>Please select unit group</value>
+  </data>
+  <data name="RequireChoosePosition" xml:space="preserve">
+    <value>Please select goods allocation</value>
+  </data>
+  <data name="BomInFo" xml:space="preserve">
+    <value>BOM list</value>
+  </data>
+  <data name="BomPackage" xml:space="preserve">
+    <value>Packing material information</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="BomParentInfo" xml:space="preserve">
+    <value>Basic material information</value>
+  </data>
+  <data name="Selecttable" xml:space="preserve">
+    <value>Please select form</value>
+  </data>
+  <data name="Andrule" xml:space="preserve">
+    <value>Role</value>
+  </data>
+  <data name="MRSDetails" xml:space="preserve">
+    <value>Material requirement planning details</value>
+  </data>
+  <data name="MPSdetails" xml:space="preserve">
+    <value>Production plan details</value>
+  </data>
+  <data name="ProduceMaterialdetails" xml:space="preserve">
+    <value>Material requisition details</value>
+  </data>
+  <data name="ProduceOtherCompactDetail" xml:space="preserve">
+    <value>Outsourcing contract</value>
+  </data>
+  <data name="ProduceOtherExitDetail" xml:space="preserve">
+    <value>Outsourcing material credit slip</value>
+  </data>
+  <data name="ProduceOtherMaterialDetail" xml:space="preserve">
+    <value>Outsourcing material requisition details</value>
+  </data>
+  <data name="Pronotedetails" xml:space="preserve">
+    <value>Production and processing</value>
+  </data>
+  <data name="SalesFordetails" xml:space="preserve">
+    <value>銷售預測明細</value>
+  </data>
+  <data name="ProduceMaterialExitDetail" xml:space="preserve">
+    <value>Material credit slip</value>
+  </data>
+  <data name="ProduceOtherInDepot" xml:space="preserve">
+    <value>Outsourcing storage</value>
+  </data>
+  <data name="ProduceInDepot" xml:space="preserve">
+    <value>Production storage</value>
+  </data>
+  <data name="RequireMPSEndDate" xml:space="preserve">
+    <value>Please input end date</value>
+  </data>
+  <data name="RequireMPSStartDate" xml:space="preserve">
+    <value>Please input start date</value>
+  </data>
+  <data name="WorkHouse" xml:space="preserve">
+    <value>Please select department</value>
+  </data>
+  <data name="info" xml:space="preserve">
+    <value>Warm tips</value>
+  </data>
+  <data name="LeaveAddleavefails" xml:space="preserve">
+    <value>休假信息添加失敗！</value>
+  </data>
+  <data name="LeaveAddleavesuccess" xml:space="preserve">
+    <value>休假信息添加成功！</value>
+  </data>
+  <data name="Leavedeleteleavefails" xml:space="preserve">
+    <value>休假信息刪除失敗！</value>
+  </data>
+  <data name="Leavedeleteleavesuccess" xml:space="preserve">
+    <value>休假信息刪除失敗！</value>
+  </data>
+  <data name="Addsuccess" xml:space="preserve">
+    <value>Success</value>
+  </data>
+  <data name="caption" xml:space="preserve">
+    <value>System prompt</value>
+  </data>
+  <data name="RequireIdName" xml:space="preserve">
+    <value>No. and name can not be empty</value>
+  </data>
+  <data name="JustNeedOne" xml:space="preserve">
+    <value>Select at least one</value>
+  </data>
+  <data name="RequireDataForComtomer" xml:space="preserve">
+    <value>Please select customer</value>
+  </data>
+  <data name="NoEmployee" xml:space="preserve">
+    <value>Employee can not be empty</value>
+  </data>
+  <data name="DeleteSuccess" xml:space="preserve">
+    <value>Delete success</value>
+  </data>
+  <data name="EmployeeNotNull" xml:space="preserve">
+    <value>Employee can not be empty！</value>
+  </data>
+  <data name="CardNotNull" xml:space="preserve">
+    <value>Card number can not be empty</value>
+  </data>
+  <data name="SavaFailure" xml:space="preserve">
+    <value>Save failed</value>
+  </data>
+  <data name="DateNotNull" xml:space="preserve">
+    <value>Date can not be empty！</value>
+  </data>
+  <data name="ExistsObject" xml:space="preserve">
+    <value>This information already exists</value>
+  </data>
+  <data name="ExistObjectIsConvert" xml:space="preserve">
+    <value>Already exists, whether covering</value>
+  </data>
+  <data name="AcademicNameIsExist" xml:space="preserve">
+    <value>Name has exists</value>
+  </data>
+  <data name="IsExistsDutyName" xml:space="preserve">
+    <value>Position name has exists</value>
+  </data>
+  <data name="IsExistsBankName" xml:space="preserve">
+    <value>Bank name has exists</value>
+  </data>
+  <data name="IsExistsCompanyName" xml:space="preserve">
+    <value>Company information has exists</value>
+  </data>
+  <data name="IsExistsBusinessName" xml:space="preserve">
+    <value>Class name has exists</value>
+  </data>
+  <data name="IsExistsLeaveTypeName" xml:space="preserve">
+    <value>休假類別已經存在</value>
+  </data>
+  <data name="YearLeaveManager" xml:space="preserve">
+    <value>年度休假維護</value>
+  </data>
+  <data name="JJInformation" xml:space="preserve">
+    <value>獎金明細表</value>
+  </data>
+  <data name="MoneyDetail" xml:space="preserve">
+    <value>薪資單</value>
+  </data>
+  <data name="OverTime" xml:space="preserve">
+    <value>加班資料</value>
+  </data>
+  <data name="SaveSuccess" xml:space="preserve">
+    <value>Saved successfully</value>
+  </data>
+  <data name="StockcheckIsExists" xml:space="preserve">
+    <value>The same order, the existence of the same products</value>
+  </data>
+  <data name="SelectEmployee" xml:space="preserve">
+    <value>Please select employee</value>
+  </data>
+  <data name="NewNumbers" xml:space="preserve">
+    <value>Please input No.</value>
+  </data>
+  <data name="CustomerFullName" xml:space="preserve">
+    <value>Customer full name exists</value>
+  </data>
+  <data name="CustomerShortName" xml:space="preserve">
+    <value>Customer short name exists</value>
+  </data>
+  <data name="MachineIdCF" xml:space="preserve">
+    <value>Machine No. can not be repeated</value>
+  </data>
+  <data name="MachineIdIsNull" xml:space="preserve">
+    <value>Machine No. can not be empty</value>
+  </data>
+  <data name="MachineNameCF" xml:space="preserve">
+    <value>Machine name can not be repeated</value>
+  </data>
+  <data name="MachineNameIsNull" xml:space="preserve">
+    <value>Machine name can not be empty</value>
+  </data>
+  <data name="MachineNodeIsNull" xml:space="preserve">
+    <value>Production station can not be empty</value>
+  </data>
+  <data name="IndexOfBom" xml:space="preserve">
+    <value>Production number can not be repeated</value>
+  </data>
+  <data name="indexofbomNullDate" xml:space="preserve">
+    <value>Production number can not be empty</value>
+  </data>
+  <data name="NameIsNotNull" xml:space="preserve">
+    <value>Name can not be empty</value>
+  </data>
+  <data name="NumsIsNotNull" xml:space="preserve">
+    <value>No. can not be empty</value>
+  </data>
+  <data name="NunsIsExistrs" xml:space="preserve">
+    <value>Name can not be repeated</value>
+  </data>
+  <data name="NunsIsExists" xml:space="preserve">
+    <value>No. can not be repeated</value>
+  </data>
+  <data name="NullBarCode" xml:space="preserve">
+    <value>Barcode can not be empty</value>
+  </data>
+  <data name="BuitInvoiceCOIsSuccess" xml:space="preserve">
+    <value>Generate purchase order success</value>
+  </data>
+  <data name="DateIsNull" xml:space="preserve">
+    <value>Date can not be empty</value>
+  </data>
+  <data name="Noproduct" xml:space="preserve">
+    <value>Product can not be empty</value>
+  </data>
+  <data name="StockCheckQutyIsNull" xml:space="preserve">
+    <value>Please select goods allocation</value>
+  </data>
+  <data name="deptNotNull" xml:space="preserve">
+    <value>Please select depot</value>
+  </data>
+  <data name="DepotInStockQuertyIsNull" xml:space="preserve">
+    <value>Please select goods allocation</value>
+  </data>
+  <data name="ProductDetailIsNull" xml:space="preserve">
+    <value>Product details can not be empty</value>
+  </data>
+  <data name="HolidayIsExists" xml:space="preserve">
+    <value>假日日期不能重複，請重新輸入！</value>
+  </data>
+  <data name="CGQgtCOQ" xml:space="preserve">
+    <value>Purchase quantity cannot be greater than order quantity</value>
+  </data>
+  <data name="DailyInfoAskLeft" xml:space="preserve">
+    <value>請假</value>
+  </data>
+  <data name="DailyInfoLeaveEarly" xml:space="preserve">
+    <value>早退</value>
+  </data>
+  <data name="DailyInfoLate" xml:space="preserve">
+    <value>遲到</value>
+  </data>
+  <data name="DailyInfoLotcard" xml:space="preserve">
+    <value>缺刷卡資料</value>
+  </data>
+  <data name="StartDateGTEndDate" xml:space="preserve">
+    <value>Start date can not be greater than the end date</value>
+  </data>
+  <data name="RequireDateToDate" xml:space="preserve">
+    <value>Please select date range</value>
+  </data>
+  <data name="StartDateNotEndDate" xml:space="preserve">
+    <value>Start date and end date are equal!</value>
+  </data>
+  <data name="InNumBigNoNum" xml:space="preserve">
+    <value>Purchase quantity is greater than not purchase quantity</value>
+  </data>
+  <data name="HaiRuTaiDuo" xml:space="preserve">
+    <value>還入數量不能大於未還數量</value>
+  </data>
+  <data name="Absenteeism" xml:space="preserve">
+    <value>曠職</value>
+  </data>
+  <data name="Allday" xml:space="preserve">
+    <value>整日</value>
+  </data>
+  <data name="Evening" xml:space="preserve">
+    <value>下半日</value>
+  </data>
+  <data name="Morning" xml:space="preserve">
+    <value>上半日</value>
+  </data>
+  <data name="RequirePrice" xml:space="preserve">
+    <value>Please input price</value>
+  </data>
+  <data name="ExistsCustomerProductId" xml:space="preserve">
+    <value>Customer model has exists</value>
+  </data>
+  <data name="Existscustomerproduct" xml:space="preserve">
+    <value>This product is already a product of this customer</value>
+  </data>
+  <data name="stockquertyIsSmall" xml:space="preserve">
+    <value>Stock number inadequate</value>
+  </data>
+  <data name="HomeMade" xml:space="preserve">
+    <value>Self made</value>
+  </data>
+  <data name="OutSourcing" xml:space="preserve">
+    <value>Purchase</value>
+  </data>
+  <data name="TrustOut" xml:space="preserve">
+    <value>Outsourcing</value>
+  </data>
+  <data name="AtAdiary" xml:space="preserve">
+    <value>Journal</value>
+  </data>
+  <data name="BankSaveUp" xml:space="preserve">
+    <value>Bank deposit withdrawal statement</value>
+  </data>
+  <data name="YF1" xml:space="preserve">
+    <value>Payable Bill details</value>
+  </data>
+  <data name="YS1" xml:space="preserve">
+    <value>應收票據明細表</value>
+  </data>
+  <data name="IsBuiltInvoiceCo" xml:space="preserve">
+    <value>View material requisition</value>
+  </data>
+  <data name="IsBuiltTrustOut" xml:space="preserve">
+    <value>View outsourcing contract</value>
+  </data>
+  <data name="IsHomeMade" xml:space="preserve">
+    <value>Self made</value>
+  </data>
+  <data name="IsOutSourcing" xml:space="preserve">
+    <value>Purchase</value>
+  </data>
+  <data name="AlReadyOk" xml:space="preserve">
+    <value>Compulsory closed success</value>
+  </data>
+  <data name="ProductImageIsNull" xml:space="preserve">
+    <value>Image file can not be empty</value>
+  </data>
+  <data name="IsBuildMaterial" xml:space="preserve">
+    <value>Generate material requisition</value>
+  </data>
+  <data name="LookMaterialInfo" xml:space="preserve">
+    <value>View material requisition</value>
+  </data>
+  <data name="DepotIn" xml:space="preserve">
+    <value>Delivery note</value>
+  </data>
+  <data name="DepotOut" xml:space="preserve">
+    <value>Publishes the warehouse receipt</value>
+  </data>
+  <data name="StockEditor" xml:space="preserve">
+    <value>Physical inventory</value>
+  </data>
+  <data name="ProduceLookTable" xml:space="preserve">
+    <value>生產車間數量一覽表</value>
+  </data>
+  <data name="ProduceNums" xml:space="preserve">
+    <value>車間生產數量</value>
+  </data>
+  <data name="Date" xml:space="preserve">
+    <value>Date</value>
+  </data>
+  <data name="INumber" xml:space="preserve">
+    <value>No.</value>
+  </data>
+  <data name="MachineName" xml:space="preserve">
+    <value>Production machines</value>
+  </data>
+  <data name="ProduceCheck" xml:space="preserve">
+    <value>Production workshop quality inspection</value>
+  </data>
+  <data name="ProduceName" xml:space="preserve">
+    <value>Process name</value>
+  </data>
+  <data name="ShouldProduceNumber" xml:space="preserve">
+    <value>Should production quantity</value>
+  </data>
+  <data name="SupplierName" xml:space="preserve">
+    <value>Outsourcing supplier</value>
+  </data>
+  <data name="WorkHouseName" xml:space="preserve">
+    <value>Production station</value>
+  </data>
+  <data name="ProducePronoteName" xml:space="preserve">
+    <value>Process</value>
+  </data>
+  <data name="ProduceTransferReport" xml:space="preserve">
+    <value>生產移轉單</value>
+  </data>
+  <data name="PronotePackageReport" xml:space="preserve">
+    <value>Assembly report</value>
+  </data>
+  <data name="ProduceOtherReturnMaterial" xml:space="preserve">
+    <value>Outsourcing return order</value>
+  </data>
+  <data name="ProduceMaterialInfo" xml:space="preserve">
+    <value>Material credit slip details</value>
+  </data>
+  <data name="ProduceMaterial" xml:space="preserve">
+    <value>Material requisition</value>
+  </data>
+  <data name="ProduceOtherMaterial" xml:space="preserve">
+    <value>Outsourcing material requisition</value>
+  </data>
+  <data name="Consume" xml:space="preserve">
+    <value>Consumption</value>
+  </data>
+  <data name="AcbeginAccountPayable" xml:space="preserve">
+    <value>Early accounts payable</value>
+  </data>
+  <data name="ProduceInDepotDetail" xml:space="preserve">
+    <value>Production storage details</value>
+  </data>
+  <data name="PronoteHeaderDetails" xml:space="preserve">
+    <value>Production and processing details</value>
+  </data>
+  <data name="AcbeginbillReceivable" xml:space="preserve">
+    <value>Early accounts receivable</value>
+  </data>
+  <data name="OutDepotNotBigNoOutDepot" xml:space="preserve">
+    <value>Outbound quantity can not be greater than not outbound quantity</value>
+  </data>
+  <data name="AcInvoiceCOBill" xml:space="preserve">
+    <value>Purchase invoice</value>
+  </data>
+  <data name="AcInvoiceXOBillfpbh" xml:space="preserve">
+    <value>Invoice No. can not be empty！</value>
+  </data>
+  <data name="AcInvoiceXOBill" xml:space="preserve">
+    <value>Sales invoice</value>
+  </data>
+  <data name="AcInvoiceHasDetails" xml:space="preserve">
+    <value>Order can not be empty</value>
+  </data>
+  <data name="AcPaymentBillNo" xml:space="preserve">
+    <value>No. can not be empty</value>
+  </data>
+  <data name="AreYouSureLeading" xml:space="preserve">
+    <value>Confirm the import file</value>
+  </data>
+  <data name="GZZhiShi" xml:space="preserve">
+    <value>Processing instructions</value>
+  </data>
+  <data name="ZZJiaGong" xml:space="preserve">
+    <value>Assembly processing</value>
+  </data>
+  <data name="ConfirmToJieAn" xml:space="preserve">
+    <value>Confirm closed?</value>
+  </data>
+  <data name="RequireDataForSex" xml:space="preserve">
+    <value>Please input sex</value>
+  </data>
+  <data name="RequireDataForJoinDate" xml:space="preserve">
+    <value>Please input on board date</value>
+  </data>
+  <data name="PCOtherCheck" xml:space="preserve">
+    <value>Incoming inspection</value>
+  </data>
+  <data name="PCOtherCheckID" xml:space="preserve">
+    <value>Incoming inspection No. can not be empty</value>
+  </data>
+  <data name="PCImpactCheck" xml:space="preserve">
+    <value>Impact test</value>
+  </data>
+  <data name="PCFinishCheck" xml:space="preserve">
+    <value>Assembling the finished product check list</value>
+  </data>
+  <data name="ANSIPCImpactCheck" xml:space="preserve">
+    <value>ANSI impact test</value>
+  </data>
+  <data name="BSENcjcsd" xml:space="preserve">
+    <value>BS/EN impact H.M. test report</value>
+  </data>
+  <data name="CSAcjcsd" xml:space="preserve">
+    <value>CSA impact H.M. test report</value>
+  </data>
+  <data name="InvalidCusXoId" xml:space="preserve">
+    <value>Customer order No. has exists</value>
+  </data>
+  <data name="RequireCusXoId" xml:space="preserve">
+    <value>Customer order No. can not be empty</value>
+  </data>
+  <data name="ASNZScjcsd" xml:space="preserve">
+    <value>AS/NZS impact test report</value>
+  </data>
+  <data name="PCPGOnlineCheck" xml:space="preserve">
+    <value>Optical / thickness table</value>
+  </data>
+  <data name="NullPayMethod" xml:space="preserve">
+    <value>Payment method can not be empty</value>
+  </data>
+  <data name="NullShouKuanRen" xml:space="preserve">
+    <value>收款人不能為空</value>
+  </data>
+  <data name="AcOtherShouldCollection" xml:space="preserve">
+    <value>Other receivables</value>
+  </data>
+  <data name="AcOtherShouldPayment" xml:space="preserve">
+    <value>Other payables</value>
+  </data>
+  <data name="InvoiceXODetail" xml:space="preserve">
+    <value>Customer order details</value>
+  </data>
+  <data name="InvoiceCODetail" xml:space="preserve">
+    <value>Purchase order details</value>
+  </data>
+  <data name="OverTimeListPrint" xml:space="preserve">
+    <value>員工加班一覽表</value>
+  </data>
+  <data name="LeaveListPrint" xml:space="preserve">
+    <value>員工休假一覽表</value>
+  </data>
+  <data name="ROAcInvoiceXOBillDetail" xml:space="preserve">
+    <value>Sales invoice details</value>
+  </data>
+  <data name="CSJYPH" xml:space="preserve">
+    <value>Trading supplier ranking</value>
+  </data>
+  <data name="KHJYPH" xml:space="preserve">
+    <value>Trading customer ranking</value>
+  </data>
+  <data name="PCFogCheck" xml:space="preserve">
+    <value>Haze test</value>
+  </data>
+  <data name="PCOpticsCheck" xml:space="preserve">
+    <value>UV test</value>
+  </data>
+  <data name="ROcustomerlist" xml:space="preserve">
+    <value>Customer list</value>
+  </data>
+  <data name="ROsupplierlist" xml:space="preserve">
+    <value>Supplier list</value>
+  </data>
+  <data name="ObjectHasChange" xml:space="preserve">
+    <value>This document already has a newer version, click OK to view the new version</value>
+  </data>
+  <data name="ROPCOpticsCheck" xml:space="preserve">
+    <value>JIS optical process test machine</value>
+  </data>
+  <data name="lblROThicknessTest" xml:space="preserve">
+    <value>Thickness perspective rate test</value>
+  </data>
+  <data name="ROThicknessTest" xml:space="preserve">
+    <value>Thickness perspective rate test</value>
+  </data>
+  <data name="Pleaseinput" xml:space="preserve">
+    <value>Please input</value>
+  </data>
+  <data name="BHeigthIsNotLessThanZero" xml:space="preserve">
+    <value>高不能小於等於零</value>
+  </data>
+  <data name="BLongIsNotLessThanZero" xml:space="preserve">
+    <value>長不能小於等於零</value>
+  </data>
+  <data name="BWidthIsNotLessThanZero" xml:space="preserve">
+    <value>寬不能小於等於零</value>
+  </data>
+  <data name="InvoiceXJCB" xml:space="preserve">
+    <value>Quotation - cost analysis table</value>
+  </data>
+  <data name="XSPacking" xml:space="preserve">
+    <value>出貨裝箱</value>
+  </data>
+  <data name="AllWeightIsNotLessThanZero" xml:space="preserve">
+    <value>總重不能小於等於零</value>
+  </data>
+  <data name="BWeightIsNotLessThanZero" xml:space="preserve">
+    <value>淨重不能小於等於零</value>
+  </data>
+  <data name="AllWeightIsNotLessThanBWeight" xml:space="preserve">
+    <value>總重量不能小於等於淨重</value>
+  </data>
+  <data name="InvoiceZG" xml:space="preserve">
+    <value>箱子裝櫃</value>
+  </data>
+  <data name="InvoiceXJBJ" xml:space="preserve">
+    <value>Quotation - customer quotation</value>
+  </data>
+  <data name="JISCheck" xml:space="preserve">
+    <value>JIS impact test</value>
+  </data>
+  <data name="InputError" xml:space="preserve">
+    <value>Employee No. input error</value>
+  </data>
+  <data name="InvoicePacking" xml:space="preserve">
+    <value>裝箱單</value>
+  </data>
+  <data name="PCBoxFootCheck" xml:space="preserve">
+    <value>Frame check list</value>
+  </data>
+  <data name="ProductSizeIsNotNull" xml:space="preserve">
+    <value>Product specifications can not be empty</value>
+  </data>
+  <data name="InvoiceDateNotNull" xml:space="preserve">
+    <value>Date can not be empty</value>
+  </data>
+  <data name="OnlineDateNotNull" xml:space="preserve">
+    <value>On-line date can not be empty</value>
+  </data>
+  <data name="ProductOnlineCheck" xml:space="preserve">
+    <value>Product on-line inspectio</value>
+  </data>
+  <data name="BGProductIdHave" xml:space="preserve">
+    <value>備案資料庫編號已經存在</value>
+  </data>
+  <data name="BGProductIdNotNul" xml:space="preserve">
+    <value>備案資料庫編號不能為空</value>
+  </data>
+  <data name="InDepotDetail" xml:space="preserve">
+    <value>Delivery note details</value>
+  </data>
+  <data name="OutDepotDetail" xml:space="preserve">
+    <value>Publishes the warehouse receipt details</value>
+  </data>
+  <data name="ROJDPronoteHeader" xml:space="preserve">
+    <value>Production management did not produce order details</value>
+  </data>
+  <data name="NoIsNotNull" xml:space="preserve">
+    <value>No. can not be empty</value>
+  </data>
+  <data name="HandIdNotNull" xml:space="preserve">
+    <value>Manual test No. can not be empty</value>
+  </data>
+  <data name="CustomerProducts" xml:space="preserve">
+    <value>Customer product</value>
+  </data>
+</root>

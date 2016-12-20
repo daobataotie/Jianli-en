@@ -1,0 +1,563 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="barButtonItemJieAn.Caption" xml:space="preserve">
+    <value>Closed</value>
+  </data>
+  <data name="barSubItem4.Caption" xml:space="preserve">
+    <value>Export</value>
+  </data>
+  <data name="checkEditChadan.Properties.Caption" xml:space="preserve">
+    <value>Inserting </value>
+  </data>
+  <data name="checkEditIsForeigntrade.Properties.Caption" xml:space="preserve">
+    <value>Export orders</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="comboBoxEditCurrency.Location" type="System.Drawing.Point, System.Drawing">
+    <value>789, 61</value>
+  </data>
+  <data name="comboBoxEditCurrency.Size" type="System.Drawing.Size, System.Drawing">
+    <value>56, 21</value>
+  </data>
+  <data name="newChooseCustomer2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>473, 37</value>
+  </data>
+  <data name="newChooseCustomer2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>168, 21</value>
+  </data>
+  <data name="newChooseCustomer1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>156, 37</value>
+  </data>
+  <data name="newChooseCustomer1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>169, 21</value>
+  </data>
+  <data name="textEditLotNumber.Location" type="System.Drawing.Point, System.Drawing">
+    <value>473, 61</value>
+  </data>
+  <data name="textEditLotNumber.Size" type="System.Drawing.Size, System.Drawing">
+    <value>168, 21</value>
+  </data>
+  <data name="textEditCustomerInvoiceXOID.EditValue" xml:space="preserve">
+    <value>Customer model</value>
+  </data>
+  <data name="textEditCustomerInvoiceXOID.Location" type="System.Drawing.Point, System.Drawing">
+    <value>789, 12</value>
+  </data>
+  <data name="textEditCustomerInvoiceXOID.Size" type="System.Drawing.Size, System.Drawing">
+    <value>263, 21</value>
+  </data>
+  <data name="dateEditYJRQ.Location" type="System.Drawing.Point, System.Drawing">
+    <value>156, 61</value>
+  </data>
+  <data name="dateEditYJRQ.Size" type="System.Drawing.Size, System.Drawing">
+    <value>169, 21</value>
+  </data>
+  <data name="EmpAudit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>653, 87</value>
+  </data>
+  <data name="EmpAudit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>140, 21</value>
+  </data>
+  <data name="textEditAuditState.Location" type="System.Drawing.Point, System.Drawing">
+    <value>881, 87</value>
+  </data>
+  <data name="textEditAuditState.Size" type="System.Drawing.Size, System.Drawing">
+    <value>141, 23</value>
+  </data>
+  <data name="calcEditInvoiceTax1xset.Location" type="System.Drawing.Point, System.Drawing">
+    <value>881, 37</value>
+  </data>
+  <data name="calcEditInvoiceTax1xset.Size" type="System.Drawing.Size, System.Drawing">
+    <value>141, 21</value>
+  </data>
+  <data name="calcEditInvoiceTotalxset.Location" type="System.Drawing.Point, System.Drawing">
+    <value>881, 12</value>
+  </data>
+  <data name="calcEditInvoiceTotalxset.Size" type="System.Drawing.Size, System.Drawing">
+    <value>141, 21</value>
+  </data>
+  <data name="calcEditInvoiceTotal0xset.Location" type="System.Drawing.Point, System.Drawing">
+    <value>653, 62</value>
+  </data>
+  <data name="calcEditInvoiceTotal0xset.Size" type="System.Drawing.Size, System.Drawing">
+    <value>369, 21</value>
+  </data>
+  <data name="textEditInvoiceCphm.Location" type="System.Drawing.Point, System.Drawing">
+    <value>653, 12</value>
+  </data>
+  <data name="textEditInvoiceCphm.Size" type="System.Drawing.Size, System.Drawing">
+    <value>140, 21</value>
+  </data>
+  <data name="spinEditInvoiceTaxRate1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>653, 37</value>
+  </data>
+  <data name="spinEditInvoiceTaxRate1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>140, 21</value>
+  </data>
+  <data name="layoutControlItem12.Text" xml:space="preserve">
+    <value>Total：</value>
+  </data>
+  <data name="layoutControlItem14.Text" xml:space="preserve">
+    <value>Subtotal:</value>
+  </data>
+  <data name="layoutControlItem16.Text" xml:space="preserve">
+    <value>Tax:</value>
+  </data>
+  <data name="layoutControlItem13.Text" xml:space="preserve">
+    <value>Tax rate:</value>
+  </data>
+  <data name="layoutControlItem11.Text" xml:space="preserve">
+    <value>Summons No.:</value>
+  </data>
+  <data name="layoutControlItem4.Text" xml:space="preserve">
+    <value>Remark：</value>
+  </data>
+  <data name="layoutControlItem37.Text" xml:space="preserve">
+    <value>Audit state：</value>
+  </data>
+  <data name="layoutControlItem36.Text" xml:space="preserve">
+    <value>Auditor：</value>
+  </data>
+  <data name="xtraTabPage1.Text" xml:space="preserve">
+    <value>Transaction details</value>
+  </data>
+  <data name="dateEditFPDate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>460, 37</value>
+  </data>
+  <data name="dateEditFPDate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>223, 21</value>
+  </data>
+  <data name="spinEditInvoiceFpje.Location" type="System.Drawing.Point, System.Drawing">
+    <value>779, 62</value>
+  </data>
+  <data name="spinEditInvoiceFpje.Size" type="System.Drawing.Size, System.Drawing">
+    <value>243, 21</value>
+  </data>
+  <data name="textEditInvoiceFpbh.Location" type="System.Drawing.Point, System.Drawing">
+    <value>460, 62</value>
+  </data>
+  <data name="textEditInvoiceFpbh.Size" type="System.Drawing.Size, System.Drawing">
+    <value>223, 21</value>
+  </data>
+  <data name="comboBoxEditInvoiceFpls.Location" type="System.Drawing.Point, System.Drawing">
+    <value>779, 37</value>
+  </data>
+  <data name="comboBoxEditInvoiceFpls.Properties.Items" xml:space="preserve">
+    <value>Bigeminy </value>
+  </data>
+  <data name="comboBoxEditInvoiceFpls.Properties.Items1" xml:space="preserve">
+    <value>Trigeminy </value>
+  </data>
+  <data name="comboBoxEditInvoiceFpls.Properties.Items2" xml:space="preserve">
+    <value>Computer bigeminy </value>
+  </data>
+  <data name="comboBoxEditInvoiceFpls.Properties.Items3" xml:space="preserve">
+    <value>Computer trigeminy </value>
+  </data>
+  <data name="comboBoxEditInvoiceFpls.Properties.Items4" xml:space="preserve">
+    <value>Cash register bigeminy </value>
+  </data>
+  <data name="comboBoxEditInvoiceFpls.Properties.Items5" xml:space="preserve">
+    <value>Cash register trigeminy </value>
+  </data>
+  <data name="comboBoxEditInvoiceFpls.Size" type="System.Drawing.Size, System.Drawing">
+    <value>243, 21</value>
+  </data>
+  <data name="comboBoxEditInvoiceKslb.Location" type="System.Drawing.Point, System.Drawing">
+    <value>460, 12</value>
+  </data>
+  <data name="comboBoxEditInvoiceKslb.Properties.Items" xml:space="preserve">
+    <value>Inclusive tax</value>
+  </data>
+  <data name="comboBoxEditInvoiceKslb.Properties.Items1" xml:space="preserve">
+    <value>Plus tax</value>
+  </data>
+  <data name="comboBoxEditInvoiceKslb.Properties.Items2" xml:space="preserve">
+    <value>Tax exemption</value>
+  </data>
+  <data name="comboBoxEditInvoiceKslb.Size" type="System.Drawing.Size, System.Drawing">
+    <value>223, 21</value>
+  </data>
+  <data name="comboBoxEditInvoiceKlfs.Location" type="System.Drawing.Point, System.Drawing">
+    <value>779, 12</value>
+  </data>
+  <data name="comboBoxEditInvoiceKlfs.Properties.Items" xml:space="preserve">
+    <value>Not open</value>
+  </data>
+  <data name="comboBoxEditInvoiceKlfs.Properties.Items1" xml:space="preserve">
+    <value>With order open</value>
+  </data>
+  <data name="comboBoxEditInvoiceKlfs.Properties.Items2" xml:space="preserve">
+    <value>Batch is not open</value>
+  </data>
+  <data name="comboBoxEditInvoiceKlfs.Properties.Items3" xml:space="preserve">
+    <value>Batch has been opened</value>
+  </data>
+  <data name="comboBoxEditInvoiceKlfs.Size" type="System.Drawing.Size, System.Drawing">
+    <value>243, 21</value>
+  </data>
+  <data name="layoutControlItem18.Text" xml:space="preserve">
+    <value>Open mode:</value>
+  </data>
+  <data name="layoutControlItem19.Text" xml:space="preserve">
+    <value>Tax type：</value>
+  </data>
+  <data name="layoutControlItem20.Text" xml:space="preserve">
+    <value>Invoice type:</value>
+  </data>
+  <data name="layoutControlItem21.Text" xml:space="preserve">
+    <value>Invoice No.:</value>
+  </data>
+  <data name="layoutControlItem22.Text" xml:space="preserve">
+    <value>Invoice money :</value>
+  </data>
+  <data name="layoutControlItem15.Text" xml:space="preserve">
+    <value>Invoice date：</value>
+  </data>
+  <data name="emptySpaceItem11.CustomizationFormText" xml:space="preserve">
+    <value>emptySpaceItem11</value>
+  </data>
+  <data name="emptySpaceItem11.Text" xml:space="preserve">
+    <value>emptySpaceItem11</value>
+  </data>
+  <data name="xtraTabPage2.Text" xml:space="preserve">
+    <value>Invoice</value>
+  </data>
+  <data name="spinEditInvoiceOwed.Location" type="System.Drawing.Point, System.Drawing">
+    <value>708, 58</value>
+  </data>
+  <data name="spinEditInvoiceOwed.Size" type="System.Drawing.Size, System.Drawing">
+    <value>99, 21</value>
+  </data>
+  <data name="spinEditYiShou.Location" type="System.Drawing.Point, System.Drawing">
+    <value>929, 33</value>
+  </data>
+  <data name="spinEditYiShou.Size" type="System.Drawing.Size, System.Drawing">
+    <value>93, 21</value>
+  </data>
+  <data name="spinEditInvoiceZKE.Location" type="System.Drawing.Point, System.Drawing">
+    <value>708, 33</value>
+  </data>
+  <data name="spinEditInvoiceZKE.Size" type="System.Drawing.Size, System.Drawing">
+    <value>99, 21</value>
+  </data>
+  <data name="layoutControlItem23.Text" xml:space="preserve">
+    <value>Discount:</value>
+  </data>
+  <data name="layoutControlItem24.Text" xml:space="preserve">
+    <value>Amount received：</value>
+  </data>
+  <data name="layoutControlItem25.Text" xml:space="preserve">
+    <value>Uncollected amount:</value>
+  </data>
+  <data name="xtraTabPage3.Text" xml:space="preserve">
+    <value>Account information</value>
+  </data>
+  <data name="richTextBoxCustomerMarks.Location" type="System.Drawing.Point, System.Drawing">
+    <value>89, 12</value>
+  </data>
+  <data name="richTextBoxCustomerMarks.Size" type="System.Drawing.Size, System.Drawing">
+    <value>374, 98</value>
+  </data>
+  <data name="btn_ChooseCustomerMarks.Text" xml:space="preserve">
+    <value>Select Mark</value>
+  </data>
+  <data name="btn_UpdatePrice.Text" xml:space="preserve">
+    <value>Price Proofreading</value>
+  </data>
+  <data name="dateEditUpdateTime.Location" type="System.Drawing.Point, System.Drawing">
+    <value>544, 88</value>
+  </data>
+  <data name="dateEditUpdateTime.Size" type="System.Drawing.Size, System.Drawing">
+    <value>272, 21</value>
+  </data>
+  <data name="newChooseContorlEmp4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>544, 64</value>
+  </data>
+  <data name="newChooseContorlEmp4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>478, 21</value>
+  </data>
+  <data name="layoutControlItem29.Text" xml:space="preserve">
+    <value>Modifier:</value>
+  </data>
+  <data name="layoutControlItem30.Text" xml:space="preserve">
+    <value>Update date:</value>
+  </data>
+  <data name="layoutControlItem41.Text" xml:space="preserve">
+    <value>Mark：</value>
+  </data>
+  <data name="xtraTabPage4.Text" xml:space="preserve">
+    <value>Relevant data</value>
+  </data>
+  <data name="dateEditInvoiceDate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>156, 12</value>
+  </data>
+  <data name="dateEditInvoiceDate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>169, 21</value>
+  </data>
+  <data name="textEditInvoiceId.Location" type="System.Drawing.Point, System.Drawing">
+    <value>473, 12</value>
+  </data>
+  <data name="textEditInvoiceId.Size" type="System.Drawing.Size, System.Drawing">
+    <value>168, 21</value>
+  </data>
+  <data name="buttonEditEmployee.Location" type="System.Drawing.Point, System.Drawing">
+    <value>789, 37</value>
+  </data>
+  <data name="buttonEditEmployee.Size" type="System.Drawing.Size, System.Drawing">
+    <value>263, 21</value>
+  </data>
+  <data name="gridColumn5.Caption" xml:space="preserve">
+    <value>Check</value>
+  </data>
+  <data name="gridColumn4.Caption" xml:space="preserve">
+    <value>No.</value>
+  </data>
+  <data name="colProductId.Caption" xml:space="preserve">
+    <value>ProductId</value>
+  </data>
+  <data name="repositoryItemLookUpEdit1.Columns2" xml:space="preserve">
+    <value>No.</value>
+  </data>
+  <data name="repositoryItemLookUpEdit1.Columns5" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="repositoryItemLookUpEdit1.Columns8" xml:space="preserve">
+    <value>Customer model</value>
+  </data>
+  <data name="repositoryItemLookUpEdit1.Columns18" xml:space="preserve">
+    <value>Version</value>
+  </data>
+  <data name="colProduct.Caption" xml:space="preserve">
+    <value>Product Name</value>
+  </data>
+  <data name="repositoryItemLookUpEdit2.Columns2" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="repositoryItemLookUpEdit2.Columns5" xml:space="preserve">
+    <value>No.</value>
+  </data>
+  <data name="repositoryItemLookUpEdit2.Columns8" xml:space="preserve">
+    <value>Customer model</value>
+  </data>
+  <data name="repositoryItemLookUpEdit2.Columns18" xml:space="preserve">
+    <value>Version</value>
+  </data>
+  <data name="gridColumnCustomProduct.Caption" xml:space="preserve">
+    <value>Customer model</value>
+  </data>
+  <data name="repositoryItemLookUpEdit3.Columns2" xml:space="preserve">
+    <value>No.</value>
+  </data>
+  <data name="repositoryItemLookUpEdit3.Columns5" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="repositoryItemLookUpEdit3.Columns8" xml:space="preserve">
+    <value>Customer model</value>
+  </data>
+  <data name="repositoryItemLookUpEdit3.Columns18" xml:space="preserve">
+    <value>Version</value>
+  </data>
+  <data name="gridColumn1.Caption" xml:space="preserve">
+    <value>Unit</value>
+  </data>
+  <data name="gridColumnVersion.Caption" xml:space="preserve">
+    <value>Version</value>
+  </data>
+  <data name="colInvoiceXODetailPrice.Caption" xml:space="preserve">
+    <value>Price</value>
+  </data>
+  <data name="colInvoiceXODetailQuantity.Caption" xml:space="preserve">
+    <value>Quantity</value>
+  </data>
+  <data name="gridColumnZR.Caption" xml:space="preserve">
+    <value>Discount</value>
+  </data>
+  <data name="colInvoiceXODetailMoneyxset.Caption" xml:space="preserve">
+    <value>Money</value>
+  </data>
+  <data name="gridColumnZS.Caption" xml:space="preserve">
+    <value>Give</value>
+  </data>
+  <data name="gridColumn3.Caption" xml:space="preserve">
+    <value>Stock</value>
+  </data>
+  <data name="colInvoiceXODetailNote.Caption" xml:space="preserve">
+    <value>Product description</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="gridColumn6.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="gridColumn6.VisibleIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="gridColumn7.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="gridColumn7.VisibleIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="gridColumn8.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="gridColumn8.VisibleIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="gridColumn9.Caption" xml:space="preserve">
+    <value>Quantity shipped</value>
+  </data>
+  <data name="gridColumn10.Caption" xml:space="preserve">
+    <value>Return quantity</value>
+  </data>
+  <data name="layoutControlItem7.Text" xml:space="preserve">
+    <value>Detail</value>
+  </data>
+  <data name="layoutControlItem2.Text" xml:space="preserve">
+    <value>Date:</value>
+  </data>
+  <data name="layoutControlItem1.Text" xml:space="preserve">
+    <value>No.:</value>
+  </data>
+  <data name="layoutControlItem17.Text" xml:space="preserve">
+    <value>Customer order No.:</value>
+  </data>
+  <data name="layoutControlItem10.Text" xml:space="preserve">
+    <value>Estimated delivery date：</value>
+  </data>
+  <data name="layoutControlItem3.Text" xml:space="preserve">
+    <value>Employee:</value>
+  </data>
+  <data name="layoutControlItem26.Text" xml:space="preserve">
+    <value>Lot number:</value>
+  </data>
+  <data name="layoutControlItem28.Text" xml:space="preserve">
+    <value>Customer:</value>
+  </data>
+  <data name="layoutControlItem33.Text" xml:space="preserve">
+    <value>Shipping customer:</value>
+  </data>
+  <data name="layoutControlItem38.Text" xml:space="preserve">
+    <value>Currency：</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Customer order</value>
+  </data>
+</root>

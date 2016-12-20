@@ -1,0 +1,488 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="barButtonItem5.Caption" xml:space="preserve">
+    <value>Customer order</value>
+  </data>
+  <data name="barButtonItem6.Caption" xml:space="preserve">
+    <value>Delivery record</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="checkEditSpecial.Location" type="System.Drawing.Point, System.Drawing">
+    <value>940, 67</value>
+  </data>
+  <data name="checkEditSpecial.Properties.Caption" xml:space="preserve">
+    <value>Special</value>
+  </data>
+  <data name="checkEditSpecial.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 19</value>
+  </data>
+  <data name="btn_GetNewPrice.Location" type="System.Drawing.Point, System.Drawing">
+    <value>424, 265</value>
+  </data>
+  <data name="btn_GetNewPrice.Size" type="System.Drawing.Size, System.Drawing">
+    <value>157, 22</value>
+  </data>
+  <data name="btn_GetNewPrice.Text" xml:space="preserve">
+    <value>Update product price</value>
+  </data>
+  <data name="btnPlus.Location" type="System.Drawing.Point, System.Drawing">
+    <value>298, 265</value>
+  </data>
+  <data name="btnPlus.Size" type="System.Drawing.Size, System.Drawing">
+    <value>122, 22</value>
+  </data>
+  <data name="btnPlus.Text" xml:space="preserve">
+    <value>+</value>
+  </data>
+  <data name="textEditOtherChargeNote.Location" type="System.Drawing.Point, System.Drawing">
+    <value>179, 367</value>
+  </data>
+  <data name="textEditOtherChargeNote.Size" type="System.Drawing.Size, System.Drawing">
+    <value>364, 21</value>
+  </data>
+  <data name="textEditOtherChargeMoneyset.Location" type="System.Drawing.Point, System.Drawing">
+    <value>643, 341</value>
+  </data>
+  <data name="textEditOtherChargeMoneyset.Size" type="System.Drawing.Size, System.Drawing">
+    <value>133, 22</value>
+  </data>
+  <data name="EmpAudit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>834, 367</value>
+  </data>
+  <data name="EmpAudit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>173, 21</value>
+  </data>
+  <data name="calcInvoiceAllowance.Location" type="System.Drawing.Point, System.Drawing">
+    <value>406, 67</value>
+  </data>
+  <data name="calcInvoiceAllowance.Size" type="System.Drawing.Size, System.Drawing">
+    <value>95, 21</value>
+  </data>
+  <data name="textEditAuditState.Location" type="System.Drawing.Point, System.Drawing">
+    <value>617, 367</value>
+  </data>
+  <data name="textEditAuditState.Size" type="System.Drawing.Size, System.Drawing">
+    <value>159, 21</value>
+  </data>
+  <data name="calcEditInvoiceTotalset.Location" type="System.Drawing.Point, System.Drawing">
+    <value>834, 341</value>
+  </data>
+  <data name="calcEditInvoiceTotalset.Size" type="System.Drawing.Size, System.Drawing">
+    <value>173, 22</value>
+  </data>
+  <data name="calcEditInvoiceTaxset.Location" type="System.Drawing.Point, System.Drawing">
+    <value>834, 316</value>
+  </data>
+  <data name="calcEditInvoiceTaxset.Size" type="System.Drawing.Size, System.Drawing">
+    <value>173, 21</value>
+  </data>
+  <data name="comboBoxEditInvoiceKslb.Location" type="System.Drawing.Point, System.Drawing">
+    <value>616, 316</value>
+  </data>
+  <data name="comboBoxEditInvoiceKslb.Properties.Items" xml:space="preserve">
+    <value>Tax exemption</value>
+  </data>
+  <data name="comboBoxEditInvoiceKslb.Properties.Items1" xml:space="preserve">
+    <value>Plus tax</value>
+  </data>
+  <data name="comboBoxEditInvoiceKslb.Properties.Items2" xml:space="preserve">
+    <value>Inclusive tax</value>
+  </data>
+  <data name="comboBoxEditInvoiceKslb.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 21</value>
+  </data>
+  <data name="calcEditInvoiceHejiset.Location" type="System.Drawing.Point, System.Drawing">
+    <value>834, 291</value>
+  </data>
+  <data name="calcEditInvoiceHejiset.Size" type="System.Drawing.Size, System.Drawing">
+    <value>173, 21</value>
+  </data>
+  <data name="spinEditInvoiceTaxRate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>617, 291</value>
+  </data>
+  <data name="spinEditInvoiceTaxRate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>159, 21</value>
+  </data>
+  <data name="simpleButton_Remove.Location" type="System.Drawing.Point, System.Drawing">
+    <value>166, 265</value>
+  </data>
+  <data name="simpleButton_Remove.Size" type="System.Drawing.Size, System.Drawing">
+    <value>128, 22</value>
+  </data>
+  <data name="simpleButton_Remove.Text" xml:space="preserve">
+    <value>-</value>
+  </data>
+  <data name="simpleButton_Copy.Size" type="System.Drawing.Size, System.Drawing">
+    <value>145, 22</value>
+  </data>
+  <data name="simpleButton_Copy.Text" xml:space="preserve">
+    <value>Copy Product</value>
+  </data>
+  <data name="comboBoxConveyanceMethodId.Location" type="System.Drawing.Point, System.Drawing">
+    <value>607, 67</value>
+  </data>
+  <data name="comboBoxConveyanceMethodId.Size" type="System.Drawing.Size, System.Drawing">
+    <value>115, 21</value>
+  </data>
+  <data name="newChooseXScustomer.Location" type="System.Drawing.Point, System.Drawing">
+    <value>470, 42</value>
+  </data>
+  <data name="newChooseXScustomer.Size" type="System.Drawing.Size, System.Drawing">
+    <value>172, 21</value>
+  </data>
+  <data name="lookUpEditFreightCompany.Location" type="System.Drawing.Point, System.Drawing">
+    <value>132, 67</value>
+  </data>
+  <data name="lookUpEditFreightCompany.Size" type="System.Drawing.Size, System.Drawing">
+    <value>216, 21</value>
+  </data>
+  <data name="textEditNote.Size" type="System.Drawing.Size, System.Drawing">
+    <value>472, 72</value>
+  </data>
+  <data name="textEditSongHuoAddress.Location" type="System.Drawing.Point, System.Drawing">
+    <value>826, 67</value>
+  </data>
+  <data name="textEditSongHuoAddress.Size" type="System.Drawing.Size, System.Drawing">
+    <value>110, 21</value>
+  </data>
+  <data name="buttonEditDepot.Location" type="System.Drawing.Point, System.Drawing">
+    <value>705, 17</value>
+  </data>
+  <data name="buttonEditDepot.Size" type="System.Drawing.Size, System.Drawing">
+    <value>302, 21</value>
+  </data>
+  <data name="buttonEditCompany.Size" type="System.Drawing.Size, System.Drawing">
+    <value>247, 21</value>
+  </data>
+  <data name="buttonEditEmployee.Location" type="System.Drawing.Point, System.Drawing">
+    <value>705, 42</value>
+  </data>
+  <data name="buttonEditEmployee.Size" type="System.Drawing.Size, System.Drawing">
+    <value>302, 21</value>
+  </data>
+  <data name="textEditInvoiceId.Location" type="System.Drawing.Point, System.Drawing">
+    <value>411, 17</value>
+  </data>
+  <data name="textEditInvoiceId.Size" type="System.Drawing.Size, System.Drawing">
+    <value>231, 21</value>
+  </data>
+  <data name="dateEditInvoiceDate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>247, 21</value>
+  </data>
+  <data name="gridColumn2.Caption" xml:space="preserve">
+    <value>No.</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="gridColumn2.Width" type="System.Int32, mscorlib">
+    <value>47</value>
+  </data>
+  <data name="colProductId.Caption" xml:space="preserve">
+    <value>ProductId</value>
+  </data>
+  <data name="colProduct.Caption" xml:space="preserve">
+    <value>ProductName</value>
+  </data>
+  <data name="gridColumnCusPro.Caption" xml:space="preserve">
+    <value>Customer Product Name</value>
+  </data>
+  <data name="gridColumnCusPro.Width" type="System.Int32, mscorlib">
+    <value>111</value>
+  </data>
+  <data name="gridColumnUnit.Caption" xml:space="preserve">
+    <value>Unit</value>
+  </data>
+  <data name="Quantity.Caption" xml:space="preserve">
+    <value>Order quantity</value>
+  </data>
+  <data name="colInvoiceXSDetailQuantity0.Caption" xml:space="preserve">
+    <value>No shipping quantity</value>
+  </data>
+  <data name="BeenQuantity.Caption" xml:space="preserve">
+    <value>Shipment quantity</value>
+  </data>
+  <data name="gridColumnPosition.Caption" xml:space="preserve">
+    <value>Goods allocation</value>
+  </data>
+  <data name="gridColumn1.Caption" xml:space="preserve">
+    <value>Order No.</value>
+  </data>
+  <data name="gridColumn1.VisibleIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="gridColumnCusXOId.Caption" xml:space="preserve">
+    <value>Customer order No.</value>
+  </data>
+  <data name="gridColumnCusXOId.VisibleIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="colDonatetowards.Caption" xml:space="preserve">
+    <value>Give</value>
+  </data>
+  <data name="colDonatetowards.VisibleIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="colInvoiceAllowance.Caption" xml:space="preserve">
+    <value>Discount</value>
+  </data>
+  <data name="colInvoiceAllowance.VisibleIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="colInvoiceXSDetailPrice.Caption" xml:space="preserve">
+    <value>Price</value>
+  </data>
+  <data name="colInvoiceXSDetailPrice.VisibleIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="colInvoiceXSDetailMoney.Caption" xml:space="preserve">
+    <value>Money</value>
+  </data>
+  <data name="colInvoiceXSDetailMoney.VisibleIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="colInvoiceXSDetailTaxPrice.Caption" xml:space="preserve">
+    <value>Tax price</value>
+  </data>
+  <data name="colInvoiceXSDetailTaxPrice.VisibleIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="colInvoiceXSDetailTaxMoney.Caption" xml:space="preserve">
+    <value>Tax price Total</value>
+  </data>
+  <data name="colInvoiceXSDetailTaxMoney.VisibleIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="colInvoiceXSDetailFPQuantity.Caption" xml:space="preserve">
+    <value>Invoice Quantity</value>
+  </data>
+  <data name="colInvoiceXSDetailFPQuantity.VisibleIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="colInvoiceXSDetailTax.Caption" xml:space="preserve">
+    <value>Tax</value>
+  </data>
+  <data name="colInvoiceXSDetailTax.VisibleIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="gridColumn3.Caption" xml:space="preserve">
+    <value>Remark</value>
+  </data>
+  <data name="gridColumn3.VisibleIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="gridColumnVersion.Caption" xml:space="preserve">
+    <value>Version</value>
+  </data>
+  <data name="gridColumn4.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="gridColumn4.VisibleIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="gridColumn5.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="gridColumn5.VisibleIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="gridColumn6.Caption" xml:space="preserve">
+    <value>Return quantity</value>
+  </data>
+  <data name="gridColumn6.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="gridColumn6.VisibleIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="gridControl1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>990, 146</value>
+  </data>
+  <data name="layoutControlItem8.Text" xml:space="preserve">
+    <value>Product detail:</value>
+  </data>
+  <data name="layoutControlItem4.Text" xml:space="preserve">
+    <value>Remark：</value>
+  </data>
+  <data name="layoutControlItem9.Text" xml:space="preserve">
+    <value>Tax rate：</value>
+  </data>
+  <data name="layoutControlItem12.Text" xml:space="preserve">
+    <value>Subtotal：</value>
+  </data>
+  <data name="layoutControlItem15.Text" xml:space="preserve">
+    <value>Tax type：</value>
+  </data>
+  <data name="layoutControlItem20.Text" xml:space="preserve">
+    <value>Tax：</value>
+  </data>
+  <data name="layoutControlItem23.Text" xml:space="preserve">
+    <value>Total：</value>
+  </data>
+  <data name="layoutControlItem30.Text" xml:space="preserve">
+    <value>Other expenses:</value>
+  </data>
+  <data name="layoutControlItem2.Text" xml:space="preserve">
+    <value>Date:</value>
+  </data>
+  <data name="layoutControlItem1.Text" xml:space="preserve">
+    <value>No.:</value>
+  </data>
+  <data name="layoutControlItem7.Text" xml:space="preserve">
+    <value>Depot:</value>
+  </data>
+  <data name="layoutControlItem5.Text" xml:space="preserve">
+    <value>Transport company:</value>
+  </data>
+  <data name="layoutControlItem11.Text" xml:space="preserve">
+    <value>Shipping method:</value>
+  </data>
+  <data name="layoutControlItem6.Text" xml:space="preserve">
+    <value>Customer:</value>
+  </data>
+  <data name="layoutControlItem3.Text" xml:space="preserve">
+    <value>Attn:</value>
+  </data>
+  <data name="layoutControlItem24.Text" xml:space="preserve">
+    <value>Discount：</value>
+  </data>
+  <data name="layoutControlItem28.Text" xml:space="preserve">
+    <value>Auditor：</value>
+  </data>
+  <data name="layoutControlItem27.Text" xml:space="preserve">
+    <value>Audit state：</value>
+  </data>
+  <data name="layoutControlItem32.Text" xml:space="preserve">
+    <value>Other expenses Explanation:</value>
+  </data>
+  <data name="layoutControlItem10.Text" xml:space="preserve">
+    <value>Shipping customer：</value>
+  </data>
+  <data name="layoutControlItem19.Text" xml:space="preserve">
+    <value>Shipping address:</value>
+  </data>
+  <data name="layoutControl1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1024, 405</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1024, 452</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Bill of sales</value>
+  </data>
+</root>

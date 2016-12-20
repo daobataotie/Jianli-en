@@ -1,0 +1,1714 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="barButtonItem9.Caption" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="barButtonItem10.Caption" xml:space="preserve">
+    <value>Copy</value>
+  </data>
+  <data name="barButtonItemList.Caption" xml:space="preserve">
+    <value>Product list</value>
+  </data>
+  <assembly alias="DevExpress.Utils.v10.2" name="DevExpress.Utils.v10.2, Version=10.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+  <data name="imageCollection1.ImageStream" type="DevExpress.Utils.ImageCollectionStreamer, DevExpress.Utils.v10.2" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFpEZXZFeHByZXNzLlV0aWxzLnYxMC4yLCBWZXJzaW9uPTEwLjIu
+        NC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI4OGQxNzU0ZDcwMGU0OWEMAwAAAFFT
+        eXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRv
+        a2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAAChEZXZFeHByZXNzLlV0aWxzLkltYWdlQ29sbGVjdGlvblN0
+        cmVhbWVyAgAAAAlJbWFnZVNpemUERGF0YQQHE1N5c3RlbS5EcmF3aW5nLlNpemUDAAAAAgIAAAAF/P//
+        /xNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAwAAABgAAAAYAAAACQUAAAAP
+        BQAAANM6AAACogQAAIlQTkcNChoKAAAADUlIRFIAAAAYAAAAGAgGAAAA4Hc9+AAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAABC1JREFUSEuVlctP
+        W0cYxb8/oA+rq0rJIpvs2XXXetdNF/kDWinLLiq666KrqFlH2VWlaUSktlHVqqJJw/thzJvwJtgYgyF+
+        4GsCjrnY2ODrO6fnuzbgGyehudLRhZn5fmdm7pmxnD2u63bWarWCMQbvopG8QduMwbX5+v/KIOtuA1t/
+        2HGdjd3NhZeJIIzvHkEGDWTOhay4531kPeT7egMvwsFfOo6zzg7tvFRZu4xkMolEIoH22AFklQZLF/3k
+        zSuzgRdxHLfj9LR64Dg1vE1bdg2fjbq4GqpiJmUhnU6jfT0PWabBgns+jixLmR6cS/mIjavVqoO3ybZt
+        3F44wgeTNci6i0fZQ2QyGbRHabBIA25T83hlKpuzdz6nI05OXq+BlIOt3X1YloVisYhgknseaTKI0GCe
+        BrOur06ZypZqtfp9pXKKV5WzT/HNBGf7EPgi5ngfVVfcliDsGQ126wY3nxUgT9k2bVoYytYV3CmVyrVy
+        +QRn6lh18GEn6gmJuQhm+G48gaiLn3OnyOfznsEnS8cQxlQmzXm9SpnKfq2B/Eg4UyFbVJwGqQuDlzWd
+        acUz6N/Zw9W5KmSK/RNvMCiXK8f2UQnNkp9ooPBNSleg+954NOdWqYKv42XOnP2EB7g9MmZ8DJWyaVDG
+        Qf7QJ7lHA4VvUNyS4M6FQecBgZoaftRgxGCpBARX2D9qWjjKlmLxGFbuwCe5TwOFM46yRtC2wc4pQXGC
+        GMcAM3/XAnJlYCrH9iW2j3Blr3CULbZd5IHJ+SQPaKBwxlFPaYCp8bLOON6gSaEGdO0Av202DBZpMGRa
+        OMqWQsHG9k7aJ/mVBQpXsJ5Swq/RKHQEJGygIwoMZupvXUWQF50MmBaOsuUl9yq+lcTG5vNzye8sUDgv
+        ME3TraxB5qQ+Y525gnXm5yuY4/g+42MoU9liWftYXI4itrGNaCyByPoW5A8WNODBDYO9CnAvDvzzvA7V
+        2et7jSu6oftPuPQYr1YZylKmsiWZyqKnfxyh8CxmZpexuBKF/MkCPQf8mMGYQckBfiFw+gVwZxVYzQO3
+        toFAqA5/v6+G76b2vFplKEuZypZkMouux8OeevrHMBSahvzNQsI1McF1/s3nX876UQoIFYC2WbbpKe83
+        +HT4EH9NrCE8PufVKuOMp2xJ8drtpZuqu28MT3rDkC4W649II+svuP9x5v2mmjGOCv94oIIfhuMYHJ5G
+        /+Akunvrtco44ylbUmkLQyMzPsljQgjXC6xt2aCTHzLAq8CDM45fDabQNfyU8CnPYGhE5WeolC3pTI7L
+        m/dJnhCkx58XmIxTPKUKbxuxcT8caRn/JilbMrs5TM0s+yS9TfCwwXshB9+OZ1rGXSZlSza7h4WliE96
+        aM7gwQkbo4uxljH/R8oWK7fv5bdZV8JVXJmo4sHKbkvfu8jK7eM/tvtmcHXAJa8AAAAASUVORK5CYIJH
+        BAAAiVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+        AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAD0klEQVRIS7WTW0ybZRjH3ysv1bFg
+        cNHswmBmDBcuXhjvvFBMXGJ07kaNid5oYqKJJkbnYjRTp3E6Tdyyg5vzsJFhtmVIKYVyaIGWjlJKy6kb
+        FNqOtq4IlHO/Q//+nw/4NoQbHXzJL+33Hn7P+zzP+6nVxzTNnw3DmCoWi7gTxEHXkRXt8sOJcg46/r34
+        /0LXef6Wr+iVYtRXdV0f5IRM3jH0BcW5oldK180ThYI2oesGNgO6MuK05EylhIMRTdOxmYhT3Dy9XsmI
+        WFr67zSM6hYHfCZqEibe9Baxx1HEqaiVBYPolUrTtP2LiwVsRGBcgyuu45uggStjBg72mLiQMrG/F/hl
+        HDhLAkvAR3x/5ALwehsQ5vvJiG7tF7dk8O3c3IJxlFE/C5moouBDbjjDzacJ/yJMekiIdJMWSj4dBJ5y
+        Aeo48EQN4J0BRmSec/VxDeIUtx3gYLeB4xT6uchH2gkPBA9pJc3k8zjwHAe2VwF3/Qo8egmo4h4RXyeM
+        aR1s8GbhVoCFhcX5/MwchGh6Hl8zva+46AoXXyZHcsALnUDZRWAbhffyt5QBDscAxrPFERIkP3Lvqk/c
+        DLCAib+n1xBKzuCtDg0POYAddcCDjcADLMc91cB7rJPUeZiyIRJdEXcQyfLtcNH2iFvNzs4jk51Yx8Vo
+        HrtYq4dZq51uYA93S51vF0s/pJwi5jnA5HB4VLMd4lb5/CxSqew6qnsmrQAVXcD9TmbSBPzG9PsokWZL
+        r1oIp8DK4XdykrzWVrAd4lZTU3nER1PrqO3NYhdP/ziLW8oSldFcwvdXGLBWbgpl0qNz5BT5nnxBvuu7
+        5RO3mmStrg0nELs+to6KAPAkm3l3A3Af72spa1JxqYAPPHl8wmx+ovAH8iX5mLxjAu83T1t7xSlulcnk
+        EAoPYCgWx8DQCPoHh9E/sMxuXv7HWI8SdnA7g71UP2PPnfWNYy8/vAMUv0vxGwXOz/Pj86ctlzjFrRLJ
+        NOpcbWjxBNAZCCPUO4BIXwyRaAy7KZcmb2OAF+umEY4M2fSS9tA17HPP4pkUUJnnYXgDjrmHLZc4xa0S
+        iTQu1zRZ1Lm8cLf44WnrQrsvhHJ2sYzX8/k/JxEM9d9GH64GoxZ+HuqQcwTlXgM7WMY/nD7bJ26VTGbg
+        ZDTBUe9FrdMDh9MLV2MHnnbl8ey5HJpbrzJo0KbV22WNCY1NfmtttcOHl8+PWY5Vn7hVMpWBu7lzA/zW
+        5sYmn0WDey2r47JG1m7kELdK3ciuOd1mIm51YzwLX2d4SxC3Sqf/QndP/5YgbpXJ5pbv/haQyebwD4vX
+        y3Mf61hMAAAAAElFTkSuQmCCIQUAAIlQTkcNChoKAAAADUlIRFIAAAAYAAAAGAgGAAAA4Hc9+AAAAARn
+        QU1BAACxjwv8YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAABKxJ
+        REFUSEullO9vE3Ucx+8PMBo1KBAJIREGygISCRA0OjRBjU/kkSIq8pAHM/GR0ahERHgATh+IAUQJCkyM
+        /NzYuu5X263dj7a027p2bO3aXtfedu39/tH22r393u1HtjFdEy955e4+n8+9Pve5fr+l5o5yufxbqVTi
+        p6en8X8wHcRVN6udOUhiIwk2Liys61ex8zKHSaW0SFAJxHWVnDfO6imKdD1kGEaYJMykRW27hEd+YvFV
+        jwJWK83HK4H4vKZzVk9RhlE+VygUs4ZRwhz2RB7V13msvsKhiVwvzK0EcWVMpyUnozxBggPFooGFSLqB
+        Wo+Mp/7iUetVwGnFRfmVMJ2mm7y9sV/PF5ESCpDUIvLkeo7mlI7NNglVdhEXYvqi3EqQKUgTYz9VLBY/
+        9yQ1vP4nhzP9MppiKqbkPHS9AFYp4NNBFes7Zez3KWDIvRmvFNNtTnDGSyvltedYPPZLFk9fy+FIt4wT
+        QwoCWR33czqe7VVR7VdxKqlD0/IVoShayXRbDWRyM8Ro+KRLwq4GAWtuC1jXIqGmT8WBQQ07hzQ8F9Kx
+        e6yAJJluOeFS5htomq6KkoI5ulMyTockvOaWsaFbwSa/hufDZEXFCtgd1/DdpAp+Qf1SWGHmnOAV0khX
+        SQMN2ZzwEF0TIq7ERbwZUrH1AWmQNnA8nkV9bAINkxyuyRoivDRfz2QFeJICTg4I+DYi4aOwgo8TOihZ
+        VpFhsv9KKJ1DfUrE4bQEJy8jPkLjbSLZPl7A+2IRX+h59DMcTtznsIoslHU2EdvJ8q4KaNbUlCjKoGnm
+        P0nMns8zAg705LDmwhQevZjD+g4Z1dECdoQ0rL4lYNMdHicDOTSMsTib4PEOnQfF8yJi43RFXIlPYYNP
+        x+NnWdScm8DX9jTW/J7DKrLjTd515hbV3+VVUBz5fg/GEhgZja9IVyyF91IK1t4W8dL5CTiDCTT7EjjV
+        SqOqkceODgG2MG3Vms4oJ4LKZFj4A8OIjMQwHIkiFB5DaHh5guEoLo1nsIUs2VUXWRy7FbfivlAUx3sm
+        sLFDxC6vjB8iDH4M0TjCkU+USKZxz+ZCh6MXPb0B+IPDGBgawcDgCIImAxGLwAJe8Mt48iqHLb8yuN4X
+        tWrNZ47103jVL6B6tIAaWsUeqUwaJNK4eafN4p7NidYODxyufnS5/fCQhn3eQQuvP2RR1z6G9fVZsmLI
+        P+0NAVubOJxyjKLV5bWe/dvuxonOAI65h3A3nQWVTGbQRCYwaWx2oqHJgcYmJ2z2btjbPGjv7LNwEEG7
+        y4fqmyyeucHjcHMc37SNYFsbh80uCafbgrhrPksccz7TTSXpDFrbe5bBYzWwt7ktWlrduGT3YYcti312
+        BrbZ3PeOEHb5JHzoJ1+ik0yxwGG6KTrFWG9XCT87h7G1W8QH7jRaXH4r1tLlx8EhFvuiMi73DS+qN91U
+        aoKBuydQEafJD7qJ7NBXBiWc9Y1ZMUdvEAfjAt5gVNz0hxfVm24qnZ6E736oIuqDUbw4qmFbooC3kgo+
+        G5/C0RSHvXIJh8imWlpvuqkMw86s/Qroi8TwZTyHl9kC9vFF7NHL2GsANaVp/JHKPFSfYVj8A7IsrTwe
+        oa9ZAAAAAElFTkSuQmCCpwQAAIlQTkcNChoKAAAADUlIRFIAAAAYAAAAGAgGAAAA4Hc9+AAAAARnQU1B
+        AACxjwv8YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAABDJJREFU
+        SEutlElsG2UUx0dCBVSxqC2qoFVFBQSEilgELYgDNwQXpBw5oHIpolduKAIlFaKtkNIiBIeyiAJhL00V
+        krhOm4Q4aZZmqRPVzu7d42VmPJ7N2zj58944duIELk0s/WV5Zr7f73vP3xuh+llZWfm+XC6rq6ur2E6Y
+        Qazza9jKh2400MWuzQ/faYj1C303rOEFgazv2LY9Szf45rZDvAlmruEFwbZXLhSLJdm2y9iJECvBTAdO
+        peylizOlko3NMQwDM6k02tIKzmWyOK9mMUy/FUVBoVDc8vzGMJPZtHv7DTLSgvqoBDsl6ngxbeOoUsbL
+        WhmvWCt4tbiKxoKNK7IC07S2rKuGmcwWSqVSUz5fxMbouoHmkI5nFgt4NljE85ESXhBLFVlmXdYmZZxn
+        N6+vhtlcQatp5sq5XAEcTTMwuhRDw4SFpkgRPQT7XS3jtUCxIovWyy4nZVhW3lm7Mcxk9hZBLJJAi1fC
+        4QEDV2UbboK4SfBBqIinb+dxZC6/XhnJ3hTzkCT5/wW5XN7SdBPVhAIRtEzIONit4S/aqYt26pJsnPDn
+        8cSYhScnLTzlza3JCo7sckyprd8YZpMgB1nJ1hKPxtEypmD/nyqOunU0zeRwfNzCoR4dj/YZOOwx8NgN
+        s052NqBCkjN1HA6zBcOwkKA+ViOnJXw9JWPPRQWHfsvgw8kc3iPYw+1ZPPJ31qlss+zMvIpkSqrjcJgt
+        8J8ajSZrMbIawokMDn4r49gfKjqo1x3U/31tGTxEQq6MZQdY5qrIPvVR5fFUHYfDbEFVNQSC0VosXXck
+        rcMq9n2RxkdDJk72Grj/gowHv6tUVpNdqshGYipC4Vgdh8NsIUO9WlgKY34x5ESmE8ESU9PxbruCXaeT
+        uOezFO49l8JuEt73lYQHqrIfFLzvydIpUmrrq2Ems4VEQsKU14+5+QD8c8tYplPEgqqkdVDDnrNJ3PVJ
+        ArvO1MtO9KgwDROimIbPvwTf7JLDYBYzmS2EIyK63YPoHxjD6JgXU9N+iPFETWJoGuKSjm/GNDT36Wju
+        1/Fxn4peXwoLBIqE4840J5K0UVrLDGYxk9lCOCyivaPXSbfbg+v9IxgYHEcwuLESDQq1ToyJCC6HMOdf
+        xPQtH8YJNk07DYdiWNBMfBmIOowqj9lChCbXRTZO11UPOl0D6HJ54L52AzdvziART9YkmZokjFtTvprk
+        yuQSjs3n8BIN5MngOo/ZQiSawPW+0f/ICK71cobhGZqA1zuLWdo5S3v7R53r/1ArvFO38XpX0pkLHrrn
+        6P31dlRF58A4mC1EY0lqycQdxzM0icZfQ9j7o4IDnRoeHzFxZL6At+htPEezIcSoBcOj3m2lZ2gGjT+F
+        nOPLg1itpjFIrwpRTGGSerkTabwYxu7P05VquirVCHy8+PzuVI7/HMHdNDdONZdU/Avoc60cBqRChgAA
+        AABJRU5ErkJggvYEAACJUE5HDQoaCgAAAA1JSERSAAAAGAAAABgIBgAAAOB3PfgAAAAEZ0FNQQAAsY8L
+        /GEFAAAAIGNIUk0AAHomAACAhAAA+gAAAIDoAAB1MAAA6mAAADqYAAAXcJy6UTwAAASBSURBVEhLtZNZ
+        bxtVGIbnN/AfegUtiFvEFYJewD1SqbiAoqqIC1DFRUKlKi1VEQVK2kI3lqJCitgalWb1eGY8tuMlTpo4
+        XuIl49jjfYnt2B57PE5evjPELmnacgEd6ZGl73zf854z48P1n62tre97vV51e3sb/wXmINf5He3fDy3s
+        o+LEg83/xkIzD1Xf3FMn1xj97tvRcxylHjYMI0wLbPGxMMGGoWGs5MdQSsBJVcZ0bQ3drd6gh3w+5tzR
+        c5xhbF3V9W7ZMHp4HHrPwHwrifN5G85kBJzJShhJi/hIFXApN49kp0byLZArz5ymnHb0FA37u10Dj4J2
+        g1y3itu1BYwWeVwoCvgyL+EL4lxOwicUdJqCRlQbJqsxbHQ12pARY27avXGQEtHp7EXXDXQMHT4tgh83
+        JFwv8/imLOJaScTloohLBRGjBYlOJOEzCvk4bcWptABfI2O+Kubmut3ucLut40HYzrPdAqabDtyqz+JW
+        jcdYTcDNqoAbGwK+rYgUKOIKhV0o8LhIYb9XlrDYyOFydhnpdoMc3WF2gs+bTa2naR0wGu0OmvQRV40g
+        JjQL7jQZVtwmfqsL+IVCzCAKuVERcLVsoZoT7qYCayWDIcWDd2IWpFq1bebeE3BdjeJ00oc7m3Nw6iIs
+        bQtmNB6TLSv+pJDxhhV/NCiobsXPdCqPFoCnnsWn62EcCso4GrXhWJy/H6Bp7VZ9s4k+X60H8XpAwrtR
+        J34o+uDq2CHrFvAdC6ZbFtw1TzQLQXMgqKXwXXodh/xevLos4o2giLdXBQwn7Ci2m7ThdosCNJQrtQFX
+        Eis4ErbhrZCIYxH6eKoHQsMNh26F0J6CvcMjrAdgr+RwJODHC14ZLy9IeG1JwJshCVcyARRbTdTqDQrQ
+        wDUaLeTy5QFfK0s4uirSCUS8H2MIOKHY8FPJAb8+j2ArgXNxBc87HXjWKeFFrw0v+UQcj/qwUC2a4nyh
+        YrqYm6tTQVXpyu/wqxLEB1EJ70V5HI9b6aNZKYDHyXULbmaCOHxvGQckEQdkG55zinjFJ+NWOoFitY5c
+        rrTLxdxclRaUhDoglkjBq8Rxac2NoTUeQ4lZjJD8rDqLEzEX9ssy9osCnpFFfBhagVKt0m5Luxx9mJvb
+        oPcejScRia3vYTq+glF6PadSMziXnsbJuAtP2yQcdLsxrqZRLFUeOcvqzM2xYy0uhbAaURBaXUMwHEcw
+        dJ+FcATj8XlcVGdwVpnDxTUFSrGMNUXd1WdCs8zBXMzJ3FwylcXkjB2izQO3h27icgj+QAT+lQiWGf5V
+        E0fYj0AhicR6xlzv11kP62U1NssczMWczM0lk1ncvkM3lZickcGLLtjs83DMLcJFzV7fiolvMfgPAoM6
+        62G9bIbNMkffx9xcKpXDFKUxJqZl3J2yYWJKxozFCYvVBUHymtjsvgGSPD+osx7Wy2bMWXL0fczNpdQc
+        eMH9EFzmsMU6ZzLL76ZfZz2s92EO5ubUdH7X7v5PmJtLZ/KYcy89EZiby2YLWLgXfCIwN8duofnffwLk
+        8iX8BaGdrlUImvQRAAAAAElFTkSuQmCC7QMAAIlQTkcNChoKAAAADUlIRFIAAAAYAAAAGAgGAAAA4Hc9
+        +AAAAARnQU1BAACxjwv8YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpR
+        PAAAA3hJREFUSEu11W9oG3Ucx/GfMKhW8A+TwTYFxSfFPRoMEcYe+8ixRz7VRzoFH/lQxDEYG+tksPpg
+        zunq2spEXGlpl1xzuTR/LkmbLEmTJW3atLNJk1ySS65Z0rTrpf34+/5qGWyHs7Y9eD/Jfe/1uz9Jjm1v
+        Gxsbt9rttrG5uYndRAa3rv7DMsY/fMk02761tcfm+rqJvYhb62SSzUzT/L7ZbLVbrTXsZWSSzVqt1ZX6
+        oyb+T+6khqLR4rdlA6a5jkdP7SebL9CCXl3ecfH5Mj75MYZsdRW2TAW9sSwazRXUak9myGaNxgqKmr6j
+        HubK+KI3htPXQmKBj+9G0XHFjq/Hk8jpBkrlqpgjm9XrDeRy2o7qHk7hg4sqjl/2odu7gN7EEg7/pKDj
+        uoQ/Z5fQWK6LObKZYdSx8DD3nxv0z+HkJRUnun3o6vHgresunA9l0JfO45tgGulagz+Lhpglm9X4vZrN
+        LCI999dzC8TncbpnQuDHfvDg3ZvjOPKrglcHZHw7PQd/w4BNr8CXywuTbFYsVhCJpTCTXkBqZh7J6QyS
+        qWdLJDP4rDeME1d8eI/j7/w8jjdvK3jjjhMdQ2Ngdhs6nWP4SFURTs8Lk2y2mC3gnuSFyz2B4EQMkakU
+        4g/SiCfSmKLiM6ILg1GB05kTfrRPwcHfOT4igTnsOKzwqwhOCoMsMslmi4sFDA47RfckD2RXAG5vCD5/
+        BAE+PBlOYECO4tRVVZz527+4cKTPhdf/kHHAxnHZjpOKC7c8QXEsGdse2SybLcLGV6NG7R6M2NwYtXkg
+        OVQ4nAF+NmGcHYig65p7C+9X8MpdB16Q7OiUJXwluzHMZ+kYcSw3tj2yWTZXhKzw1Z8pIBaY5s/lw/5J
+        HL2p4NBvCjqHHOKWvC/LuOH0iRmatTLIZrkljd+SsGVqIIpl/pP/LjCHl+8oeHFkDK85JHzu4s/MYv7p
+        yGZLeQ3+YMwyZ2oW9I+bz+fRIzlwW3ahXw1ZzlpFNisUSrgfTVr2ZSwK71QcqldFKDxlOfNvkc2KWmXr
+        u2/RGb8fUjSBB/xKrPY/L7KZVtKRWcjuS2SzklZp5wtl7EdkM103YnrVQLW2t5Gp69UIK5WMT3W9tkYv
+        i+ZKa08ii8xKxTgjXvzlcrWHX8njVf4u5S/rXUUGWWQKfHsrlarnNK1i8B3YTWSQtaUy9jeUSLp2hv1z
+        WQAAAABJRU5ErkJggiQDAACJUE5HDQoaCgAAAA1JSERSAAAAGAAAABgIBgAAAOB3PfgAAAAEZ0FNQQAA
+        sY8L/GEFAAAAIGNIUk0AAHomAACAhAAA+gAAAIDoAAB1MAAA6mAAADqYAAAXcJy6UTwAAAKvSURBVEhL
+        tZNLTxNhFIZPXBk37k0MC8Pev+CGH+DOqP/AlUtZsHRhjDFx56JuNHFFQEopvdECvUAppZfpFEqhFzpj
+        imIvVGln5njOlKm9fCVEYJInbb7vfZ8zV7AOXddtmqadGIaBV4Ed5Hp3ru0etDFJi/bh8P9Cri/0O3mu
+        B6CpzzqdToY2ePPKkC/Kzq7drtvAYeB1c+ezfgY2fAjgRbx2XAQNubWkJeB2RFMhSFOHWSc8hJtYJIbO
+        EOaJ2T68RH8/aeCkrC/Dh1zn43RKQxETTh1hjsIsG+bbPyZc+kj3jdLBdrv9Cujhvm02W1qr9QeHeb6l
+        dc9eRN/VTEudkS472X3hgK+lNsIySYZxDaLUR7u9Aa3W79NavYnjuLtCt4nvr4VvkKeJtrDHsJsGtPD4
+        x6+xPEmcIQRIxqyOMldsCnsMu6HROEVFPR6Lbb/efStCo9zf1IQdC3ZDrdbAUkm9ENgkoYAZuS7MW7Ab
+        Tk5qmD8oXchUki51m6T9xA2M54+EeQt2w0+6V7u5Amb3DsfyWq6aH06PlIGPpYYwa8FOdoOiVDEWl1DO
+        5lGS9zGdyWFaGiQs5REyJLaQDfwkHY3kuMsOdrGT3VAoVnDRuYo+fwTDkTjGdiRMpLKYSGZxh0nIJo8y
+        9LD3SJ4z8N7uWW+dM5zlDnfZwS52shsKhQrOzntMFp0BdPtC6F/dxLVgDEMU3ogmTWZSZYRD+iaIl+lK
+        b50znOUOd9lh+dgNxaKCDprG2JcCuODwo90RQKdrHV2eEHpXNkzs69sIZRpALKzFeuuc4Sx3zC45LB+7
+        oVhS0O0NCwiZZZcnaLLsDuKDgwZOZVTzv7XOGc6KHOyGUlmly4teihfpIr7fkoV7ItgN5SMVg+H4jcBu
+        qFS+49Z2+kZgNyhqtfvu3wCKWsW/XJRr25K9tLQAAAAASUVORK5CYILkAgAAiVBORw0KGgoAAAANSUhE
+        UgAAABgAAAAYCAYAAADgdz34AAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAA
+        dTAAAOpgAAA6mAAAF3CculE8AAACb0lEQVRIS7WUT28SURDA5wMYDx4bjaeePPgxvGjiQU7+uxiNn8DE
+        szejnjw0Hnoz6slUC7WatrbWkhQrNYVCC0X+lF1kC6XAwu7b3XEGWF3gsRotm/yyZN/Mb96bnQXcy7bt
+        acuyqo7j4P/ADnI96Wm7Fy1M0sPZweB/hVzP6T7Z0wNQ1WtCiG1a4MWRPNZtXDDka17IF2FnTw8ghD1l
+        GKYmhIV+nNdsvFG1pWteyKWwsyOno5yih99MU6AfPwyBsG934N+yGC/sZDftXlygithu+/OsSgWyVIB4
+        eCCkMV7YyW4wTfN+q2Xgn7hUsBBSDkLawbMZWxozCLv5BI8aDd3S9TaOQmm0ERIkZ5Jd5iqmNNaFnez+
+        qwJTJRNhi8QuMQevZy1prMuvArreataOGujHxR3qf5TEXjYdzB02pfEu7KYCOmoHh75AhIQSHmT8c9kN
+        9XoTFVUbyXT6CGGNhOFhzkQsaY4Lu6FWq2M+r44ksEG7WCEh82mYV7sVaR7DbqhWa7iXyY/k5BKN5yLJ
+        XJb6ubLekOYx7IYK9WonlcXk7vchnm6WEN6TaJAP/awnc0O57GQ3KEoZN6JxTCT3MJ5IY2w7hbF4l8vL
+        tIMQSQaZ6+deuNzNoVx2sIud7IaXWxpencnizWABb82reGehjHcXtQ4TQQNhhiRvJLz9zUTI6MRzLjvY
+        dXs1jdlcEeH0Ks34QF87cL+5He+IoAQu8trDPOHNp689kKYpghDSsY+ZWYI2eG6N/gECy1TFu5Nj4sQL
+        C0MJegf5goofVyJjgd1Q2Ffxczg6FtgNxWIJv3yNjQV2g6LSDPPsjwFFLeNPymqViOjcKSUAAAAASUVO
+        RK5CYIIGBQAAiVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABGdBTUEAALGPC/xhBQAA
+        ACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAEkUlEQVRIS5WVa1MTVxjH
+        9zP0A/SdX0CqDrTWliIgIFARaakX7IWOU1odrbwo7Yu2w8iLdlrHjjPOtNPWoVAQjCAhhCAFwyVAuAZM
+        MEhLQkjCJQgkm+wl++9zliS4CA5m5jcLZ8/+f8/Z3ecsF/9Fo9HfZVleVRQFcYZXFZTbgBoXsBjZGn8R
+        LIOyforFbv7oxD4a1G+ffM8DfDgMnLcCJUMKKh8p6PZr5+wEZdXQcV8snuPIelqSJDudYCcT6DzKMwLg
+        7ICCD/qiKOmT8eu0DG9Q1syPQ3lWlhmL5zhJit4SBHFZkmQ8S9X0zoJTD2Xkd0jI1Av4vCsC3bSAQEhK
+        XEdZXpaphtNSXqHBCVGUsJ0qxw6C/iiKSPDuAwnHSHCkIYz9fwRxvHZdcy3LZNlUvZRBRkQiWqYDITVc
+        IxhUcLpfQZE5qgqyWgW81RhG0p9BlJuCmutZJsvmRFH8KhwWEMfoXsW1KT9+mA1oBIxzMcF7JDjRSQKD
+        iLfvhnHgdhD1k3wiIw7LZiv4MRjk5VuORVwd96LOH8TA4ga+a3UmBHFJQtATRcE/ErLbRKTqwjhYHcKT
+        pTB4PpKAZbJs7sKQq+/yhA+9QQFzgBqeUd6EpC8NOwssCt5XBTJySPDOvQjydSFNuEaQ5QjgtwhAb54q
+        iKOfWcHXvSs42ydsCagXzjBBbxQnu2QcN4pIa4rgRGsANv9TrK0HNfB8OMQlW/24sgZcJq5tAAZhU/Cv
+        AjgloNuzgarBAD62iGqzMUFxXNAu4mhzBBWD9LoOBfCFxY0mpw/LK09VeJ4H9+nkMi6uQEN5gLaHEDBM
+        Mjth44GeJRE3J0P45GEIxdQLhd0ycmOCaqcC3X/AnSfANyNBnDN78POYCxsbIXClo16ULWIT//P8QjLj
+        OjAaBAZplf30/00ylpEozyQhvXEdBTfGUftYRj0JapzAbQdQSdWltMyDq7R5cWEBO0N7UZwKL/DXMj0r
+        EjykYyfJq+keVloF1M/IuEsrYILr41GcNwp4vY7Hq3VMMOJGKe2We4IeThkdb5C82Qe0k7R1nv6msW8H
+        JBS2RJDyN4836nm1w1OaF8A12j0ocgj4aBYvzfdU9ZV+EekNPJJrQ2rVb97h1e5O1UWQbXSBM9hdyKQH
+        U0L3LsHjvZN6f7Pqw7GqWWezVzedxi+ZSTA3t4DcpjEcMS+iaFLGGTue59HupNFtiVfNmo69VZktgrpP
+        XeqZAedyeWEwmtHQ1oOS5mEkdXiQR29AMX3JdmVii3QKYttFvGq2w7ItJM0QQp2NVuBye9HRadFwVW9F
+        snEOGf1hFI1iV04RmRSWqJq6lHV3nknE4bY1GBxucO55H7rN1h253jGCo4YZpHSt4SRt19spILIo8Bit
+        glXNGk/9EJl47G+eBcvm5j0+9FnGXkhjzxgK2+xIMgWQ00sfm34gP0YONdtm1RIy2nkcaplDRce4eh3L
+        5hYW/BgendoT9wen8NkDO14z+pHWRbfDDOTShyfbFMFBvRelJptmPsvmvL4lTNlnXgrLpBOVvQ4cMszj
+        gN6Hi13T6tj2eV7fEv4HaslicptBQ00AAAAASUVORK5CYIIkBQAAiVBORw0KGgoAAAANSUhEUgAAABgA
+        AAAYCAYAAADgdz34AAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpg
+        AAA6mAAAF3CculE8AAAEr0lEQVRIS6WU728TdRzH7w8wGjVTIBJCIgyUBSQSIGh002RqfCKPFFGRhzzA
+        xEdGoy4isgdD9IEzA1GCAhMjPze2rvvVbmu3bi3t1q4dW7v+Wnvbtfezd9frtXv7vduPbICuiZe8cnef
+        z+den/tcv99SS0epVPpN13Vufn4e/wfDQVxnFrULB0lsIcHWlYVnhmXsuchiNldcJSgH4rpMzlsW9RRV
+        LBYPk85BkjCSJse7RTzyE4OvBnNglOJyvByIb8RwLuopStdLTfm8ltH1IhlxAWssj6qrHNZdYtFGrlfm
+        1kLTtLThNOVklCdIcLRQ0LESUdVx3Cnhqb84HB/JgVUKq/JrYTgNN3l7vVbNF5DkNYhyAXlyvUR7UsU2
+        i4hKq4BzEXVVbi00rUCa6LVUoVD43BlX8PqfLE4PS2iLyJiT8lBVDUxOw6djMjb1Sqh150CTeyNeLobb
+        mOD0cFwqbWhi8NgvGTx9JYujAxJO+nPwZlTczap4dkhGlUdGfVyFouTLQpLkouE2G4jkxk8r+KRfxN4W
+        Hutv8tjYIaLaJePgmII9fgXPBVTsm9IQJ9M9THg/yw1kWZEFMYclBpISGgIiXnNI2DyQw1aPgueDZEVF
+        NOyLKvhuVga3ov5+GH7hHONyMNyUoijIZPkH6J8RcCkq4M2AjB33SIOUjhPRDJojM2iZZXFFUhDixOV6
+        OsPDGedxapTHtyERHwVz+DimgiKjIE1n/pVAKovmpIAjKRF2TkJ0IoG3iWTXtIb3hQK+UPMYplmcvMui
+        giyUjRYBu8jyrvQq5tSUIEhIJOj/JLZ4PkvzODiYxfpzc3j0fBabeiRUhTXsDihYd4PH1lscTnmzaJli
+        0Bjj8E4iD4rjBESmE2VxKTqHzW4VjzcyqG6awdfWFNb/nkUF2fEG79qzq+pvczIolny/e1MxTExG16Q/
+        ksR7yRw23BTw0tkZ2H0xtLtjqO9MoLKVw+4eHpZgwqw1nGFWAJVOM/B4xxGaiGA8FEYgOIXA+MPxBcO4
+        MJ3GdrJkK84zqLsRNePuQBgnBmewpUfA3hEJP4Ro/BhI4ChLPlEsnsIdSx96bEMYHPLC4xvHqH8Co2MT
+        8BmMhky8K3jBI+HJyyy2/0rjqits1hrP1A0n8KqHR9WkhuqEjP1iiTSIpXD9VpfJHYsdnT1O2PqG0e/w
+        wEkaukbGTEY8AZMz3VPY1JwhK4b8017jsaONRb1tEp19I+azf1sdONnrRZ3Dj9upDKh4PI02MoFBa7sd
+        LW02tLbZYbEOwNrlRHevy8RGBN19blRdZ/DMNQ5H2qP4pmsCO7tYbOsT0dDlw23jWeJY8hluKp5Io7N7
+        8CE4zQbWLodJR6cDF6xu7LZkUGOlYVnMfW8LYK9bxIce8iV6yRQrHIabSiRp8+3K4Wf7OHYMCPjAkUJH
+        n8eMdfR7cMjPoCYs4aJrfFW94aaSMzQcg96yaCA/6FayQ18ZE9HonjJjtiEfDkV5vEHLuO4Jrqo33FQq
+        NQv33UBZNPvCeHFSwc6YhrfiOXw2PYdjSRYHpCIOk011f73hptI0s7D2y8AViuDLaBYvMxpquAL2qyUc
+        0IHq4jz+SKYfqE/TDP4B846tIOjbSxUAAAAASUVORK5CYIKKAgAAiVBORw0KGgoAAAANSUhEUgAAABgA
+        AAAYCAYAAADgdz34AAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpg
+        AAA6mAAAF3CculE8AAACFUlEQVRIS7WWPW/aUBSGLXXKlLlSpXTJD+mQP9CtqvoPMnXtkLFDp0jdm63q
+        FCUNoYSvAMGGJIAx2JgESMBguyJKhKxYij28PZeCilK32JZj6ZEt2fd97HPtc80Z5hi6/hPDkQltSGgG
+        tIGBfl9Hf6DDMMa4vZ1gckdMLFjWPWzbhuM4cF13yucusFIGuAwRIxY3udVBpSaDL4nIFc6RypQQTxSw
+        u5/GIe2rooKLTh+9K43kJgzzBjdMOBU5Uz40KZSfCeIBBNlcGWq7h/bldbSC2I883X0epbIIRe1GLziI
+        55DKCqjWFbDz0T9BPE/HZ5CabchK5AIBiWQRJ3wVUiOAoOhTkEwLUwSqf32J4Jvm4F0FWEtQaNq3gEfm
+        +BSn5w3UJfUvwZeuhTfSA1aPKeiIOCT2iBQRRlBSeviojrHRsMGd0WBW6/wsbC7Yn+39CI5SPGLFGraa
+        Q7xqWeBaNKBB1AgmEAgvAQteJtiUB3h5RaFDuuiauCS8BAUijGC7omKjZf4RdIh/CbJEUMG8RAcnVbyX
+        dTy/cMCpNIC9hl6CJBFU8HiSd5QRXitUNpEGeglY4HeCScII5q+p2BthS7Xwgkm8BLuEP8HyD21vYOOt
+        ROULIwjSKgyL2oTiYo2J/AtCNjsW7lfw9O36qRec0EvmfNIXt/8J/C76nwz399dO4StfHwmi+G1hrLeB
+        Z6x17CwKOO4XCXF4xRC17sAAAAAASUVORK5CYIKDAgAAiVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYA
+        AADgdz34AAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAA
+        F3CculE8AAACDklEQVRIS82WO2/TUBiGLTF1YkZCgoUfwtA/wIYQ/4CJtUNHBiYkdrohpqqlaUhza5Lm
+        1jaX5uI4bZI2VxulKrIsIuEMD5/biKrClOSIShzp0ZE9vI+Oj7/vHO3GWIN7O/CkCdPp9Beu6zKZTHCc
+        79i2g/3N5uLCxjTHdHsjut0R/Z5Jvy8MLAZDi9HoK6Y1ZpZ8NZY+ghYUqvDWnEqoF+xiS/C5F2idS4hF
+        57TPcatLsayzHUqxvhklKHMkliOROiSTK1Mo1ak3WjcFl+FhIQMrNW4VNE/OMJod4on8goLY/ALdaJPL
+        l2UVSQJfkv9e4AUUj3Qi8SxbwcQCAmEugd6iUmtK6AGB4CIrWIdHshcr+hTT+Yug2mQvUyQUTosgO79A
+        +yx4zyJ6UXHZ6E18BUciyMo+hKPZS5QEWlxIwcMDWDUcyp3htaBisH9YJba7L4LMnIJNwUegZQWRaGV4
+        pjus6UNFgTd7km3BT1AS5CfQDHhw7PK6PmJrr8hOREUgrcNXINWuNYSWcCYMYLlh8a5gKAi8d38SnAgz
+        weNTh1f1nqIgKfgInjYcVmsDAunSAp/IC/YTSIV7guXqhDfGmJzeUdzkiLAhzAT3d+F55Qcf2s7vdaAk
+        iEolh+BlAT71b69ktUJLL9CLlFrFvN3UEyg1uztv1//LgXOnR6baoR+4Eizl4X37+uqifm0Z8xPGVnjF
+        +GyEBgAAAABJRU5ErkJggm0EAACJUE5HDQoaCgAAAA1JSERSAAAAGAAAABgIBgAAAOB3PfgAAAAEZ0FN
+        QQAAsY8L/GEFAAAAIGNIUk0AAHomAACAhAAA+gAAAIDoAAB1MAAA6mAAADqYAAAXcJy6UTwAAAP4SURB
+        VEhLvZQNTFNXFMfr+IZVKKV0ZVAEbelAwDAGgm5KNgfCRARlmo0EEzImLMJCCm7MjuDMks0EASHTMb4H
+        daAUxqYZE5BNpVJKIWV8U3BRFJtZCaViLf/dh2/JFkYcSbNfcvJy/+e+c88775zL+N9pGjJEfjdsav+0
+        osOJlsxLjXLhWPUA8Fn5pb209HcsiNkRsyFmSQlrQq2GdZlcJ+ucWkJuWedlSnth0xaO6LX9u/IvjhUc
+        r1G1HavqG80qu6nIKuu5tOfo2WxLlmcYlxvgsBzgWaTkFnnVqQxT0w+MqFPO6b+4fO/rM+2z17/teQiZ
+        Uou2QR2ujunRpHqIc12zONl8C9n1GiTmt1/kB0Xy6DCrwxdtDWpSPzbdnV+CasaIyhtaXJvU48FjYGwO
+        6J4Ffv4daNEA0hGgZggo6jEite42wt6vOk+HWUc/V+K3PX5bY78Bd/RA3+wS5HeWcHMG6CJB6wcWUfrr
+        HAp/0aHwuh7FCiNOyZ8g7+oixG0G7MxTLPDCDsXRof4diVT9Tp1ci3GSbce0CT9pTGidMKGoU4vkYpVu
+        T36HIvZEpzqhQLXwdvFv+KBhBjlXHiH9Rz3eOjMFVuDBfDrUSng8nr1EOljROqCD/B4gGzXhwrAJ5b0G
+        JBX1zm+OOiJhurgIWB4b/Ry4PjutXISJwWnS/oMVt5DSakBMqQaeCV81MNzdqS5biR3bwy2jQjVW063F
+        efUjVPWTHz38tM65LXcRkdmgYPH9wunty9i5+sS++lGXaX+tFpElGghTZCobrtCLdv8TNpvNFFcPfp5R
+        M6FMLR+fT63S4L3KSRypnkRmw20knRvB6+ImBfel7aFk+3PUO0y3DT6hqfV90ST7iKIJbEhuVFu7eAso
+        32qs44uCeM5egSH2HGEUkx/6rm98fkloWq1yW5bs/itpPyz67zv+Mb2XwWS6sUUJhc1xpRMI/3IELx6o
+        vGbL2uhBu/8TVMutJ4NLPtsqgGFl5U/WXGLLX+DoyGdt2lcgiysdR/DJIThFSBoZLJYj5Vsr1EHUNUEF
+        pmy5121cBd6+h+sUMcWj2CxRw9Y7qpjSCavPwlqwcxaEBKS3/PHm6VF4p3fAXhSdQ7vMg7WL/+7AzCvY
+        cVoD9u5TGitXrwAimyd7ggXvjU9ObBF3IjC3F47hH7YSzZ6Y2Q5g8RPPjgXnKeF+qNZo4SSIIRp1jZuH
+        9b7RUZ5J0ie+2d1ghhy9QCQOseXuMgusHTnNgowucPaWTFsyOdSEmy+4rVtwOCf+m/vuyd+T1twlJhJV
+        GrPVnuHgdyDPI+0Gnn/5cCVZsolRM2I+LJ1FW+2FsRKGrS11LVg/Vc0HVYq/yvGMzBmMPwE5FcfvTsRM
+        6gAAAABJRU5ErkJgglsFAACJUE5HDQoaCgAAAA1JSERSAAAAGAAAABgIBgAAAOB3PfgAAAAEZ0FNQQAA
+        sY8L/GEFAAAAIGNIUk0AAHomAACAhAAA+gAAAIDoAAB1MAAA6mAAADqYAAAXcJy6UTwAAATmSURBVEhL
+        xVV7TJVlHP70/1abayOHrbmMcjqsCQFGyyFsldPURM3L0YxqGbS11rTZtAUZKKDQasaarutSU1ezi8hy
+        LhEBEfGoSHA6Nzj3K+d+e3re78I55rT+67c9O+/2ne953t/ze973k/7PmjZ7fmlFle69D8ur6+plrNLw
+        Zv2iF2sbZKysbShdua1h9Wvb3yksLLxPe1f9vXst0W1vsQHwpwFHHBiPAH9NAiM+QO8CBviwxwL8djOJ
+        E/oU7Hb7FwUFBfeor/97FS19ZWeIAmINpJFKphCOJ+GZTMARiMPkjmLEFkbPnz583mWS/2c0mg/9U2Ta
+        nPklSyo371BsqH6roZytl6+u3b1215d/HOnz4KdLDhzvtePIhQl0DjlhcYcx7o3B4olh1BlF71gAB88o
+        AqLMZuPhoqKiGVwqVlVu2tEqrPClAHsMsAorgsA1exLnbnjRedWDU5dd+Lbbhk9Pm+EJxnDd7KdQBGY3
+        1+Mh7D46jE9+MaDtZwMOd/vx/Ia335XJRT21qu6jYEaxQlQylaYVKfgiSTj8t1rR0WVWrHCEcNnghYkd
+        mFxR6ClycTSA8zf9OHElivlVNc0ymaiyFbV73ByiWKcpFE9lKJCmQArOYEK2YsxxuxVWWqVnJyZ2YXTF
+        MGKP4sZEBF0jCcyr2tqk/k2SSlZs2yNSItbkBhtAPJlBKEaRcBL2QAJmei5bcUSxop1oOjmCr88a5Q6t
+        vgQMFBl1xnB2NIm5FVv2yuSiipdTIKoIJEmuIZrIYDKagiekipBIb81aceh3C5pPDsPsicAxmYTFy24p
+        dM6QwqMVm/fJ5KIWLnvj44kcgYQAB84xIBLPIBBNwxVKweZPqFZEZCuO9diw78QwrOzOE07DFuBZCKZw
+        3pjGw4t12Rk8sfT1xvGwIiBIYzmIJoEQRbyRNJzcZa4VJxndxh+uY8IXhy+agTOUhjucQY+JAuWbsgIL
+        nnu10cITJdYyMUkFsQCDhEgCCMYy3KXYYdaKH/vt2HPsGsYpwLDBE8nAx5j3mjOYXb4hR+DZmiYTcy/W
+        gnCKmAiTXCBE+LlLd44Vpy45Uf+9nmIUILGXNgcp1GvJ4MFF61tkclHzqmqaDAFxGSi71QgFJvmCBp4v
+        Rjdrxa+DTnzw3ZDckSDnrMFRod+aQX7pulaVXpLmVm7dO8oLjM+myHndKKQ5CFBA7FSz4jQFdn1zBSYK
+        eCjAgw2OCX1WIP/JHIHHKl7eN+JlNCkwtVsBkvBOY4q4c5Xcx7VmReeQC+9/NQgjBZwk5+EGR4QezmBm
+        0dr9Kr0kFSze0jzsZix5yGRClUwj1Ei9JBE2aFacocBOCtgm0wiQmCkGX8GlcSBvYfUBlV6SRGav837n
+        wVWIBalKLhMTmgUahBVdV12o6xjkyU3I0exm/vusaRzX06KyjQdVekma/bSu5aqT6aFA7m5lYv66eEYE
+        qUtda1Z0G6IoWFE/8EDx2ua8hWvaNOSX6fbfmz/vBVJPVwTKN7YIi0SKmEK5fQ1ip4JMgLeFDM2KgQng
+        /gXLs3G8vRSBRypqPusc42eQXQj/+pmCfn4K+5hnkemLHJqAsOECbci1YlaprkMmuUtNn/HQ48vmPFPT
+        ml+2/kB+yToZs4pfaptZvE7Fmjamol0gr6i6nQOUQZ8P3GLFHequD/9j3YFDkv4GwTp3K4ZnLxsAAAAA
+        SUVORK5CYIIL
+</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="listBoxControl1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>114, 431</value>
+  </data>
+  <data name="gridControl5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>165, 431</value>
+  </data>
+  <data name="splitContainerControl2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>284, 431</value>
+  </data>
+  <data name="checkEditFang.Location" type="System.Drawing.Point, System.Drawing">
+    <value>273, 271</value>
+  </data>
+  <data name="checkEditFang.Properties.Caption" xml:space="preserve">
+    <value>Antifog</value>
+  </data>
+  <data name="checkEditFang.Size" type="System.Drawing.Size, System.Drawing">
+    <value>157, 20</value>
+  </data>
+  <data name="de_UpdateTime.Location" type="System.Drawing.Point, System.Drawing">
+    <value>510, 370</value>
+  </data>
+  <data name="de_UpdateTime.Size" type="System.Drawing.Size, System.Drawing">
+    <value>169, 21</value>
+  </data>
+  <data name="textEditVersion.Location" type="System.Drawing.Point, System.Drawing">
+    <value>531, 219</value>
+  </data>
+  <data name="textEditVersion.Size" type="System.Drawing.Size, System.Drawing">
+    <value>148, 21</value>
+  </data>
+  <data name="checkEditNoQiang.Location" type="System.Drawing.Point, System.Drawing">
+    <value>434, 271</value>
+  </data>
+  <data name="checkEditNoQiang.Properties.Caption" xml:space="preserve">
+    <value>No strengthen antifog</value>
+  </data>
+  <data name="checkEditNoQiang.Size" type="System.Drawing.Size, System.Drawing">
+    <value>145, 20</value>
+  </data>
+  <data name="nccEmployeeChange.Location" type="System.Drawing.Point, System.Drawing">
+    <value>282, 370</value>
+  </data>
+  <data name="nccEmployeeChange.Size" type="System.Drawing.Size, System.Drawing">
+    <value>144, 21</value>
+  </data>
+  <data name="nccEmployeeCreator.Location" type="System.Drawing.Point, System.Drawing">
+    <value>69, 370</value>
+  </data>
+  <data name="nccEmployeeCreator.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 21</value>
+  </data>
+  <data name="memoEditProductDescription.Location" type="System.Drawing.Point, System.Drawing">
+    <value>116, 295</value>
+  </data>
+  <data name="memoEditProductDescription.Size" type="System.Drawing.Size, System.Drawing">
+    <value>563, 71</value>
+  </data>
+  <data name="checkEditQiang.Location" type="System.Drawing.Point, System.Drawing">
+    <value>118, 271</value>
+  </data>
+  <data name="checkEditQiang.Properties.Caption" xml:space="preserve">
+    <value>Strengthen</value>
+  </data>
+  <data name="checkEditQiang.Size" type="System.Drawing.Size, System.Drawing">
+    <value>151, 20</value>
+  </data>
+  <data name="newChooseContorlCustomer.Location" type="System.Drawing.Point, System.Drawing">
+    <value>116, 219</value>
+  </data>
+  <data name="newChooseContorlCustomer.Size" type="System.Drawing.Size, System.Drawing">
+    <value>153, 21</value>
+  </data>
+  <data name="textEditCustomProductName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>377, 219</value>
+  </data>
+  <data name="textEditCustomProductName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>101, 21</value>
+  </data>
+  <data name="radioProductType.Location" type="System.Drawing.Point, System.Drawing">
+    <value>116, 244</value>
+  </data>
+  <data name="radioProductType.Properties.Items1" xml:space="preserve">
+    <value>Normal</value>
+  </data>
+  <data name="radioProductType.Properties.Items3" xml:space="preserve">
+    <value>Special</value>
+  </data>
+  <data name="radioProductType.Size" type="System.Drawing.Size, System.Drawing">
+    <value>153, 23</value>
+  </data>
+  <data name="checkEditIsProcess.Location" type="System.Drawing.Point, System.Drawing">
+    <value>533, 244</value>
+  </data>
+  <data name="checkEditIsProcess.Properties.Caption" xml:space="preserve">
+    <value>Semi-finished products</value>
+  </data>
+  <data name="checkEditIsProcess.Size" type="System.Drawing.Size, System.Drawing">
+    <value>146, 19</value>
+  </data>
+  <data name="lookUpSellUnit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>308, 193</value>
+  </data>
+  <data name="lookUpSellUnit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>89, 22</value>
+  </data>
+  <data name="lookUpDepotUnit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>116, 193</value>
+  </data>
+  <data name="lookUpDepotUnit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>84, 22</value>
+  </data>
+  <data name="lookUpBasedUnitGroupId.Location" type="System.Drawing.Point, System.Drawing">
+    <value>116, 168</value>
+  </data>
+  <data name="lookUpBasedUnitGroupId.Size" type="System.Drawing.Size, System.Drawing">
+    <value>84, 21</value>
+  </data>
+  <data name="lookUpProduceUnitId.Location" type="System.Drawing.Point, System.Drawing">
+    <value>505, 168</value>
+  </data>
+  <data name="lookUpProduceUnitId.Size" type="System.Drawing.Size, System.Drawing">
+    <value>174, 21</value>
+  </data>
+  <data name="lookUpCJUnit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>308, 168</value>
+  </data>
+  <data name="lookUpCJUnit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>89, 21</value>
+  </data>
+  <data name="newChooseContorlProductType.Location" type="System.Drawing.Point, System.Drawing">
+    <value>425, 12</value>
+  </data>
+  <data name="newChooseContorlProductType.Size" type="System.Drawing.Size, System.Drawing">
+    <value>254, 22</value>
+  </data>
+  <data name="newChooseContorSupplierId.Location" type="System.Drawing.Point, System.Drawing">
+    <value>402, 38</value>
+  </data>
+  <data name="newChooseContorSupplierId.Size" type="System.Drawing.Size, System.Drawing">
+    <value>277, 21</value>
+  </data>
+  <data name="checkEditOutSourcing.Location" type="System.Drawing.Point, System.Drawing">
+    <value>357, 244</value>
+  </data>
+  <data name="checkEditOutSourcing.Properties.Caption" xml:space="preserve">
+    <value>Purchase</value>
+  </data>
+  <data name="checkEditOutSourcing.Size" type="System.Drawing.Size, System.Drawing">
+    <value>73, 23</value>
+  </data>
+  <data name="dateEditProductDeadDate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>402, 89</value>
+  </data>
+  <data name="dateEditProductDeadDate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>277, 22</value>
+  </data>
+  <data name="textEditProductBatch.Location" type="System.Drawing.Point, System.Drawing">
+    <value>402, 115</value>
+  </data>
+  <data name="textEditProductBatch.Size" type="System.Drawing.Size, System.Drawing">
+    <value>277, 23</value>
+  </data>
+  <data name="textEditProductPlace.Location" type="System.Drawing.Point, System.Drawing">
+    <value>116, 142</value>
+  </data>
+  <data name="textEditProductPlace.Size" type="System.Drawing.Size, System.Drawing">
+    <value>563, 22</value>
+  </data>
+  <data name="checkEditHomeMade.Location" type="System.Drawing.Point, System.Drawing">
+    <value>273, 244</value>
+  </data>
+  <data name="checkEditHomeMade.Properties.Caption" xml:space="preserve">
+    <value>Self made</value>
+  </data>
+  <data name="checkEditHomeMade.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 23</value>
+  </data>
+  <data name="textEditProduceCounty.Location" type="System.Drawing.Point, System.Drawing">
+    <value>137, 64</value>
+  </data>
+  <data name="textEditProduceCounty.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 21</value>
+  </data>
+  <data name="radioGroupBarCode.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 115</value>
+  </data>
+  <data name="radioGroupBarCode.Properties.Items1" xml:space="preserve">
+    <value>Manual input</value>
+  </data>
+  <data name="radioGroupBarCode.Properties.Items3" xml:space="preserve">
+    <value>Autogeneration </value>
+  </data>
+  <data name="radioGroupBarCode.Size" type="System.Drawing.Size, System.Drawing">
+    <value>305, 23</value>
+  </data>
+  <data name="textEditId.Size" type="System.Drawing.Size, System.Drawing">
+    <value>224, 22</value>
+  </data>
+  <data name="checkEditTrustOut.Location" type="System.Drawing.Point, System.Drawing">
+    <value>434, 244</value>
+  </data>
+  <data name="checkEditTrustOut.Properties.Caption" xml:space="preserve">
+    <value>Outsourcing</value>
+  </data>
+  <data name="checkEditTrustOut.Size" type="System.Drawing.Size, System.Drawing">
+    <value>95, 23</value>
+  </data>
+  <data name="textEditProductSpecification.Location" type="System.Drawing.Point, System.Drawing">
+    <value>402, 64</value>
+  </data>
+  <data name="textEditProductSpecification.Size" type="System.Drawing.Size, System.Drawing">
+    <value>277, 21</value>
+  </data>
+  <data name="textEditProductName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>107, 38</value>
+  </data>
+  <data name="textEditProductName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>210, 22</value>
+  </data>
+  <data name="textEditProductBarCode.Location" type="System.Drawing.Point, System.Drawing">
+    <value>93, 89</value>
+  </data>
+  <data name="textEditProductBarCode.Size" type="System.Drawing.Size, System.Drawing">
+    <value>224, 22</value>
+  </data>
+  <data name="checkEditConsume.Location" type="System.Drawing.Point, System.Drawing">
+    <value>583, 271</value>
+  </data>
+  <data name="checkEditConsume.Properties.Caption" xml:space="preserve">
+    <value>Consumption</value>
+  </data>
+  <data name="checkEditConsume.Size" type="System.Drawing.Size, System.Drawing">
+    <value>96, 20</value>
+  </data>
+  <data name="layoutControlItem5.Text" xml:space="preserve">
+    <value>Barcode:</value>
+  </data>
+  <data name="layoutControlItem10.Text" xml:space="preserve">
+    <value>Valid till:</value>
+  </data>
+  <data name="layoutControlItem1.Text" xml:space="preserve">
+    <value>ProductId:</value>
+  </data>
+  <data name="layoutControlItem3.Text" xml:space="preserve">
+    <value>Product Name:</value>
+  </data>
+  <data name="layoutControlItem14.Text" xml:space="preserve">
+    <value>Supplier:</value>
+  </data>
+  <data name="layoutControlItem4.Text" xml:space="preserve">
+    <value>Producing countries:</value>
+  </data>
+  <data name="layoutControlItem7.Text" xml:space="preserve">
+    <value>Specification:</value>
+  </data>
+  <data name="layoutControlItem35.Text" xml:space="preserve">
+    <value>Lot number:</value>
+  </data>
+  <data name="layoutControlItem38.Text" xml:space="preserve">
+    <value>Product category:</value>
+  </data>
+  <data name="layoutControlItem25.Text" xml:space="preserve">
+    <value>Procurement unit:</value>
+  </data>
+  <data name="layoutControlItem29.Text" xml:space="preserve">
+    <value>Production unit:</value>
+  </data>
+  <data name="layoutControlItem6.Text" xml:space="preserve">
+    <value>Unit group:</value>
+  </data>
+  <data name="layoutControlItem15.Text" xml:space="preserve">
+    <value>Depot unit:</value>
+  </data>
+  <data name="layoutControlItem30.Text" xml:space="preserve">
+    <value>Sales unit:</value>
+  </data>
+  <data name="layoutControlItem37.Text" xml:space="preserve">
+    <value>Customer model:</value>
+  </data>
+  <data name="layoutControlItem39.Text" xml:space="preserve">
+    <value>Customer:</value>
+  </data>
+  <data name="layoutControlItem33.Text" xml:space="preserve">
+    <value>Description:</value>
+  </data>
+  <data name="layoutControlItem34.Text" xml:space="preserve">
+    <value>Place of origin:</value>
+  </data>
+  <data name="layoutControlItem134.Text" xml:space="preserve">
+    <value>Type:</value>
+  </data>
+  <data name="layoutControlItem157.Text" xml:space="preserve">
+    <value>Creater：</value>
+  </data>
+  <data name="layoutControlItem158.Text" xml:space="preserve">
+    <value>Modifier：</value>
+  </data>
+  <data name="layoutControlItem162.Text" xml:space="preserve">
+    <value>Version:</value>
+  </data>
+  <data name="layoutControlItem163.Text" xml:space="preserve">
+    <value>Modify time：</value>
+  </data>
+  <data name="layoutControl1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>691, 403</value>
+  </data>
+  <data name="xtraTabPage1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>691, 403</value>
+  </data>
+  <data name="xtraTabPage1.Text" xml:space="preserve">
+    <value>Basic data</value>
+  </data>
+  <data name="xtraTabControl1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>697, 431</value>
+  </data>
+  <data name="richTextCeMai.Location" type="System.Drawing.Point, System.Drawing">
+    <value>392, 12</value>
+  </data>
+  <data name="richTextCeMai.Size" type="System.Drawing.Size, System.Drawing">
+    <value>240, 195</value>
+  </data>
+  <data name="richTextZhengMai.Location" type="System.Drawing.Point, System.Drawing">
+    <value>82, 12</value>
+  </data>
+  <data name="richTextZhengMai.Size" type="System.Drawing.Size, System.Drawing">
+    <value>236, 195</value>
+  </data>
+  <data name="layoutControlItem159.Text" xml:space="preserve">
+    <value>Main mark：</value>
+  </data>
+  <data name="layoutControlItem160.Text" xml:space="preserve">
+    <value>Side mark：</value>
+  </data>
+  <data name="xtraTabPage13.Text" xml:space="preserve">
+    <value>Mark</value>
+  </data>
+  <data name="spinEditReferenceSellPrice.Location" type="System.Drawing.Point, System.Drawing">
+    <value>428, 12</value>
+  </data>
+  <data name="spinEditReferenceSellPrice.Size" type="System.Drawing.Size, System.Drawing">
+    <value>234, 21</value>
+  </data>
+  <data name="spinEditReferenceCost.Location" type="System.Drawing.Point, System.Drawing">
+    <value>106, 12</value>
+  </data>
+  <data name="spinEditReferenceCost.Size" type="System.Drawing.Size, System.Drawing">
+    <value>224, 21</value>
+  </data>
+  <data name="layoutControlItem52.Text" xml:space="preserve">
+    <value>Reference price:</value>
+  </data>
+  <data name="layoutControlItem46.Text" xml:space="preserve">
+    <value>Reference cost:</value>
+  </data>
+  <data name="xtraTabPage7.Text" xml:space="preserve">
+    <value>Cost</value>
+  </data>
+  <data name="simpleButton1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 90</value>
+  </data>
+  <data name="simpleButton1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>741, 22</value>
+  </data>
+  <data name="simpleButton1.Text" xml:space="preserve">
+    <value>Remove duplicate numbers</value>
+  </data>
+  <data name="spinEditStockTakeCycle.Location" type="System.Drawing.Point, System.Drawing">
+    <value>703, 360</value>
+  </data>
+  <data name="spinEditStockTakeCycle.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 23</value>
+  </data>
+  <data name="textEditCheckCycle.Location" type="System.Drawing.Point, System.Drawing">
+    <value>433, 64</value>
+  </data>
+  <data name="textEditCheckCycle.Size" type="System.Drawing.Size, System.Drawing">
+    <value>320, 22</value>
+  </data>
+  <data name="checkEditIsRequiredCheckCycle.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 64</value>
+  </data>
+  <data name="checkEditIsRequiredCheckCycle.Properties.Caption" xml:space="preserve">
+    <value>Periodic inspection</value>
+  </data>
+  <data name="checkEditIsRequiredCheckCycle.Size" type="System.Drawing.Size, System.Drawing">
+    <value>171, 22</value>
+  </data>
+  <data name="comboBoxEditDigital.Location" type="System.Drawing.Point, System.Drawing">
+    <value>564, 360</value>
+  </data>
+  <data name="comboBoxEditDigital.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 23</value>
+  </data>
+  <data name="spinEditDamageRate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>97, 334</value>
+  </data>
+  <data name="spinEditDamageRate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>656, 22</value>
+  </data>
+  <data name="dateEditLastStockTakeTime.Location" type="System.Drawing.Point, System.Drawing">
+    <value>97, 360</value>
+  </data>
+  <data name="dateEditLastStockTakeTime.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 23</value>
+  </data>
+  <data name="comboBoxEditStockCheckTimeParts.Location" type="System.Drawing.Point, System.Drawing">
+    <value>236, 360</value>
+  </data>
+  <data name="comboBoxEditStockCheckTimeParts.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 23</value>
+  </data>
+  <data name="comboBoxEditAbcCategory.Location" type="System.Drawing.Point, System.Drawing">
+    <value>433, 38</value>
+  </data>
+  <data name="comboBoxEditAbcCategory.Size" type="System.Drawing.Size, System.Drawing">
+    <value>320, 22</value>
+  </data>
+  <data name="newChooseContorlInsteadOfProduct.Location" type="System.Drawing.Point, System.Drawing">
+    <value>375, 360</value>
+  </data>
+  <data name="newChooseContorlInsteadOfProduct.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 21</value>
+  </data>
+  <data name="spinEditSafeStock.Location" type="System.Drawing.Point, System.Drawing">
+    <value>108, 38</value>
+  </data>
+  <data name="spinEditSafeStock.Size" type="System.Drawing.Size, System.Drawing">
+    <value>225, 22</value>
+  </data>
+  <data name="spinEditHighestStock.Location" type="System.Drawing.Point, System.Drawing">
+    <value>433, 12</value>
+  </data>
+  <data name="spinEditHighestStock.Size" type="System.Drawing.Size, System.Drawing">
+    <value>320, 22</value>
+  </data>
+  <data name="checkEditIsRequiredCheck.Location" type="System.Drawing.Point, System.Drawing">
+    <value>187, 64</value>
+  </data>
+  <data name="checkEditIsRequiredCheck.Properties.Caption" xml:space="preserve">
+    <value>Inspection</value>
+  </data>
+  <data name="checkEditIsRequiredCheck.Size" type="System.Drawing.Size, System.Drawing">
+    <value>146, 22</value>
+  </data>
+  <data name="spinEditLowestStock.Location" type="System.Drawing.Point, System.Drawing">
+    <value>108, 12</value>
+  </data>
+  <data name="spinEditLowestStock.Size" type="System.Drawing.Size, System.Drawing">
+    <value>225, 22</value>
+  </data>
+  <data name="layoutControlItem53.Text" xml:space="preserve">
+    <value>Minimum stock:</value>
+  </data>
+  <data name="layoutControlItem55.Text" xml:space="preserve">
+    <value>Safety stock:</value>
+  </data>
+  <data name="layoutControlItem66.Text" xml:space="preserve">
+    <value>Inspection cycle:</value>
+  </data>
+  <data name="layoutControlItem54.Text" xml:space="preserve">
+    <value>Maximum stock:</value>
+  </data>
+  <data name="layoutControlItem58.Text" xml:space="preserve">
+    <value>ABC:</value>
+  </data>
+  <data name="xtraTabPage8.Text" xml:space="preserve">
+    <value>Control</value>
+  </data>
+  <data name="calcEditChangeModelTime.Location" type="System.Drawing.Point, System.Drawing">
+    <value>460, 181</value>
+  </data>
+  <data name="calcEditChangeModelTime.Size" type="System.Drawing.Size, System.Drawing">
+    <value>378, 21</value>
+  </data>
+  <data name="spinEditSunhao3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>662, 52</value>
+  </data>
+  <data name="spinEditSunhao3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>158, 21</value>
+  </data>
+  <data name="spinEditSunhao2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>679, 27</value>
+  </data>
+  <data name="spinEditSunhao2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>141, 21</value>
+  </data>
+  <data name="spinEditSunhao1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>679, 2</value>
+  </data>
+  <data name="spinEditSunhao1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>141, 21</value>
+  </data>
+  <data name="spinEditSunhaoEnd3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>361, 52</value>
+  </data>
+  <data name="spinEditSunhaoEnd3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>209, 21</value>
+  </data>
+  <data name="spinEditSunhaoEnd2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>361, 27</value>
+  </data>
+  <data name="spinEditSunhaoEnd2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>226, 21</value>
+  </data>
+  <data name="spinEditSunhaoEnd1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>361, 2</value>
+  </data>
+  <data name="spinEditSunhaoEnd1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>226, 21</value>
+  </data>
+  <data name="spinEditSunhaoStart3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>95, 52</value>
+  </data>
+  <data name="spinEditSunhaoStart3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>207, 21</value>
+  </data>
+  <data name="spinEditSunhaoStart2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>95, 27</value>
+  </data>
+  <data name="spinEditSunhaoStart2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>207, 21</value>
+  </data>
+  <data name="spinEditSunhaoStart1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>95, 2</value>
+  </data>
+  <data name="spinEditSunhaoStart1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>207, 21</value>
+  </data>
+  <data name="layoutControl18.Location" type="System.Drawing.Point, System.Drawing">
+    <value>2, 1</value>
+  </data>
+  <data name="layoutControlItem181.Text" xml:space="preserve">
+    <value>Quantity from：</value>
+  </data>
+  <data name="layoutControlItem182.Text" xml:space="preserve">
+    <value>Quantity from：</value>
+  </data>
+  <data name="layoutControlItem183.Text" xml:space="preserve">
+    <value>Quantity from：</value>
+  </data>
+  <data name="layoutControlItem184.Text" xml:space="preserve">
+    <value>To：</value>
+  </data>
+  <data name="layoutControlItem186.Text" xml:space="preserve">
+    <value>To：</value>
+  </data>
+  <data name="layoutControlItem187.Text" xml:space="preserve">
+    <value>Loss rate(%)：</value>
+  </data>
+  <data name="layoutControlItem188.Text" xml:space="preserve">
+    <value>Loss rate(%)：</value>
+  </data>
+  <data name="layoutControlItem189.Text" xml:space="preserve">
+    <value>Loss rate(%)：</value>
+  </data>
+  <data name="layoutControlItem185.Text" xml:space="preserve">
+    <value>To：</value>
+  </data>
+  <data name="layoutControl18.Size" type="System.Drawing.Size, System.Drawing">
+    <value>822, 18</value>
+  </data>
+  <data name="groupControl1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 344</value>
+  </data>
+  <data name="groupControl1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>826, 21</value>
+  </data>
+  <data name="groupControl1.Text" xml:space="preserve">
+    <value>Loss：</value>
+  </data>
+  <data name="spinEditMoshu.Location" type="System.Drawing.Point, System.Drawing">
+    <value>122, 181</value>
+  </data>
+  <data name="spinEditMoshu.Size" type="System.Drawing.Size, System.Drawing">
+    <value>211, 21</value>
+  </data>
+  <data name="spinEditPaihe.Location" type="System.Drawing.Point, System.Drawing">
+    <value>447, 156</value>
+  </data>
+  <data name="spinEditPaihe.Size" type="System.Drawing.Size, System.Drawing">
+    <value>391, 21</value>
+  </data>
+  <data name="spinEditChakuang.Location" type="System.Drawing.Point, System.Drawing">
+    <value>122, 156</value>
+  </data>
+  <data name="spinEditChakuang.Size" type="System.Drawing.Size, System.Drawing">
+    <value>211, 21</value>
+  </data>
+  <data name="checkedComboBoxEditJWeight.Location" type="System.Drawing.Point, System.Drawing">
+    <value>499, 105</value>
+  </data>
+  <data name="checkedComboBoxEditJWeight.Size" type="System.Drawing.Size, System.Drawing">
+    <value>339, 21</value>
+  </data>
+  <data name="textEditPowerGroup.Location" type="System.Drawing.Point, System.Drawing">
+    <value>266, 369</value>
+  </data>
+  <data name="textEditPowerGroup.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 23</value>
+  </data>
+  <data name="spinEditVolume.Location" type="System.Drawing.Point, System.Drawing">
+    <value>122, 28</value>
+  </data>
+  <data name="spinEditVolume.Size" type="System.Drawing.Size, System.Drawing">
+    <value>211, 22</value>
+  </data>
+  <data name="dateEditUpdateTime.Location" type="System.Drawing.Point, System.Drawing">
+    <value>395, 369</value>
+  </data>
+  <data name="dateEditUpdateTime.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 23</value>
+  </data>
+  <data name="newChooseContorlEmployeeChange.Location" type="System.Drawing.Point, System.Drawing">
+    <value>524, 369</value>
+  </data>
+  <data name="newChooseContorlEmployeeChange.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 21</value>
+  </data>
+  <data name="newChooseContorlEmployeeCreator.Location" type="System.Drawing.Point, System.Drawing">
+    <value>87, 369</value>
+  </data>
+  <data name="newChooseContorlEmployeeCreator.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 21</value>
+  </data>
+  <data name="textEditQualityRequire.Location" type="System.Drawing.Point, System.Drawing">
+    <value>134, 130</value>
+  </data>
+  <data name="textEditQualityRequire.Size" type="System.Drawing.Size, System.Drawing">
+    <value>704, 22</value>
+  </data>
+  <data name="newChooseContorlPackageType.Location" type="System.Drawing.Point, System.Drawing">
+    <value>738, 369</value>
+  </data>
+  <data name="newChooseContorlPackageType.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 21</value>
+  </data>
+  <data name="spinEditGrossWeight.Location" type="System.Drawing.Point, System.Drawing">
+    <value>122, 105</value>
+  </data>
+  <data name="spinEditGrossWeight.Size" type="System.Drawing.Size, System.Drawing">
+    <value>211, 21</value>
+  </data>
+  <data name="newChooseContorWeightUnit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>447, 80</value>
+  </data>
+  <data name="newChooseContorWeightUnit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>391, 21</value>
+  </data>
+  <data name="newChooseContorWeightUnitGroup.Location" type="System.Drawing.Point, System.Drawing">
+    <value>122, 80</value>
+  </data>
+  <data name="newChooseContorWeightUnitGroup.Size" type="System.Drawing.Size, System.Drawing">
+    <value>211, 21</value>
+  </data>
+  <data name="newChooseContorVolumeUnit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>447, 3</value>
+  </data>
+  <data name="newChooseContorVolumeUnit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>391, 21</value>
+  </data>
+  <data name="spinEditNetWeight.Location" type="System.Drawing.Point, System.Drawing">
+    <value>447, 105</value>
+  </data>
+  <data name="spinEditNetWeight.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 21</value>
+  </data>
+  <data name="spinEditHeight.Location" type="System.Drawing.Point, System.Drawing">
+    <value>447, 54</value>
+  </data>
+  <data name="spinEditHeight.Size" type="System.Drawing.Size, System.Drawing">
+    <value>391, 22</value>
+  </data>
+  <data name="spinEditWidth.Location" type="System.Drawing.Point, System.Drawing">
+    <value>122, 54</value>
+  </data>
+  <data name="spinEditWidth.Size" type="System.Drawing.Size, System.Drawing">
+    <value>211, 22</value>
+  </data>
+  <data name="spinEditLength.Location" type="System.Drawing.Point, System.Drawing">
+    <value>447, 28</value>
+  </data>
+  <data name="spinEditLength.Size" type="System.Drawing.Size, System.Drawing">
+    <value>391, 22</value>
+  </data>
+  <data name="newChooseContorlVolumeUnitGroup.Location" type="System.Drawing.Point, System.Drawing">
+    <value>122, 3</value>
+  </data>
+  <data name="newChooseContorlVolumeUnitGroup.Size" type="System.Drawing.Size, System.Drawing">
+    <value>211, 21</value>
+  </data>
+  <data name="layoutControlItem67.Text" xml:space="preserve">
+    <value>Volume unit group:</value>
+  </data>
+  <data name="layoutControlItem71.Text" xml:space="preserve">
+    <value>Volume unit:</value>
+  </data>
+  <data name="layoutControlItem72.Text" xml:space="preserve">
+    <value>Weight unit group:</value>
+  </data>
+  <data name="layoutControlItem73.Text" xml:space="preserve">
+    <value>Weight unit:</value>
+  </data>
+  <data name="layoutControlItem74.Text" xml:space="preserve">
+    <value>Gross weight:</value>
+  </data>
+  <data name="layoutControlItem75.Text" xml:space="preserve">
+    <value>Net weight:</value>
+  </data>
+  <data name="layoutControlItem177.Text" xml:space="preserve">
+    <value>A frame quantity：</value>
+  </data>
+  <data name="layoutControlItem178.Text" xml:space="preserve">
+    <value>A box quantity：</value>
+  </data>
+  <data name="layoutControlItem179.Text" xml:space="preserve">
+    <value>A mold quantity：</value>
+  </data>
+  <data name="layoutControlItem190.Text" xml:space="preserve">
+    <value>Mold change time(h):</value>
+  </data>
+  <data name="layoutControlItem80.Text" xml:space="preserve">
+    <value>Volume:</value>
+  </data>
+  <data name="layoutControlItem70.Text" xml:space="preserve">
+    <value>High(CM):</value>
+  </data>
+  <data name="layoutControlItem69.Text" xml:space="preserve">
+    <value>Width(CM):</value>
+  </data>
+  <data name="layoutControlItem68.Text" xml:space="preserve">
+    <value>Long(CM):</value>
+  </data>
+  <data name="layoutControlItem77.Text" xml:space="preserve">
+    <value>Quality requirements:</value>
+  </data>
+  <data name="emptySpaceItem1.CustomizationFormText" xml:space="preserve">
+    <value>emptySpaceItem1</value>
+  </data>
+  <data name="emptySpaceItem1.Text" xml:space="preserve">
+    <value>emptySpaceItem1</value>
+  </data>
+  <data name="xtraTabPage4.Text" xml:space="preserve">
+    <value>Other</value>
+  </data>
+  <data name="lookUpEditQualityTestUnitId.Location" type="System.Drawing.Point, System.Drawing">
+    <value>460, 64</value>
+  </data>
+  <data name="lookUpEditQualityTestUnitId.Size" type="System.Drawing.Size, System.Drawing">
+    <value>202, 22</value>
+  </data>
+  <data name="newChooseContorlQualityTestPlan.Location" type="System.Drawing.Point, System.Drawing">
+    <value>166, 90</value>
+  </data>
+  <data name="newChooseContorlQualityTestPlan.Size" type="System.Drawing.Size, System.Drawing">
+    <value>167, 21</value>
+  </data>
+  <data name="newChooseContorlCustomInspectionRule.Location" type="System.Drawing.Point, System.Drawing">
+    <value>135, 64</value>
+  </data>
+  <data name="newChooseContorlCustomInspectionRule.Size" type="System.Drawing.Size, System.Drawing">
+    <value>198, 21</value>
+  </data>
+  <data name="spinEditCheckCount.Location" type="System.Drawing.Point, System.Drawing">
+    <value>460, 37</value>
+  </data>
+  <data name="spinEditCheckCount.Size" type="System.Drawing.Size, System.Drawing">
+    <value>202, 23</value>
+  </data>
+  <data name="spinEditCheckRate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>135, 37</value>
+  </data>
+  <data name="spinEditCheckRate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>198, 23</value>
+  </data>
+  <data name="comboBoxEditCheckRule.Location" type="System.Drawing.Point, System.Drawing">
+    <value>460, 12</value>
+  </data>
+  <data name="comboBoxEditCheckRule.Properties.Items" xml:space="preserve">
+    <value>Proportional sampling</value>
+  </data>
+  <data name="comboBoxEditCheckRule.Properties.Items1" xml:space="preserve">
+    <value>Quantitative sampling</value>
+  </data>
+  <data name="comboBoxEditCheckRule.Properties.Items2" xml:space="preserve">
+    <value>Sampling by GB</value>
+  </data>
+  <data name="comboBoxEditCheckRule.Properties.Items3" xml:space="preserve">
+    <value>Custom sampling rule</value>
+  </data>
+  <data name="comboBoxEditCheckRule.Size" type="System.Drawing.Size, System.Drawing">
+    <value>202, 21</value>
+  </data>
+  <data name="comboBoxEditCheckCategory.Location" type="System.Drawing.Point, System.Drawing">
+    <value>135, 12</value>
+  </data>
+  <data name="comboBoxEditCheckCategory.Properties.Items" xml:space="preserve">
+    <value>Full sampling</value>
+  </data>
+  <data name="comboBoxEditCheckCategory.Properties.Items1" xml:space="preserve">
+    <value>Exemption</value>
+  </data>
+  <data name="comboBoxEditCheckCategory.Properties.Items2" xml:space="preserve">
+    <value>Destructive sampling</value>
+  </data>
+  <data name="comboBoxEditCheckCategory.Properties.Items3" xml:space="preserve">
+    <value>Non-destructive sampling</value>
+  </data>
+  <data name="comboBoxEditCheckCategory.Size" type="System.Drawing.Size, System.Drawing">
+    <value>198, 21</value>
+  </data>
+  <data name="layoutControlItem84.Text" xml:space="preserve">
+    <value>Sampling method:</value>
+  </data>
+  <data name="layoutControlItem86.Text" xml:space="preserve">
+    <value>Sampling rate:</value>
+  </data>
+  <data name="layoutControlItem85.Text" xml:space="preserve">
+    <value>Sampling rules:</value>
+  </data>
+  <data name="layoutControlItem87.Text" xml:space="preserve">
+    <value>Sampling quantity：</value>
+  </data>
+  <data name="layoutControlItem88.Text" xml:space="preserve">
+    <value>Custom sampling rule:</value>
+  </data>
+  <data name="layoutControlItem90.Text" xml:space="preserve">
+    <value>Quality inspection program:</value>
+  </data>
+  <data name="layoutControlItem31.Text" xml:space="preserve">
+    <value>Unit:</value>
+  </data>
+  <data name="xtraTabPage5.Text" xml:space="preserve">
+    <value>Quality inspection</value>
+  </data>
+  <data name="calcEditMateriaOtherFenPei.Location" type="System.Drawing.Point, System.Drawing">
+    <value>528, 64</value>
+  </data>
+  <data name="calcEditMateriaOtherFenPei.Size" type="System.Drawing.Size, System.Drawing">
+    <value>134, 21</value>
+  </data>
+  <data name="calcEditMateriaFenPei.Location" type="System.Drawing.Point, System.Drawing">
+    <value>243, 64</value>
+  </data>
+  <data name="calcEditMateriaFenPei.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 21</value>
+  </data>
+  <data name="spinEditStocksQuantity.Location" type="System.Drawing.Point, System.Drawing">
+    <value>528, 38</value>
+  </data>
+  <data name="spinEditStocksQuantity.Size" type="System.Drawing.Size, System.Drawing">
+    <value>134, 22</value>
+  </data>
+  <data name="spinEditBorrowQuantity.Location" type="System.Drawing.Point, System.Drawing">
+    <value>216, 361</value>
+  </data>
+  <data name="spinEditBorrowQuantity.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 22</value>
+  </data>
+  <data name="spinEditLendQuantity.Location" type="System.Drawing.Point, System.Drawing">
+    <value>57, 361</value>
+  </data>
+  <data name="spinEditLendQuantity.Size" type="System.Drawing.Size, System.Drawing">
+    <value>110, 22</value>
+  </data>
+  <data name="spinEditOrderOnWayQuantity.Location" type="System.Drawing.Point, System.Drawing">
+    <value>243, 38</value>
+  </data>
+  <data name="spinEditOrderOnWayQuantity.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 22</value>
+  </data>
+  <data name="spinEditBeenAssigned.Location" type="System.Drawing.Point, System.Drawing">
+    <value>327, 361</value>
+  </data>
+  <data name="spinEditBeenAssigned.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 22</value>
+  </data>
+  <data name="spinEditOnMadingQuantity.Location" type="System.Drawing.Point, System.Drawing">
+    <value>612, 361</value>
+  </data>
+  <data name="spinEditOnMadingQuantity.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 22</value>
+  </data>
+  <data name="dateEditProductNearXSDate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>528, 12</value>
+  </data>
+  <data name="dateEditProductNearXSDate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>134, 22</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="dateEditProductNearCGDate.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="dateEditProductNearCGDate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>243, 12</value>
+  </data>
+  <data name="dateEditProductNearCGDate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 22</value>
+  </data>
+  <data name="layoutControlItem8.Text" xml:space="preserve">
+    <value>Last purchase date:</value>
+  </data>
+  <data name="layoutControlItem98.Text" xml:space="preserve">
+    <value>Material requisition has allocated quantity:</value>
+  </data>
+  <data name="layoutControlItem104.Text" xml:space="preserve">
+    <value>Outsourcing has allocated quantity:</value>
+  </data>
+  <data name="layoutControlItem9.Text" xml:space="preserve">
+    <value>Last shipment date:</value>
+  </data>
+  <data name="layoutControlItem23.Text" xml:space="preserve">
+    <value>Actual stock:</value>
+  </data>
+  <data name="layoutControlItem20.Text" xml:space="preserve">
+    <value>Has been ordered no storage quantity:</value>
+  </data>
+  <data name="xtraTabPage2.Text" xml:space="preserve">
+    <value>Stock</value>
+  </data>
+  <data name="simpleButton_search.Text" xml:space="preserve">
+    <value>Query</value>
+  </data>
+  <data name="dateEditcoenddate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>333, 12</value>
+  </data>
+  <data name="dateEditcoenddate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>164, 21</value>
+  </data>
+  <data name="dateEditcostartdate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>76, 12</value>
+  </data>
+  <data name="dateEditcostartdate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>189, 21</value>
+  </data>
+  <data name="gridColumnInvoiceId.Caption" xml:space="preserve">
+    <value>No.</value>
+  </data>
+  <data name="gridColumnOrderQuantity.Caption" xml:space="preserve">
+    <value>Order quantity</value>
+  </data>
+  <data name="gridColumnOrderQuantity.VisibleIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="gridColumnInvoiceCODetailPrice.Caption" xml:space="preserve">
+    <value>Price</value>
+  </data>
+  <data name="gridColumnInvoiceCODetailPrice.VisibleIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="gridColumnInvoiceCODetailMoney.Caption" xml:space="preserve">
+    <value>Money</value>
+  </data>
+  <data name="gridColumnInvoiceCODetailMoney.VisibleIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="gridColumnNoArrivalQuantity.Caption" xml:space="preserve">
+    <value>Not arrival quantity</value>
+  </data>
+  <data name="gridColumnNoArrivalQuantity.VisibleIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="gridColumnArrivalQuantity.Caption" xml:space="preserve">
+    <value>Arrival quantity</value>
+  </data>
+  <data name="gridColumnArrivalQuantity.VisibleIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="gridColumnInvoiceProductUnit.VisibleIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="gridColumnInvoiceCODetailNote.VisibleIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="gridColumn50.VisibleIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="gridColumn13.Caption" xml:space="preserve">
+    <value>Document date</value>
+  </data>
+  <data name="gridColumn33.VisibleIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="gridColumn51.Caption" xml:space="preserve">
+    <value>Delivery date</value>
+  </data>
+  <data name="layoutControlItem106.Text" xml:space="preserve">
+    <value>Start date:</value>
+  </data>
+  <data name="layoutControlItem107.Text" xml:space="preserve">
+    <value>End date:</value>
+  </data>
+  <data name="xtraTabPage10.Text" xml:space="preserve">
+    <value>Purchase record</value>
+  </data>
+  <data name="simpleButtonMation.Text" xml:space="preserve">
+    <value>Query</value>
+  </data>
+  <data name="dateEditxoenddate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>335, 12</value>
+  </data>
+  <data name="dateEditxoenddate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>164, 21</value>
+  </data>
+  <data name="dateEditxostartdate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>76, 12</value>
+  </data>
+  <data name="dateEditxostartdate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>191, 21</value>
+  </data>
+  <data name="gridColumn8.Caption" xml:space="preserve">
+    <value>No.</value>
+  </data>
+  <data name="gridColumn9.Caption" xml:space="preserve">
+    <value>Order quantity</value>
+  </data>
+  <data name="gridColumn10.Caption" xml:space="preserve">
+    <value>Price</value>
+  </data>
+  <data name="gridColumn11.Caption" xml:space="preserve">
+    <value>Money</value>
+  </data>
+  <data name="gridColumn12.Caption" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="gridColumn14.Caption" xml:space="preserve">
+    <value>Document date</value>
+  </data>
+  <data name="gridColumn32.Caption" xml:space="preserve">
+    <value>Customer order No.</value>
+  </data>
+  <data name="layoutControlItem110.Text" xml:space="preserve">
+    <value>Start date:</value>
+  </data>
+  <data name="layoutControlItem111.Text" xml:space="preserve">
+    <value>End date:</value>
+  </data>
+  <data name="xtraTabPage11.Text" xml:space="preserve">
+    <value>Sales record</value>
+  </data>
+  <data name="calcEditStock1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>587, 12</value>
+  </data>
+  <data name="calcEditStock1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 21</value>
+  </data>
+  <data name="calcEditStock0.Location" type="System.Drawing.Point, System.Drawing">
+    <value>489, 12</value>
+  </data>
+  <data name="calcEditStock0.Size" type="System.Drawing.Size, System.Drawing">
+    <value>54, 21</value>
+  </data>
+  <data name="simpleButtonStock.Text" xml:space="preserve">
+    <value>Query</value>
+  </data>
+  <data name="dateEditStockStart.Location" type="System.Drawing.Point, System.Drawing">
+    <value>77, 12</value>
+  </data>
+  <data name="dateEditStockStart.Size" type="System.Drawing.Size, System.Drawing">
+    <value>81, 21</value>
+  </data>
+  <data name="dateEditStockEnd.Location" type="System.Drawing.Point, System.Drawing">
+    <value>221, 12</value>
+  </data>
+  <data name="dateEditStockEnd.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 21</value>
+  </data>
+  <data name="gridColumn15.Caption" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="gridColumn16.Caption" xml:space="preserve">
+    <value>No.</value>
+  </data>
+  <data name="gridColumn17.Caption" xml:space="preserve">
+    <value>Date</value>
+  </data>
+  <data name="gridColumn18.Caption" xml:space="preserve">
+    <value>Quantity</value>
+  </data>
+  <data name="gridColumn20.Caption" xml:space="preserve">
+    <value>Unit</value>
+  </data>
+  <data name="gridColumn21.Caption" xml:space="preserve">
+    <value>In depot</value>
+  </data>
+  <data name="gridColumn22.Caption" xml:space="preserve">
+    <value>In goods allocation</value>
+  </data>
+  <data name="gridColumn23.Caption" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="gridColumn2.Caption" xml:space="preserve">
+    <value>Out depot</value>
+  </data>
+  <data name="gridColumn19.Caption" xml:space="preserve">
+    <value>Out goods allocation</value>
+  </data>
+  <data name="gridColumn24.Caption" xml:space="preserve">
+    <value>Production station</value>
+  </data>
+  <data name="gridColumn25.Caption" xml:space="preserve">
+    <value>Relevant document</value>
+  </data>
+  <data name="gridColumn28.Caption" xml:space="preserve">
+    <value>Transfer production quantity</value>
+  </data>
+  <data name="gridColumn30.Caption" xml:space="preserve">
+    <value>Book quantity</value>
+  </data>
+  <data name="gridColumn31.Caption" xml:space="preserve">
+    <value>Customer order No.</value>
+  </data>
+  <data name="layoutControlItem91.Text" xml:space="preserve">
+    <value>End date:</value>
+  </data>
+  <data name="layoutControlItem92.Text" xml:space="preserve">
+    <value>Start date:</value>
+  </data>
+  <data name="layoutControlItem95.Text" xml:space="preserve">
+    <value>Beginning Inventory:</value>
+  </data>
+  <data name="layoutControlItem96.Text" xml:space="preserve">
+    <value>Stock:</value>
+  </data>
+  <data name="xtraTabPageStock.Text" xml:space="preserve">
+    <value>Stock change</value>
+  </data>
+  <data name="btn_OtherCompactSearch.Text" xml:space="preserve">
+    <value>Query</value>
+  </data>
+  <data name="dateEditOtherCompactEnd.Location" type="System.Drawing.Point, System.Drawing">
+    <value>321, 12</value>
+  </data>
+  <data name="dateEditOtherCompactEnd.Size" type="System.Drawing.Size, System.Drawing">
+    <value>158, 21</value>
+  </data>
+  <data name="dateEditOtherCompactStart.Location" type="System.Drawing.Point, System.Drawing">
+    <value>84, 12</value>
+  </data>
+  <data name="dateEditOtherCompactStart.Size" type="System.Drawing.Size, System.Drawing">
+    <value>161, 21</value>
+  </data>
+  <data name="gridColumn34.Caption" xml:space="preserve">
+    <value>No.</value>
+  </data>
+  <data name="gridColumn34.Width" type="System.Int32, mscorlib">
+    <value>121</value>
+  </data>
+  <data name="gridColumn35.Caption" xml:space="preserve">
+    <value>Date</value>
+  </data>
+  <data name="gridColumn36.Caption" xml:space="preserve">
+    <value>Customer order No.</value>
+  </data>
+  <data name="gridColumn36.Width" type="System.Int32, mscorlib">
+    <value>116</value>
+  </data>
+  <data name="gridColumn37.Caption" xml:space="preserve">
+    <value>Quantity</value>
+  </data>
+  <data name="gridColumn38.Caption" xml:space="preserve">
+    <value>Price</value>
+  </data>
+  <data name="gridColumn42.Caption" xml:space="preserve">
+    <value>Supplier</value>
+  </data>
+  <data name="gridColumn42.VisibleIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="gridColumn42.Width" type="System.Int32, mscorlib">
+    <value>88</value>
+  </data>
+  <data name="gridColumn40.Caption" xml:space="preserve">
+    <value>Delivery date</value>
+  </data>
+  <data name="gridColumn40.VisibleIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="layoutControlItem170.Text" xml:space="preserve">
+    <value>Start date：</value>
+  </data>
+  <data name="layoutControlItem171.Text" xml:space="preserve">
+    <value>End date：</value>
+  </data>
+  <data name="xtraTabPageOtherCompact.Text" xml:space="preserve">
+    <value>Outsourcing contract record</value>
+  </data>
+  <data name="dateEditProduceMaterialEnd.Location" type="System.Drawing.Point, System.Drawing">
+    <value>321, 12</value>
+  </data>
+  <data name="dateEditProduceMaterialEnd.Size" type="System.Drawing.Size, System.Drawing">
+    <value>158, 21</value>
+  </data>
+  <data name="dateEditProduceMaterialStart.Location" type="System.Drawing.Point, System.Drawing">
+    <value>84, 12</value>
+  </data>
+  <data name="dateEditProduceMaterialStart.Size" type="System.Drawing.Size, System.Drawing">
+    <value>161, 21</value>
+  </data>
+  <data name="simpleButtonProduceMaterial.Text" xml:space="preserve">
+    <value>Query</value>
+  </data>
+  <data name="gridColumn43.Caption" xml:space="preserve">
+    <value>No.</value>
+  </data>
+  <data name="gridColumn43.Width" type="System.Int32, mscorlib">
+    <value>143</value>
+  </data>
+  <data name="gridColumn44.Caption" xml:space="preserve">
+    <value>Date</value>
+  </data>
+  <data name="gridColumn44.Width" type="System.Int32, mscorlib">
+    <value>86</value>
+  </data>
+  <data name="gridColumn45.Caption" xml:space="preserve">
+    <value>Quantity</value>
+  </data>
+  <data name="gridColumn45.Width" type="System.Int32, mscorlib">
+    <value>82</value>
+  </data>
+  <data name="gridColumn46.Caption" xml:space="preserve">
+    <value>Has received quantity</value>
+  </data>
+  <data name="gridColumn46.Width" type="System.Int32, mscorlib">
+    <value>86</value>
+  </data>
+  <data name="gridColumn48.Caption" xml:space="preserve">
+    <value>Has allocated quantity</value>
+  </data>
+  <data name="gridColumn48.VisibleIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="gridColumn48.Width" type="System.Int32, mscorlib">
+    <value>97</value>
+  </data>
+  <data name="gridColumn49.Caption" xml:space="preserve">
+    <value>Source No.</value>
+  </data>
+  <data name="gridColumn49.VisibleIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="gridColumn49.Width" type="System.Int32, mscorlib">
+    <value>138</value>
+  </data>
+  <data name="layoutControlItem175.Text" xml:space="preserve">
+    <value>Start date：</value>
+  </data>
+  <data name="layoutControlItem176.Text" xml:space="preserve">
+    <value>End date：</value>
+  </data>
+  <data name="xtraTabproduceMaterial.Text" xml:space="preserve">
+    <value>Material requisition record</value>
+  </data>
+  <data name="simpleButtonselectpic.Size" type="System.Drawing.Size, System.Drawing">
+    <value>74, 22</value>
+  </data>
+  <data name="simpleButtonselectpic.Text" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="simpleButtonNext.Location" type="System.Drawing.Point, System.Drawing">
+    <value>538, 12</value>
+  </data>
+  <data name="simpleButtonNext.Size" type="System.Drawing.Size, System.Drawing">
+    <value>64, 22</value>
+  </data>
+  <data name="simpleButtonNext.Text" xml:space="preserve">
+    <value>Next</value>
+  </data>
+  <data name="simpleButtonlast.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 22</value>
+  </data>
+  <data name="simpleButtonlast.Text" xml:space="preserve">
+    <value>Previous</value>
+  </data>
+  <data name="simpleButtonsave.Location" type="System.Drawing.Point, System.Drawing">
+    <value>395, 12</value>
+  </data>
+  <data name="simpleButtonsave.Size" type="System.Drawing.Size, System.Drawing">
+    <value>68, 22</value>
+  </data>
+  <data name="simpleButtonsave.Text" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="textEditDescription.Location" type="System.Drawing.Point, System.Drawing">
+    <value>60, 12</value>
+  </data>
+  <data name="textEditDescription.Size" type="System.Drawing.Size, System.Drawing">
+    <value>253, 22</value>
+  </data>
+  <data name="simpleButtonDelete.Location" type="System.Drawing.Point, System.Drawing">
+    <value>606, 12</value>
+  </data>
+  <data name="simpleButtonDelete.Size" type="System.Drawing.Size, System.Drawing">
+    <value>56, 22</value>
+  </data>
+  <data name="simpleButtonDelete.Text" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="layoutControlItem94.Text" xml:space="preserve">
+    <value>Remark:</value>
+  </data>
+  <data name="xtraTabPage6.Text" xml:space="preserve">
+    <value>Picture</value>
+  </data>
+  <data name="xtraTabPageProcee.Text" xml:space="preserve">
+    <value>Processing</value>
+  </data>
+  <data name="xtraTabPage9.Text" xml:space="preserve">
+    <value>Mould</value>
+  </data>
+  <data name="splitContainerControl1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>986, 431</value>
+  </data>
+  <data name="dataLayoutControl1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1010, 455</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1034, 526</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Product</value>
+  </data>
+</root>

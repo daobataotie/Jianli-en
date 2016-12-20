@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="treeListColumn2.Caption" xml:space="preserve">
+    <value>Function module</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="checkEditIsXOPrice.Location" type="System.Drawing.Point, System.Drawing">
+    <value>150, 12</value>
+  </data>
+  <data name="barButtonItemSave.Caption" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="barDockControlTop.Size" type="System.Drawing.Size, System.Drawing">
+    <value>876, 47</value>
+  </data>
+  <data name="barDockControlBottom.Size" type="System.Drawing.Size, System.Drawing">
+    <value>876, 0</value>
+  </data>
+  <data name="barDockControlRight.Location" type="System.Drawing.Point, System.Drawing">
+    <value>876, 47</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>876, 511</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Permission settings</value>
+  </data>
+  <assembly alias="DevExpress.Utils.v10.2" name="DevExpress.Utils.v10.2, Version=10.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+  <data name="imageCollection1.ImageStream" type="DevExpress.Utils.ImageCollectionStreamer, DevExpress.Utils.v10.2" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFpEZXZFeHByZXNzLlV0aWxzLnYxMC4yLCBWZXJzaW9uPTEwLjIu
+        NC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI4OGQxNzU0ZDcwMGU0OWEMAwAAAFFT
+        eXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRv
+        a2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAAChEZXZFeHByZXNzLlV0aWxzLkltYWdlQ29sbGVjdGlvblN0
+        cmVhbWVyAgAAAAlJbWFnZVNpemUERGF0YQQHE1N5c3RlbS5EcmF3aW5nLlNpemUDAAAAAgIAAAAF/P//
+        /xNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAwAAABgAAAAYAAAACQUAAAAP
+        BQAAALMEAAACrwQAAIlQTkcNChoKAAAADUlIRFIAAAAYAAAAGAgGAAAA4Hc9+AAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAAlwSFlzAAAK+QAA
+        CvkBtGHeGQAABCVJREFUSEuVlblvG0cYxb8/IAeRKoBduEmvLl3CLk0K/wEO4DJFoHQpUhlJbbgLojiG
+        DCQxggSBYse6rIOiblm3LFIUJUrmIS5liaZWlEiR3J2X9y1Fimv6XOBhgZn5fm9m9s2sOI4jrusGXGO6
+        jTEFCu+i0bxBx6zBlYVmW4GsW8pUdsPgEzb2tha+SazDxN4xZMhA5l3IqtvsI+ueMlsNrjmuu8E33kZZ
+        u4RkMolEIoHO2CFkjQbLF/1kLfB9rWngOG5XreYcUnidtm0Hn4+5uByqYjZlIZ1Oo3MjD1mhwaLbOtZS
+        ZsPgIzasVas1vE62bePHxWN8MOVANlzczx4hk8mgM0qDJRpwm1rHK1PZavBFpVLF2dnL9ShVw/beASzL
+        QrFYRDDJPY+0GERosECDOddXp0xlS61W+75cruBF5ewKvpnkbO8BX8Zq3kfVpyNB2BMa7NUNrj8pQB6z
+        bca0MZStBjdLpTOHQkNdazV82I16QmIughnjwfUJRF38kqsgn897Bp8un0IYU5kyzfpzOcp+qYH8RDhT
+        IdtUnAapC4Pnjs607BkM7u7j8nwVMk2DyVcYnJ1VTu3jE7RKfqaBwrcoXQH3vfFozq2TMr6Olzhz9hMe
+        4PbIuPExVMqWUqmEw/yRT3KbBgrfpLglwd0Lg+5DAjU1/KjBiMHyCRBcpcGYaeMoW4rFU1i5Q5/kDg0U
+        zjjKOkE7BrsVguIEMY4BZv6WBeRKwHSO7ctsH+XKXuAoW2y7yAOT80nu0kDhjKOe0gBT42WdcbxKkwID
+        1bML/L51brBEg2HTxlG2FAo2dnbTPslvLFC4gvWUEn6FRqFjIGEDXVFgKFN/6yqCvOjkkWnjKFuec6/i
+        20lsbj1tSv5ggcJ5gWmabmQNMmf1GevMFawzb65gnuMHjI+hTGWLZR1gaSWK2OYOorEEIhvbkD9ZcA4P
+        bhrsl4HbceDfp3Wozl7f61zRVd1/wqXPeLXKUJYylS3JVBZ9gxMIhecwO7eCpdUo5C8W6DngxwzGDE5q
+        wK8EzjwDbq4Ba3ngxg4PXagOf3/AwXfT+16tMpSlTGVLMplFz4MRT32D4xgOzUD+YSHhmpjgRj2i/3HW
+        91NAqMDrYo79esoHDT4bOcLfk+sIT8x7tcpo8JQtKV67/XRT9Q6M42F/GNLDYv2JnGf9Gfc/zrxfp5nG
+        UeEfPyrjh5E4hkZmMDg0hd7+eq0yGjxlSyptYXh01id5QAjheoF1rBh080MGeBV4cMbxq6EUekYeEz7t
+        GQyPqvwMlbIlnclxeQs+yUOC9PjzApMJiqdU4R2jNu6EI23jXyVlS2Yvh+nZFZ+kvwUeNngvVMO3E5m2
+        cW+SsiWb3cficsQnPTQNeHDSxthSrG3M20jZYuUOvPy26lK4ikuTVdxd3WvrexdZuQP8DwB/rEXYjFsJ
+        AAAAAElFTkSuQmCCCw==
+</value>
+  </data>
+  <data name="checkEditIsXOPrice.Size" type="System.Drawing.Size, System.Drawing">
+    <value>134, 19</value>
+  </data>
+  <data name="checkEditIsXOQuantity.Size" type="System.Drawing.Size, System.Drawing">
+    <value>134, 19</value>
+  </data>
+  <data name="checkEditIsCOCount.Location" type="System.Drawing.Point, System.Drawing">
+    <value>427, 12</value>
+  </data>
+  <data name="checkEditIsCOCount.Size" type="System.Drawing.Size, System.Drawing">
+    <value>135, 19</value>
+  </data>
+  <data name="checkEditIsCOPrice.Location" type="System.Drawing.Point, System.Drawing">
+    <value>288, 12</value>
+  </data>
+  <data name="checkEditIsCOPrice.Size" type="System.Drawing.Size, System.Drawing">
+    <value>135, 19</value>
+  </data>
+  <data name="checkEditIsCOJinHuoJinE.Size" type="System.Drawing.Size, System.Drawing">
+    <value>540, 19</value>
+  </data>
+  <data name="checkEditIsXOXiangGuanZiLiao.Location" type="System.Drawing.Point, System.Drawing">
+    <value>413, 48</value>
+  </data>
+  <data name="checkEditIsXOXiangGuanZiLiao.Size" type="System.Drawing.Size, System.Drawing">
+    <value>129, 19</value>
+  </data>
+  <data name="checkEditIsCOXiangGuanZiLiao.Location" type="System.Drawing.Point, System.Drawing">
+    <value>413, 2</value>
+  </data>
+  <data name="checkEditIsCOXiangGuanZiLiao.Size" type="System.Drawing.Size, System.Drawing">
+    <value>129, 19</value>
+  </data>
+  <data name="checkEditIsXOZhangKuanZiLiao.Location" type="System.Drawing.Point, System.Drawing">
+    <value>280, 48</value>
+  </data>
+  <data name="checkEditIsXOZhangKuanZiLiao.Size" type="System.Drawing.Size, System.Drawing">
+    <value>129, 19</value>
+  </data>
+  <data name="checkEditIsCOZhangKuanZiLiao.Location" type="System.Drawing.Point, System.Drawing">
+    <value>280, 2</value>
+  </data>
+  <data name="checkEditIsCOZhangKuanZiLiao.Size" type="System.Drawing.Size, System.Drawing">
+    <value>129, 19</value>
+  </data>
+  <data name="checkEditIsCOFaPiaoZiLiao.Location" type="System.Drawing.Point, System.Drawing">
+    <value>137, 2</value>
+  </data>
+  <data name="checkEditIsCOFaPiaoZiLiao.Size" type="System.Drawing.Size, System.Drawing">
+    <value>139, 19</value>
+  </data>
+  <data name="checkEditIsXOJiaoYiMingXi.Size" type="System.Drawing.Size, System.Drawing">
+    <value>131, 19</value>
+  </data>
+  <data name="checkEditIsCOJiaoYiMingXi.Size" type="System.Drawing.Size, System.Drawing">
+    <value>131, 19</value>
+  </data>
+  <data name="checkEditIsXOFaPiaoZiLiao.Location" type="System.Drawing.Point, System.Drawing">
+    <value>137, 48</value>
+  </data>
+  <data name="checkEditIsXOFaPiaoZiLiao.Size" type="System.Drawing.Size, System.Drawing">
+    <value>139, 19</value>
+  </data>
+  <data name="checkEditIsXOJinHuoJinE.Size" type="System.Drawing.Size, System.Drawing">
+    <value>540, 19</value>
+  </data>
+  <data name="layoutControl4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>544, 0</value>
+  </data>
+  <data name="groupBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>550, 20</value>
+  </data>
+  <data name="checkEditIsStockCount.Size" type="System.Drawing.Size, System.Drawing">
+    <value>550, 19</value>
+  </data>
+  <data name="layoutControl5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>591, 16</value>
+  </data>
+  <data name="panelControl1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 432</value>
+  </data>
+  <data name="panelControl1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>595, 20</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="gridControl2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="gridColumn1.Caption" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="gridColumn1.Width" type="System.Int32, mscorlib">
+    <value>51</value>
+  </data>
+  <data name="colSelectRowAll.Caption" xml:space="preserve">
+    <value>Check all</value>
+  </data>
+  <data name="colSelectRowAll.Width" type="System.Int32, mscorlib">
+    <value>57</value>
+  </data>
+  <data name="colNew.Caption" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="colNew.Width" type="System.Int32, mscorlib">
+    <value>51</value>
+  </data>
+  <data name="colUpdate.Caption" xml:space="preserve">
+    <value>Update</value>
+  </data>
+  <data name="colUpdate.Width" type="System.Int32, mscorlib">
+    <value>57</value>
+  </data>
+  <data name="colDel.Caption" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="colDel.Width" type="System.Int32, mscorlib">
+    <value>50</value>
+  </data>
+  <data name="colView.Caption" xml:space="preserve">
+    <value>View</value>
+  </data>
+  <data name="colView.Width" type="System.Int32, mscorlib">
+    <value>50</value>
+  </data>
+  <data name="colExport.Caption" xml:space="preserve">
+    <value>Export</value>
+  </data>
+  <data name="colExport.Width" type="System.Int32, mscorlib">
+    <value>50</value>
+  </data>
+  <data name="colAudit.Caption" xml:space="preserve">
+    <value>Audit</value>
+  </data>
+  <data name="colAudit.Width" type="System.Int32, mscorlib">
+    <value>50</value>
+  </data>
+  <data name="colPrint.Caption" xml:space="preserve">
+    <value>Print</value>
+  </data>
+  <data name="colPrint.Width" type="System.Int32, mscorlib">
+    <value>50</value>
+  </data>
+  <data name="colPortEdit.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="colPortEdit.VisibleIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="colPortEdit.Width" type="System.Int32, mscorlib">
+    <value>96</value>
+  </data>
+  <data name="gridColumn2.Caption" xml:space="preserve">
+    <value>Audit level</value>
+  </data>
+  <data name="gridColumn2.VisibleIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="gridColumn2.Width" type="System.Int32, mscorlib">
+    <value>99</value>
+  </data>
+  <data name="gridControl2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>595, 416</value>
+  </data>
+  <data name="layoutControl3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>619, 464</value>
+  </data>
+  <data name="splitContainerControl1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>876, 464</value>
+  </data>
+</root>

@@ -1,0 +1,413 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="DevExpress.Utils.v10.2" name="DevExpress.Utils.v10.2, Version=10.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+  <data name="lblInvoiceXODetailQuantity.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Utils.v10.2">
+    <value>292.9186, 421.008453</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="lblInvoiceXODetailQuantity.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>265.9871, 58.4199829</value>
+  </data>
+  <data name="xrLabel21.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>290.272736, 58.4200439</value>
+  </data>
+  <data name="xrLabel21.Text" xml:space="preserve">
+    <value>Order quantity：</value>
+  </data>
+  <data name="xrLabelPiHao.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Utils.v10.2">
+    <value>1574.66907, 265.229218</value>
+  </data>
+  <data name="xrLabelPiHao.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>344.3307, 50.00003</value>
+  </data>
+  <data name="xrLabel9.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Utils.v10.2">
+    <value>1251.47949, 265.229218</value>
+  </data>
+  <data name="xrLabel9.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>323.189575, 50</value>
+  </data>
+  <data name="xrLabel9.Text" xml:space="preserve">
+    <value>Customer lot number：</value>
+  </data>
+  <data name="xrLabelMRP.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Utils.v10.2">
+    <value>1574.66907, 315.229218</value>
+  </data>
+  <data name="xrLabelMRP.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>344.3307, 47.5709229</value>
+  </data>
+  <data name="xrLabel20.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Utils.v10.2">
+    <value>1247.93945, 315.229218</value>
+  </data>
+  <data name="xrLabel20.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>326.7296, 47.5709229</value>
+  </data>
+  <data name="xrLabel20.Text" xml:space="preserve">
+    <value>MRPId：</value>
+  </data>
+  <data name="xrLabelBeforepPackage.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Utils.v10.2">
+    <value>348.481079, 265.229218</value>
+  </data>
+  <data name="xrLabelBeforepPackage.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>881.664551, 50</value>
+  </data>
+  <data name="xrLabel19.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>348.481079, 50.00009</value>
+  </data>
+  <data name="xrLabel19.Text" xml:space="preserve">
+    <value>Before assembly name：</value>
+  </data>
+  <data name="xrLabelWorkHouse.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Utils.v10.2">
+    <value>1574.66907, 362.80014</value>
+  </data>
+  <data name="xrLabelWorkHouse.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>344.3307, 47.5708923</value>
+  </data>
+  <data name="xrLabel18.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Utils.v10.2">
+    <value>1224.1272, 362.80014</value>
+  </data>
+  <data name="xrLabel18.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>350.54187, 47.5709534</value>
+  </data>
+  <data name="xrLabel18.Text" xml:space="preserve">
+    <value>Next production station：</value>
+  </data>
+  <data name="xrLabelCheckedStandard.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Utils.v10.2">
+    <value>902.909851, 165.229172</value>
+  </data>
+  <data name="xrLabelCheckedStandard.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>327.235657, 49.99994</value>
+  </data>
+  <data name="xrLabel17.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Utils.v10.2">
+    <value>650.203552, 165.229172</value>
+  </data>
+  <data name="xrLabel17.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>252.706177, 49.99994</value>
+  </data>
+  <data name="xrLabel17.Text" xml:space="preserve">
+    <value>Check standard：</value>
+  </data>
+  <data name="xrLabelXOJHDate.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Utils.v10.2">
+    <value>1575.4519, 218.000092</value>
+  </data>
+  <data name="xrLabelXOJHDate.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>343.547852, 46.979126</value>
+  </data>
+  <data name="xrLabel12.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Utils.v10.2">
+    <value>1247.93945, 218.000183</value>
+  </data>
+  <data name="xrLabel12.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>326.7296, 46.979126</value>
+  </data>
+  <data name="xrLabel12.Text" xml:space="preserve">
+    <value>Delivery date：</value>
+  </data>
+  <data name="xrLabelCustomerXOId.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Utils.v10.2">
+    <value>1574.66919, 118.000145</value>
+  </data>
+  <data name="xrLabelCustomerXOId.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>344.3308, 50.0000076</value>
+  </data>
+  <data name="xrLabel4.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Utils.v10.2">
+    <value>1247.93945, 118.000145</value>
+  </data>
+  <data name="xrLabel4.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>326.7296, 50.0000229</value>
+  </data>
+  <data name="xrLabel4.Text" xml:space="preserve">
+    <value>Customer order No.：</value>
+  </data>
+  <data name="xrLabelUnit.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Utils.v10.2">
+    <value>902.909851, 215.229111</value>
+  </data>
+  <data name="xrLabelUnit.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>327.235657, 50.0000153</value>
+  </data>
+  <data name="xrLabel2.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Utils.v10.2">
+    <value>650.203552, 215.229111</value>
+  </data>
+  <data name="xrLabel2.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>252.7063, 50.0000153</value>
+  </data>
+  <data name="xrLabel2.Text" xml:space="preserve">
+    <value>Unit：</value>
+  </data>
+  <data name="xrLabelCustomerProductName.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Utils.v10.2">
+    <value>1574.66919, 168.000076</value>
+  </data>
+  <data name="xrLabelCustomerProductName.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>344.3308, 50.0000153</value>
+  </data>
+  <data name="xrLabel13.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Utils.v10.2">
+    <value>1247.93945, 168.000168</value>
+  </data>
+  <data name="xrLabel13.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>326.7296, 49.99997</value>
+  </data>
+  <data name="xrLabel13.Text" xml:space="preserve">
+    <value>Customer model：</value>
+  </data>
+  <data name="xrLabelProductName.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Utils.v10.2">
+    <value>258.522736, 315.229218</value>
+  </data>
+  <data name="xrLabelProductName.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>859.63916, 47.57086</value>
+  </data>
+  <data name="xrLabel11.Text" xml:space="preserve">
+    <value>Product Name：</value>
+  </data>
+  <data name="xrLabelCustomer.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Utils.v10.2">
+    <value>292.918579, 165.229172</value>
+  </data>
+  <data name="xrLabelCustomer.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>337.666626, 50.0000153</value>
+  </data>
+  <data name="xrLabel6.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>292.916626, 50.0000153</value>
+  </data>
+  <data name="xrLabel6.Text" xml:space="preserve">
+    <value>Customer：</value>
+  </data>
+  <data name="xrLabelCount.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Utils.v10.2">
+    <value>348.481079, 215.229111</value>
+  </data>
+  <data name="xrLabelCount.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>282.104126, 50.0000153</value>
+  </data>
+  <data name="xrLabelqw.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>348.4811, 50.0000153</value>
+  </data>
+  <data name="xrLabelqw.Text" xml:space="preserve">
+    <value>Production quantity：</value>
+  </data>
+  <data name="xrLabelPronoteDte.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Utils.v10.2">
+    <value>902.909851, 115.229156</value>
+  </data>
+  <data name="xrLabelPronoteDte.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>327.235657, 50.0000153</value>
+  </data>
+  <data name="xrLabel3.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Utils.v10.2">
+    <value>650.203552, 115.229156</value>
+  </data>
+  <data name="xrLabel3.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>252.7063, 50.0000153</value>
+  </data>
+  <data name="xrLabel3.Text" xml:space="preserve">
+    <value>Date：</value>
+  </data>
+  <data name="xrLabelPronoteHeaderID.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Utils.v10.2">
+    <value>292.918579, 115.229156</value>
+  </data>
+  <data name="xrLabelPronoteHeaderID.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>337.666626, 50.0000153</value>
+  </data>
+  <data name="xrLabel1.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>292.916626, 50.0000153</value>
+  </data>
+  <data name="xrLabel1.Text" xml:space="preserve">
+    <value>No.：</value>
+  </data>
+  <data name="xrLabelPrintDate.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Utils.v10.2">
+    <value>1537.03882, 67.99997</value>
+  </data>
+  <data name="xrLabelPrintDate.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>371.37793, 50.0000153</value>
+  </data>
+  <data name="xrLabelPrintDate.Text" xml:space="preserve">
+    <value>Print date：</value>
+  </data>
+  <data name="xrLabel8.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>382.8769, 58.2083435</value>
+  </data>
+  <data name="xrLabel8.Text" xml:space="preserve">
+    <value>Master device description：</value>
+  </data>
+  <data name="xrRichTextProDesc.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Utils.v10.2">
+    <value>385.522736, 362.800049</value>
+  </data>
+  <data name="xrRichTextProDesc.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>732.63916, 58.2083435</value>
+  </data>
+  <data name="xrLabel7.Text" xml:space="preserve">
+    <value>Remark：</value>
+  </data>
+  <data name="xrLabelEmployee.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Utils.v10.2">
+    <value>188.631943, 314.583344</value>
+  </data>
+  <data name="xrLabelEmployee.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>369.416382, 57.93753</value>
+  </data>
+  <data name="xrLabel5.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>188.631943, 57.93753</value>
+  </data>
+  <data name="xrLabel5.Text" xml:space="preserve">
+    <value>Employee：</value>
+  </data>
+  <data name="xrLabel22.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Utils.v10.2">
+    <value>22.6249924, 24.9999275</value>
+  </data>
+  <data name="xrLabel22.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>189.819519, 50.00002</value>
+  </data>
+  <data name="xrLabel22.Text" xml:space="preserve">
+    <value>Main mark：</value>
+  </data>
+  <data name="xrLabel23.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Utils.v10.2">
+    <value>881.743164, 24.9999275</value>
+  </data>
+  <data name="xrLabel23.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>183.340332, 50.0000267</value>
+  </data>
+  <data name="xrLabel23.Text" xml:space="preserve">
+    <value>Side mark：</value>
+  </data>
+  <data name="RichTextCeMai.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Utils.v10.2">
+    <value>1065.08337, 24.9999275</value>
+  </data>
+  <data name="RichTextCeMai.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>656.38855, 209.854279</value>
+  </data>
+  <data name="RichTextZhengMai.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Utils.v10.2">
+    <value>212.444519, 24.9999275</value>
+  </data>
+  <data name="RichTextZhengMai.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>566.4301, 209.854279</value>
+  </data>
+  <data name="xrLabel14.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Utils.v10.2">
+    <value>821.041443, 314.583344</value>
+  </data>
+  <data name="xrLabel10.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Utils.v10.2">
+    <value>632.409668, 314.583344</value>
+  </data>
+  <data name="xrLabel10.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>188.631836, 57.93753</value>
+  </data>
+  <data name="xrLabel10.Text" xml:space="preserve">
+    <value>Auditor：</value>
+  </data>
+  <data name="xrLabel15.LocationFloat" type="DevExpress.Utils.PointFloat, DevExpress.Utils.v10.2">
+    <value>1351.97058, 314.583344</value>
+  </data>
+  <data name="xrLabel15.SizeF" type="System.Drawing.SizeF, System.Drawing">
+    <value>133.069092, 57.93753</value>
+  </data>
+  <data name="xrLabel15.Text" xml:space="preserve">
+    <value>Sign：</value>
+  </data>
+</root>
